@@ -1,0 +1,34 @@
+{
+  "spark": [
+    {
+      "name": "Submarine_Controls.isAtLeastOneAirlockLocked",
+      "sloc": [
+        {
+          "file": "submarine_controls.ads",
+          "line": 3
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "Submarine_Controls.canOperateSubmarine",
+      "sloc": [
+        {
+          "file": "submarine_controls.ads",
+          "line": 5
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 9.04659973457456E-05,
+    "globals (basic)": 1.39869996928610E-04,
+    "globals/properties (advanced)": 5.02697017509490E-04,
+    "flow analysis": 7.85969969001599E-05
+  }
+}

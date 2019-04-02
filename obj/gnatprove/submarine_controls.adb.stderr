@@ -1,0 +1,5 @@
+submarine_controls.adb:7:64: "," should be ";"
+submarine_controls.adb:15:58: "," should be ";"
+submarine_controls.ads:3:64: "," should be ";"
+submarine_controls.ads:4:11: missing operand
+submarine_controls.ads:6:58: "," should be ";"
