@@ -21,6 +21,12 @@ package Submarine_Controls with SPARK_Mode is
 
    
    
+   
+   
+   
+   
+   
+   
    function canOperateSubmarine (innerAirlockState : in AirlockState; 
                                  outerAirlockState : in AirlockState) 
                                  return AirlockState with

@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 7" >
       <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
       <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.adb</vfs_file>
@@ -134,11 +133,35 @@
       <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
       <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 27" line=" 17" >
+    <file_marker column=" 1" line=" 17" >
       <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
       <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 7" >
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
+      <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 13" >
+      <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
+      <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 63" line=" 23" >
+      <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
+      <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 15" >
+      <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
+      <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
+      <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 21" >
+      <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
+      <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 17" >
       <vfs_project>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\submarine_controls.gpr</vfs_project>
       <vfs_file>D:\NAPIER Year 4\SET10112 - Formal Approaches to Software Engineering\Coursework\Submarine Controls\src\submarine_controls.ads</vfs_file>
     </file_marker>
