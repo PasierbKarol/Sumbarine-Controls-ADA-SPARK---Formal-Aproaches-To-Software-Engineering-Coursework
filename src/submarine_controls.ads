@@ -5,20 +5,26 @@ package Submarine_Controls with SPARK_Mode is
    outerAirlockState : AirlockState; --True closed, False open
    
    --at least one airlock door closed at all times
-   function isAtLeastOneAirlockLocked (innerAirlockState : AirlockState; 
-                                       outerAirlockState : AirlockState) 
-                                       return AirlockState with
-     Pre => innerAirlockState = True or outerAirlockState = True,
-     Post => isAtLeastOneAirlockLocked'Result = True or isAtLeastOneAirlockLocked'Result = False;
-   
    procedure closeInnerAirlock  with
      Pre => outerAirlockState = True,
      Post => innerAirlockState = True and then outerAirlockState = True;
+   
+   procedure openInnerAirlock  with
+     Pre => outerAirlockState = True and then innerAirlockState = True,
+     Post => innerAirlockState = False and then outerAirlockState = True;
    
    procedure closeOuterAirlock  with
      Pre => innerAirlockState = True,
      Post => outerAirlockState = True and then innerAirlockState = True;
 
+   procedure openOuterAirlock  with
+     Pre => outerAirlockState = True and then innerAirlockState = True,
+     Post => innerAirlockState = True and then outerAirlockState = False;
+   
+   
+   
+   
+   
    
    
    function canOperateSubmarine (innerAirlockState : in AirlockState; 

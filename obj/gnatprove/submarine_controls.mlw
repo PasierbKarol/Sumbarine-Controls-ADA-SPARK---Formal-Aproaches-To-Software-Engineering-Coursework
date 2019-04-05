@@ -1756,7 +1756,7 @@ end
 module Submarine_controls__isatleastoneairlocklocked__innerairlockstate
  use import "_gnatprove_standard".Main
 
- function innerairlockstate #"submarine_controls.ads" 8 0 0#"model" "name:innerAirlockState" "model_trace:2503" 
+ function innerairlockstate #"submarine_controls.ads" 8 0 0#"model" "name:innerAirlockState" "model_trace:2543" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1775,7 +1775,7 @@ end
 module Submarine_controls__isatleastoneairlocklocked__outerairlockstate
  use import "_gnatprove_standard".Main
 
- function outerairlockstate #"submarine_controls.ads" 9 0 0#"model" "name:outerAirlockState" "model_trace:2512" 
+ function outerairlockstate #"submarine_controls.ads" 9 0 0#"model" "name:outerAirlockState" "model_trace:2552" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1802,11 +1802,11 @@ module Submarine_controls__isatleastoneairlocklocked
 
 end
 
-(* Module for defining the constant "innerairlockstate" defined at submarine_controls.ads:25, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "innerairlockstate" defined at submarine_controls.ads:36, created in Gnat2Why.Decls.Translate_Constant *)
 module Submarine_controls__canoperatesubmarine__innerairlockstate
  use import "_gnatprove_standard".Main
 
- function innerairlockstate #"submarine_controls.ads" 25 0 0#"model" "name:innerAirlockState" "model_trace:2606" 
+ function innerairlockstate #"submarine_controls.ads" 36 0 0#"model" "name:innerAirlockState" "model_trace:2706" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1814,18 +1814,18 @@ module Submarine_controls__canoperatesubmarine__innerairlockstate
 
 end
 
-(* Module giving an empty axiom for the entity "innerairlockstate" defined at submarine_controls.ads:25, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "innerairlockstate" defined at submarine_controls.ads:36, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Submarine_controls__canoperatesubmarine__innerairlockstate___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining the constant "outerairlockstate" defined at submarine_controls.ads:26, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "outerairlockstate" defined at submarine_controls.ads:37, created in Gnat2Why.Decls.Translate_Constant *)
 module Submarine_controls__canoperatesubmarine__outerairlockstate
  use import "_gnatprove_standard".Main
 
- function outerairlockstate #"submarine_controls.ads" 26 0 0#"model" "name:outerAirlockState" "model_trace:2615" 
+ function outerairlockstate #"submarine_controls.ads" 37 0 0#"model" "name:outerAirlockState" "model_trace:2715" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1833,14 +1833,14 @@ module Submarine_controls__canoperatesubmarine__outerairlockstate
 
 end
 
-(* Module giving an empty axiom for the entity "outerairlockstate" defined at submarine_controls.ads:26, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "outerairlockstate" defined at submarine_controls.ads:37, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Submarine_controls__canoperatesubmarine__outerairlockstate___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "canoperatesubmarine" defined at submarine_controls.ads:25, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "canoperatesubmarine" defined at submarine_controls.ads:36, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__canoperatesubmarine
  use import "_gnatprove_standard".Main
 
@@ -1852,11 +1852,11 @@ module Submarine_controls__canoperatesubmarine
 
 end
 
-(* Module for defining the constant "oxygen" defined at submarine_controls.ads:31, created in Gnat2Why.Decls.Translate_Constant *)
+(* Module for defining the constant "oxygen" defined at submarine_controls.ads:42, created in Gnat2Why.Decls.Translate_Constant *)
 module Submarine_controls__isoxygenlevelsafe__oxygen
  use import "_gnatprove_standard".Main
 
- function oxygen #"submarine_controls.ads" 31 0 0#"model" "model_trace:2659" "name:Oxygen" 
+ function oxygen #"submarine_controls.ads" 42 0 0#"model" "model_trace:2759" "name:Oxygen" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -1864,14 +1864,14 @@ module Submarine_controls__isoxygenlevelsafe__oxygen
 
 end
 
-(* Module giving an empty axiom for the entity "oxygen" defined at submarine_controls.ads:31, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "oxygen" defined at submarine_controls.ads:42, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Submarine_controls__isoxygenlevelsafe__oxygen___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "isoxygenlevelsafe" defined at submarine_controls.ads:31, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "isoxygenlevelsafe" defined at submarine_controls.ads:42, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__isoxygenlevelsafe
  use import "_gnatprove_standard".Main
 
@@ -1886,7 +1886,7 @@ end
 module Submarine_controls__innerairlockstate
  use import "_gnatprove_standard".Main
 
- val innerairlockstate #"submarine_controls.ads" 4 0 0#"model_projected" "model_trace:2478" "name:innerAirlockState"  : int__ref 
+ val innerairlockstate #"submarine_controls.ads" 4 0 0#"model_projected" "model_trace:2518" "name:innerAirlockState"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -1904,7 +1904,7 @@ end
 module Submarine_controls__outerairlockstate
  use import "_gnatprove_standard".Main
 
- val outerairlockstate #"submarine_controls.ads" 5 0 0#"model_projected" "model_trace:2487" "name:outerAirlockState"  : int__ref 
+ val outerairlockstate #"submarine_controls.ads" 5 0 0#"model_projected" "model_trace:2527" "name:outerAirlockState"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2287,8 +2287,22 @@ module Submarine_controls__closeinnerairlock
 
 end
 
-(* Module for possibly declaring a logic function for "closeouterairlock" defined at submarine_controls.ads:18, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "openinnerairlock" defined at submarine_controls.ads:18, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Submarine_controls__openinnerairlock
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for possibly declaring a logic function for "closeouterairlock" defined at submarine_controls.ads:22, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__closeouterairlock
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for possibly declaring a logic function for "openouterairlock" defined at submarine_controls.ads:26, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Submarine_controls__openouterairlock
  use import "_gnatprove_standard".Main
 
 
@@ -2362,12 +2376,31 @@ module Submarine_controls__closeinnerairlock___axiom
    (__void_param : unit) : unit
   requires {  (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) }
   ensures {  ( ( (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) /\ (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) /\ (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content True True True True) ) }
-  reads {Submarine_controls__outerairlockstate.outerairlockstate}
+  reads {Submarine_controls__innerairlockstate.innerairlockstate, Submarine_controls__outerairlockstate.outerairlockstate}
   writes {Submarine_controls__innerairlockstate.innerairlockstate}
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "closeouterairlock" defined at submarine_controls.ads:18, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "openinnerairlock" defined at submarine_controls.ads:18, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Submarine_controls__openinnerairlock___axiom
+ use        Submarine_controls__innerairlockstate
+ use        Submarine_controls__outerairlockstate
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Submarine_controls__airlockstate___axiom
+ use        Submarine_controls__innerairlockstate
+ use        Submarine_controls__outerairlockstate
+
+ val openinnerairlock 
+   (__void_param : unit) : unit
+  requires {  ( (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) /\ (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) }
+  ensures {  ( ( (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 0) /\ (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) /\ (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content True True True True) ) }
+  reads {Submarine_controls__innerairlockstate.innerairlockstate, Submarine_controls__outerairlockstate.outerairlockstate}
+  writes {Submarine_controls__innerairlockstate.innerairlockstate}
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "closeouterairlock" defined at submarine_controls.ads:22, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__closeouterairlock___axiom
  use        Submarine_controls__innerairlockstate
  use        Submarine_controls__outerairlockstate
@@ -2386,7 +2419,26 @@ module Submarine_controls__closeouterairlock___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "canoperatesubmarine" defined at submarine_controls.ads:25, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "openouterairlock" defined at submarine_controls.ads:26, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Submarine_controls__openouterairlock___axiom
+ use        Submarine_controls__innerairlockstate
+ use        Submarine_controls__outerairlockstate
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Submarine_controls__airlockstate___axiom
+ use        Submarine_controls__innerairlockstate
+ use        Submarine_controls__outerairlockstate
+
+ val openouterairlock 
+   (__void_param : unit) : unit
+  requires {  ( (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) /\ (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) }
+  ensures {  ( ( (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) /\ (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 0) ) /\ (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__outerairlockstate.outerairlockstate.int__content True True True True) ) }
+  reads {Submarine_controls__innerairlockstate.innerairlockstate, Submarine_controls__outerairlockstate.outerairlockstate}
+  writes {Submarine_controls__outerairlockstate.outerairlockstate}
+
+end
+
+(* Module for declaring a program function (and possibly an axiom) for "canoperatesubmarine" defined at submarine_controls.ads:36, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__canoperatesubmarine___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2407,7 +2459,7 @@ module Submarine_controls__canoperatesubmarine___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "isoxygenlevelsafe" defined at submarine_controls.ads:31, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "isoxygenlevelsafe" defined at submarine_controls.ads:42, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__isoxygenlevelsafe___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2466,21 +2518,33 @@ module Submarine_controls__package_def
   (#"submarine_controls.ads" 16 0 0# ());
   (#"submarine_controls.ads" 15 0 0# ());
   (#"submarine_controls.ads" 18 0 0# ());
-  (#"submarine_controls.ads" 21 0 0# ());
-  (#"submarine_controls.ads" 21 0 0# ());
   (#"submarine_controls.ads" 20 0 0# ());
-  (#"submarine_controls.ads" 25 0 0# ());
-  (#"submarine_controls.ads" 29 0 0# ());
+  (#"submarine_controls.ads" 20 0 0# ());
+  (#"submarine_controls.ads" 19 0 0# ());
+  (#"submarine_controls.ads" 19 0 0# ());
+  (#"submarine_controls.ads" 22 0 0# ());
+  (#"submarine_controls.ads" 24 0 0# ());
+  (#"submarine_controls.ads" 24 0 0# ());
+  (#"submarine_controls.ads" 23 0 0# ());
+  (#"submarine_controls.ads" 26 0 0# ());
   (#"submarine_controls.ads" 28 0 0# ());
-  (#"submarine_controls.ads" 31 0 0# ());
-  (#"submarine_controls.ads" 32 0 0# ());
+  (#"submarine_controls.ads" 28 0 0# ());
+  (#"submarine_controls.ads" 27 0 0# ());
+  (#"submarine_controls.ads" 27 0 0# ());
+  (#"submarine_controls.ads" 36 0 0# ());
+  (#"submarine_controls.ads" 40 0 0# ());
+  (#"submarine_controls.ads" 39 0 0# ());
+  (#"submarine_controls.ads" 42 0 0# ());
+  (#"submarine_controls.ads" 43 0 0# ());
   (#"submarine_controls.adb" 1 0 0# ());
   (#"submarine_controls.adb" 5 0 0# ());
   (#"submarine_controls.adb" 15 0 0# ());
-  (#"submarine_controls.adb" 20 0 0# ());
-  (#"submarine_controls.adb" 28 0 0# ());
-  (#"submarine_controls.adb" 38 0 0# ());
-  ( "GP_Sloc:submarine_controls.adb:49:1" (#"submarine_controls.adb" 49 0 0# ()) ) )
+  (#"submarine_controls.adb" 22 0 0# ());
+  (#"submarine_controls.adb" 29 0 0# ());
+  (#"submarine_controls.adb" 34 0 0# ());
+  (#"submarine_controls.adb" 47 0 0# ());
+  (#"submarine_controls.adb" 57 0 0# ());
+  ( "GP_Sloc:submarine_controls.adb:68:1" (#"submarine_controls.adb" 68 0 0# ()) ) )
 end
 
 (* Module for checking contracts and absence of run-time errors in subprogram "isatleastoneairlocklocked" defined at submarine_controls.ads:8, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
@@ -2495,13 +2559,13 @@ module Submarine_controls__isatleastoneairlocklocked__subprogram_def
  use        Submarine_controls__isatleastoneairlocklocked__innerairlockstate___axiom
  use        Submarine_controls__isatleastoneairlocklocked__outerairlockstate___axiom
 
- val submarine_controls__isatleastoneairlocklocked__result "model_projected" "model_trace:2496@result" "name:isAtLeastOneAirlockLocked"  : int__ref 
+ val submarine_controls__isatleastoneairlocklocked__result "model_projected" "model_trace:2536@result" "name:isAtLeastOneAirlockLocked"  : int__ref 
  
  let def #"submarine_controls.ads" 8 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:8" 
    (__void_param : unit)
   requires { #"submarine_controls.ads" 8 0 0# true }
   ensures { #"submarine_controls.ads" 8 0 0# (#"submarine_controls.ads" 12 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:submarine_controls.ads:12:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:0" "comment:     Post => isAtLeastOneAirlockLocked'Result = True or isAtLeastOneAirlockLocked'Result = False;
-             ^ submarine_controls.ads:12:14:VC_POSTCONDITION" "GP_Shape:pragargs__or" ( "GP_Pretty_Ada:2757" "GP_Sloc:submarine_controls.ads:12:14" ( (submarine_controls__isatleastoneairlocklocked__result.int__content = 1) \/ (submarine_controls__isatleastoneairlocklocked__result.int__content = 0) ) ) )) }
+             ^ submarine_controls.ads:12:14:VC_POSTCONDITION" "GP_Shape:pragargs__or" ( "GP_Pretty_Ada:2857" "GP_Sloc:submarine_controls.ads:12:14" ( (submarine_controls__isatleastoneairlocklocked__result.int__content = 1) \/ (submarine_controls__isatleastoneairlocklocked__result.int__content = 0) ) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:8 *)
   ;
@@ -2550,11 +2614,11 @@ module Submarine_controls__closeinnerairlock__subprogram_def
    (__void_param : unit)
   requires { #"submarine_controls.ads" 14 0 0# true }
   ensures { #"submarine_controls.ads" 14 0 0# (#"submarine_controls.ads" 16 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Sloc:submarine_controls.ads:16:14" "GP_Id:1" "comment:     Post => innerAirlockState = True and then outerAirlockState = True;
-             ^ submarine_controls.ads:16:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( ( "GP_Pretty_Ada:2810" "GP_Sloc:submarine_controls.ads:16:14" (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) /\ ( "GP_Pretty_Ada:2573" "GP_Sloc:submarine_controls.ads:16:66" (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) ) )) }
+             ^ submarine_controls.ads:16:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( ( "GP_Pretty_Ada:2910" "GP_Sloc:submarine_controls.ads:16:14" (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) /\ ( "GP_Pretty_Ada:2613" "GP_Sloc:submarine_controls.ads:16:66" (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:14 *)
   ;
-   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content False False True True) };
+   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content True False True True) };
    assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__outerairlockstate.outerairlockstate.int__content True False True True) };
    assume {  true };
   () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:14 *)
@@ -2568,8 +2632,11 @@ module Submarine_controls__closeinnerairlock__subprogram_def
   ;
    assume {  (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) };
    try
-   ( ( "GP_Sloc:submarine_controls.adb:17:7" (#"submarine_controls.adb" 17 0 0# ()) );
-   ( "GP_Sloc:submarine_controls.adb:17:25" (#"submarine_controls.adb" 17 0 0# #"submarine_controls.adb" 17 0 0# Submarine_controls__innerairlockstate.innerairlockstate.int__content <- ( 1 )) );
+   ( ( "GP_Sloc:submarine_controls.adb:17:10" (#"submarine_controls.adb" 17 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:17:7" (#"submarine_controls.adb" 17 0 0# (if ((Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1)) then (
+    ( ( "GP_Sloc:submarine_controls.adb:18:10" (#"submarine_controls.adb" 18 0 0# ()) );
+    ( "GP_Sloc:submarine_controls.adb:18:28" (#"submarine_controls.adb" 18 0 0# #"submarine_controls.adb" 18 0 0# Submarine_controls__innerairlockstate.innerairlockstate.int__content <- ( 1 )) ) )) else (
+    ()))) );
     raise Return__exc )
   with
    Return__exc -> ()
@@ -2579,8 +2646,8 @@ module Submarine_controls__closeinnerairlock__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "closeouterairlock" defined at submarine_controls.ads:18, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
-module Submarine_controls__closeouterairlock__subprogram_def
+(* Module for checking contracts and absence of run-time errors in subprogram "openinnerairlock" defined at submarine_controls.ads:18, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Submarine_controls__openinnerairlock__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        Submarine_controls__airlockstate___axiom
@@ -2593,27 +2660,74 @@ module Submarine_controls__closeouterairlock__subprogram_def
  let def #"submarine_controls.ads" 18 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:18" 
    (__void_param : unit)
   requires { #"submarine_controls.ads" 18 0 0# true }
-  ensures { #"submarine_controls.ads" 18 0 0# (#"submarine_controls.ads" 21 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:21:14" "GP_Id:2" "comment:     Post => outerAirlockState = True and then innerAirlockState = True;
-             ^ submarine_controls.ads:21:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:2870" "GP_Sloc:submarine_controls.ads:21:14" (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) /\ ( "GP_Pretty_Ada:2598" "GP_Sloc:submarine_controls.ads:21:66" (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) ) )) }
+  ensures { #"submarine_controls.ads" 18 0 0# (#"submarine_controls.ads" 20 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:20:14" "GP_Id:2" "comment:     Post => innerAirlockState = False and then outerAirlockState = True;
+             ^ submarine_controls.ads:20:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:2988" "GP_Sloc:submarine_controls.ads:20:14" (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 0) ) /\ ( "GP_Pretty_Ada:2643" "GP_Sloc:submarine_controls.ads:20:67" (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:18 *)
   ;
    assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content True False True True) };
-   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__outerairlockstate.outerairlockstate.int__content False False True True) };
+   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__outerairlockstate.outerairlockstate.int__content True False True True) };
    assume {  true };
   () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:18 *)
   ;
   () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:18 *)
   ;
-   abstract ensures {true}(let _ = (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) in (
+   abstract ensures {true}(let _ = ( (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) && (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) in (
    ()))
    end ;
   () (* Assume Pre of the subprogram submarine_controls.ads:18 *)
   ;
+   assume {  ( (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) /\ (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) };
+   try
+   ( ( "GP_Sloc:submarine_controls.adb:24:10" (#"submarine_controls.adb" 24 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:24:7" (#"submarine_controls.adb" 24 0 0# (if ((Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1)) then (
+    ( ( "GP_Sloc:submarine_controls.adb:25:10" (#"submarine_controls.adb" 25 0 0# ()) );
+    ( "GP_Sloc:submarine_controls.adb:25:28" (#"submarine_controls.adb" 25 0 0# #"submarine_controls.adb" 25 0 0# Submarine_controls__innerairlockstate.innerairlockstate.int__content <- ( 0 )) ) )) else (
+    ()))) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   abstract ensures {true}(let _ = ( (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 0) && (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) in (
+   ()))
+   end  )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "closeouterairlock" defined at submarine_controls.ads:22, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Submarine_controls__closeouterairlock__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Submarine_controls__airlockstate___axiom
+ use        Submarine_controls__innerairlockstate
+ use        Submarine_controls__outerairlockstate
+ use        Submarine_controls__airlockstate___axiom
+ use        Submarine_controls__innerairlockstate___axiom
+ use        Submarine_controls__outerairlockstate___axiom
+
+ let def #"submarine_controls.ads" 22 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:22" 
+   (__void_param : unit)
+  requires { #"submarine_controls.ads" 22 0 0# true }
+  ensures { #"submarine_controls.ads" 22 0 0# (#"submarine_controls.ads" 24 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:24:14" "GP_Id:3" "comment:     Post => outerAirlockState = True and then innerAirlockState = True;
+             ^ submarine_controls.ads:24:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:3055" "GP_Sloc:submarine_controls.ads:24:14" (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) ) /\ ( "GP_Pretty_Ada:2668" "GP_Sloc:submarine_controls.ads:24:66" (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) ) )) }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:22 *)
+  ;
+   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content True False True True) };
+   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__outerairlockstate.outerairlockstate.int__content False False True True) };
+   assume {  true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:22 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:22 *)
+  ;
+   abstract ensures {true}(let _ = (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram submarine_controls.ads:22 *)
+  ;
    assume {  (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) };
    try
-   ( ( "GP_Sloc:submarine_controls.adb:22:7" (#"submarine_controls.adb" 22 0 0# ()) );
-   ( "GP_Sloc:submarine_controls.adb:22:25" (#"submarine_controls.adb" 22 0 0# #"submarine_controls.adb" 22 0 0# Submarine_controls__outerairlockstate.outerairlockstate.int__content <- ( 1 )) );
+   ( ( "GP_Sloc:submarine_controls.adb:31:7" (#"submarine_controls.adb" 31 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:31:25" (#"submarine_controls.adb" 31 0 0# #"submarine_controls.adb" 31 0 0# Submarine_controls__outerairlockstate.outerairlockstate.int__content <- ( 1 )) );
     raise Return__exc )
   with
    Return__exc -> ()
@@ -2623,7 +2737,54 @@ module Submarine_controls__closeouterairlock__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "canoperatesubmarine" defined at submarine_controls.ads:25, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "openouterairlock" defined at submarine_controls.ads:26, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Submarine_controls__openouterairlock__subprogram_def
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Submarine_controls__airlockstate___axiom
+ use        Submarine_controls__innerairlockstate
+ use        Submarine_controls__outerairlockstate
+ use        Submarine_controls__airlockstate___axiom
+ use        Submarine_controls__innerairlockstate___axiom
+ use        Submarine_controls__outerairlockstate___axiom
+
+ let def #"submarine_controls.ads" 26 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:26" 
+   (__void_param : unit)
+  requires { #"submarine_controls.ads" 26 0 0# true }
+  ensures { #"submarine_controls.ads" 26 0 0# (#"submarine_controls.ads" 28 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:28:14" "GP_Id:4" "comment:     Post => innerAirlockState = True and then outerAirlockState = False;
+             ^ submarine_controls.ads:28:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:3133" "GP_Sloc:submarine_controls.ads:28:14" (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) /\ ( "GP_Pretty_Ada:2698" "GP_Sloc:submarine_controls.ads:28:66" (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 0) ) ) )) }
+   =
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:26 *)
+  ;
+   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__innerairlockstate.innerairlockstate.int__content True False True True) };
+   assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__outerairlockstate.outerairlockstate.int__content True False True True) };
+   assume {  true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:26 *)
+  ;
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:26 *)
+  ;
+   abstract ensures {true}(let _ = ( (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) && (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) in (
+   ()))
+   end ;
+  () (* Assume Pre of the subprogram submarine_controls.ads:26 *)
+  ;
+   assume {  ( (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 1) /\ (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) ) };
+   try
+   ( ( "GP_Sloc:submarine_controls.adb:36:10" (#"submarine_controls.adb" 36 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:36:7" (#"submarine_controls.adb" 36 0 0# (if ((Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1)) then (
+    ( ( "GP_Sloc:submarine_controls.adb:37:10" (#"submarine_controls.adb" 37 0 0# ()) );
+    ( "GP_Sloc:submarine_controls.adb:37:28" (#"submarine_controls.adb" 37 0 0# #"submarine_controls.adb" 37 0 0# Submarine_controls__outerairlockstate.outerairlockstate.int__content <- ( 0 )) ) )) else (
+    ()))) );
+    raise Return__exc )
+  with
+   Return__exc -> ()
+  end;
+   abstract ensures {true}(let _ = ( (Submarine_controls__innerairlockstate.innerairlockstate.int__content = 1) && (Submarine_controls__outerairlockstate.outerairlockstate.int__content = 0) ) in (
+   ()))
+   end  )
+end
+
+(* Module for checking contracts and absence of run-time errors in subprogram "canoperatesubmarine" defined at submarine_controls.ads:36, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__canoperatesubmarine__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2635,36 +2796,36 @@ module Submarine_controls__canoperatesubmarine__subprogram_def
  use        Submarine_controls__canoperatesubmarine__innerairlockstate___axiom
  use        Submarine_controls__canoperatesubmarine__outerairlockstate___axiom
 
- val submarine_controls__canoperatesubmarine__result "model_projected" "model_trace:2599@result" "name:canOperateSubmarine"  : int__ref 
+ val submarine_controls__canoperatesubmarine__result "model_projected" "model_trace:2699@result" "name:canOperateSubmarine"  : int__ref 
  
- let def #"submarine_controls.ads" 25 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:25" 
+ let def #"submarine_controls.ads" 36 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:36" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 25 0 0# true }
-  ensures { #"submarine_controls.ads" 25 0 0# (#"submarine_controls.ads" 29 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__or" "GP_Sloc:submarine_controls.ads:29:14" "GP_Id:3" "comment:     Post => canOperateSubmarine'Result = True or canOperateSubmarine'Result = False;
-             ^ submarine_controls.ads:29:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:2922" "GP_Sloc:submarine_controls.ads:29:14" ( (submarine_controls__canoperatesubmarine__result.int__content = 1) \/ (submarine_controls__canoperatesubmarine__result.int__content = 0) ) ) )) }
+  requires { #"submarine_controls.ads" 36 0 0# true }
+  ensures { #"submarine_controls.ads" 36 0 0# (#"submarine_controls.ads" 40 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__or" "GP_Sloc:submarine_controls.ads:40:14" "GP_Id:5" "comment:     Post => canOperateSubmarine'Result = True or canOperateSubmarine'Result = False;
+             ^ submarine_controls.ads:40:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:3192" "GP_Sloc:submarine_controls.ads:40:14" ( (submarine_controls__canoperatesubmarine__result.int__content = 1) \/ (submarine_controls__canoperatesubmarine__result.int__content = 0) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:25 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:36 *)
   ;
    assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate True False True True) };
    assume {  (Submarine_controls__airlockstate___axiom.dynamic_invariant Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate True False True True) };
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:25 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:36 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:25 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:36 *)
   ;
    abstract ensures {true}(let _ = (Boolean.andb((Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate = 1)) ((Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate = 1))) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:25 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:36 *)
   ;
    assume {  ( (Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate = 1) /\ (Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate = 1) ) };
    try
-   ( ( "GP_Sloc:submarine_controls.adb:32:7" (#"submarine_controls.adb" 32 0 0# (if ((Boolean.andb((Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate = 1)) ((Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate = 1)))) then (
-    ( "GP_Sloc:submarine_controls.adb:33:9" (#"submarine_controls.adb" 33 0 0# ( #"submarine_controls.adb" 33 0 0# submarine_controls__canoperatesubmarine__result.int__content <- ( 1 );
-    #"submarine_controls.adb" 33 0 0# raise Return__exc )) )) else (
+   ( ( "GP_Sloc:submarine_controls.adb:51:7" (#"submarine_controls.adb" 51 0 0# (if ((Boolean.andb((Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate = 1)) ((Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate = 1)))) then (
+    ( "GP_Sloc:submarine_controls.adb:52:9" (#"submarine_controls.adb" 52 0 0# ( #"submarine_controls.adb" 52 0 0# submarine_controls__canoperatesubmarine__result.int__content <- ( 1 );
+    #"submarine_controls.adb" 52 0 0# raise Return__exc )) )) else (
     ()))) );
-   ( "GP_Sloc:submarine_controls.adb:35:7" (#"submarine_controls.adb" 35 0 0# ( #"submarine_controls.adb" 35 0 0# submarine_controls__canoperatesubmarine__result.int__content <- ( 0 );
-   #"submarine_controls.adb" 35 0 0# raise Return__exc )) );
+   ( "GP_Sloc:submarine_controls.adb:54:7" (#"submarine_controls.adb" 54 0 0# ( #"submarine_controls.adb" 54 0 0# submarine_controls__canoperatesubmarine__result.int__content <- ( 0 );
+   #"submarine_controls.adb" 54 0 0# raise Return__exc )) );
     raise Return__exc )
   with
    Return__exc -> ()
@@ -2675,7 +2836,7 @@ module Submarine_controls__canoperatesubmarine__subprogram_def
   submarine_controls__canoperatesubmarine__result.int__content )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "isoxygenlevelsafe" defined at submarine_controls.ads:31, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "isoxygenlevelsafe" defined at submarine_controls.ads:42, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__isoxygenlevelsafe__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -2685,34 +2846,34 @@ module Submarine_controls__isoxygenlevelsafe__subprogram_def
  use        Standard__integer___axiom
  use        Submarine_controls__isoxygenlevelsafe__oxygen___axiom
 
- val submarine_controls__isoxygenlevelsafe__result "model_projected" "model_trace:2652@result" "name:isOxygenLevelSafe"  : bool__ref 
+ val submarine_controls__isoxygenlevelsafe__result "model_projected" "model_trace:2752@result" "name:isOxygenLevelSafe"  : bool__ref 
  
- let def #"submarine_controls.ads" 31 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:31" 
+ let def #"submarine_controls.ads" 42 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:42" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 31 0 0# true }
-  ensures { #"submarine_controls.ads" 31 0 0# true }
+  requires { #"submarine_controls.ads" 42 0 0# true }
+  ensures { #"submarine_controls.ads" 42 0 0# true }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:31 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:42 *)
   ;
-  #"submarine_controls.ads" 31 0 0# assume { #"submarine_controls.ads" 31 0 0# (Standard__integer___axiom.dynamic_invariant Submarine_controls__isoxygenlevelsafe__oxygen.oxygen True False True True) };
-  #"submarine_controls.ads" 31 0 0# assume { #"submarine_controls.ads" 31 0 0# true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:31 *)
+  #"submarine_controls.ads" 42 0 0# assume { #"submarine_controls.ads" 42 0 0# (Standard__integer___axiom.dynamic_invariant Submarine_controls__isoxygenlevelsafe__oxygen.oxygen True False True True) };
+  #"submarine_controls.ads" 42 0 0# assume { #"submarine_controls.ads" 42 0 0# true };
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:42 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:31 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:42 *)
   ;
-  #"submarine_controls.ads" 31 0 0# abstract ensures {true}(let _ = (Submarine_controls__isoxygenlevelsafe__oxygen.oxygen > ( -2147483648 )) in (
+  #"submarine_controls.ads" 42 0 0# abstract ensures {true}(let _ = (Submarine_controls__isoxygenlevelsafe__oxygen.oxygen > ( -2147483648 )) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:31 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:42 *)
   ;
-  #"submarine_controls.ads" 31 0 0# assume { #"submarine_controls.ads" 31 0 0# (Submarine_controls__isoxygenlevelsafe__oxygen.oxygen > ( -2147483648 )) };
-  #"submarine_controls.ads" 31 0 0# try
-   ( ( "GP_Sloc:submarine_controls.adb:40:7" (#"submarine_controls.adb" 40 0 0# (if ((Submarine_controls__isoxygenlevelsafe__oxygen.oxygen > 0)) then (
-    ( "GP_Sloc:submarine_controls.adb:41:12" (#"submarine_controls.adb" 41 0 0# ( #"submarine_controls.adb" 41 0 0# submarine_controls__isoxygenlevelsafe__result.bool__content <- ( (Boolean.of_int(1)) );
-    #"submarine_controls.adb" 41 0 0# raise Return__exc )) )) else (
+  #"submarine_controls.ads" 42 0 0# assume { #"submarine_controls.ads" 42 0 0# (Submarine_controls__isoxygenlevelsafe__oxygen.oxygen > ( -2147483648 )) };
+  #"submarine_controls.ads" 42 0 0# try
+   ( ( "GP_Sloc:submarine_controls.adb:59:7" (#"submarine_controls.adb" 59 0 0# (if ((Submarine_controls__isoxygenlevelsafe__oxygen.oxygen > 0)) then (
+    ( "GP_Sloc:submarine_controls.adb:60:12" (#"submarine_controls.adb" 60 0 0# ( #"submarine_controls.adb" 60 0 0# submarine_controls__isoxygenlevelsafe__result.bool__content <- ( (Boolean.of_int(1)) );
+    #"submarine_controls.adb" 60 0 0# raise Return__exc )) )) else (
     ()))) );
-   ( "GP_Sloc:submarine_controls.adb:43:7" (#"submarine_controls.adb" 43 0 0# ( #"submarine_controls.adb" 43 0 0# submarine_controls__isoxygenlevelsafe__result.bool__content <- ( (Boolean.of_int(0)) );
-   #"submarine_controls.adb" 43 0 0# raise Return__exc )) );
+   ( "GP_Sloc:submarine_controls.adb:62:7" (#"submarine_controls.adb" 62 0 0# ( #"submarine_controls.adb" 62 0 0# submarine_controls__isoxygenlevelsafe__result.bool__content <- ( (Boolean.of_int(0)) );
+   #"submarine_controls.adb" 62 0 0# raise Return__exc )) );
     raise Return__exc )
   with
    Return__exc -> ()
