@@ -1,19 +1,19 @@
 Summary of SPARK analysis
 =========================
 
--------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total       Flow   Interval   CodePeer     Provers   Justified   Unproved
--------------------------------------------------------------------------------------------------------
-Data Dependencies                 .          .          .          .           .           .          .
-Flow Dependencies                 .          .          .          .           .           .          .
-Initialization                    2          2          .          .           .           .          .
-Non-Aliasing                      .          .          .          .           .           .          .
-Run-time Checks                   .          .          .          .           .           .          .
-Assertions                        .          .          .          .           .           .          .
-Functional Contracts              6          .          .          .    6 (CVC4)           .          .
-LSP Verification                  .          .          .          .           .           .          .
--------------------------------------------------------------------------------------------------------
-Total                             8    2 (25%)          .          .     6 (75%)           .          .
+------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer     Provers   Justified   Unproved
+------------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .           .           .          .
+Flow Dependencies                 .         .          .          .           .           .          .
+Initialization                    .         .          .          .           .           .          .
+Non-Aliasing                      .         .          .          .           .           .          .
+Run-time Checks                   .         .          .          .           .           .          .
+Assertions                        .         .          .          .           .           .          .
+Functional Contracts              6         .          .          .    6 (CVC4)           .          .
+LSP Verification                  .         .          .          .           .           .          .
+------------------------------------------------------------------------------------------------------
+Total                             6         .          .          .    6 (100%)           .          .
 
 
 Analyzed 2 units
@@ -21,10 +21,10 @@ in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:1 skipped
 in unit submarine_controls, 8 subprograms and packages out of 8 analyzed
   Submarine_Controls at submarine_controls.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine_Controls.canOperateSubmarine at submarine_controls.ads:36 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:14 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:22 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.isAtLeastOneAirlockLocked at submarine_controls.ads:8 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.isOxygenLevelSafe at submarine_controls.ads:42 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine_Controls.openInnerAirlock at submarine_controls.ads:18 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.canOperateSubmarine at submarine_controls.ads:47 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:9 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:21 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.isOxygenLevelSafe at submarine_controls.ads:53 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:33 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.openInnerAirlock at submarine_controls.ads:14 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
   Submarine_Controls.openOuterAirlock at submarine_controls.ads:26 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
