@@ -100,6 +100,18 @@
  </transf>
  </goal>
 </theory>
+<theory name="Submarine_controls__decreaseoxygen__subprogram_def" proved="true">
+ <goal name="WP_parameter def" expl="VC for def" proved="true">
+ <transf name="split_goal_wp_conj" proved="true" >
+  <goal name="WP_parameter def.0" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="WP_parameter def.1" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="13"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
 <theory name="Submarine_controls__canoperatesubmarine__subprogram_def" proved="true">
  <goal name="WP_parameter def" expl="VC for def" proved="true">
  <transf name="split_goal_wp_conj" proved="true" >
@@ -109,12 +121,6 @@
   <goal name="WP_parameter def.1">
   <proof prover="0"><result status="valid" steps="5"/></proof>
   </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Submarine_controls__isoxygenlevelsafe__subprogram_def" proved="true">
- <goal name="WP_parameter def" expl="VC for def" proved="true">
- <transf name="split_goal_wp_conj" proved="true" >
  </transf>
  </goal>
 </theory>

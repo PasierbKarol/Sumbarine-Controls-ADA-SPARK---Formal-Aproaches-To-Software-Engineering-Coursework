@@ -3,6 +3,9 @@ package Submarine_Controls with SPARK_Mode is
    innerAirlockState : Boolean; --True closed, False open
    outerAirlockState : Boolean; --True closed, False open
    airlockDoorsLocked : Boolean; --True no doors can be opened
+   maximumOxygen : Integer := 10000; --maximum possible level of oxygen
+   oxygenLevel : Integer; --current oxygen level
+   submarineSubmerged : Boolean; --submarine status
    
    --at least one airlock door closed at all times
    --procedures below ensure that at least one airlock door is closed at all times
@@ -40,7 +43,15 @@ package Submarine_Controls with SPARK_Mode is
    
    
    
-   
+   --oxygen is decreased 100 points while the submarine is submerged
+   --it can happen only if the airlock is locked and there is still any oxygen left
+   --decreasing oxygen below 500 points shows a warning
+   procedure decreaseOxygen with
+     Global => (Input => (airlockDoorsLocked, submarineSubmerged), In_Out => oxygenLevel),
+     Pre => oxygenLevel >= 100 and then 
+            airlockDoorsLocked = True and then
+            submarineSubmerged = True,
+     Post => oxygenLevel >= 0;
    
    
    
@@ -50,9 +61,5 @@ package Submarine_Controls with SPARK_Mode is
      Pre => innerAirlockState = True and outerAirlockState = True,
      Post => canOperateSubmarine'Result = True or canOperateSubmarine'Result = False;
    
-   function isOxygenLevelSafe(Oxygen : Integer) return Boolean with
-     Pre => Oxygen > Integer'First;
-
-
    
 end Submarine_Controls;

@@ -1,3 +1,4 @@
+     with Ada.Text_IO; use Ada.Text_IO;
 package body Submarine_Controls with SPARK_Mode is
 
   
@@ -31,6 +32,16 @@ package body Submarine_Controls with SPARK_Mode is
       end if;      
    end lockAirlockDoors;
      
+   procedure decreaseOxygen is begin
+      --if oxygen is running low the warning is shown
+      if oxygenLevel <= 500 then
+         Put_Line("WARNING! Oxygen level is low!");
+      end if;
+      
+      if oxygenLevel >= 100 and airlockDoorsLocked = True and submarineSubmerged = True then
+         oxygenLevel := oxygenLevel - 100;
+      end if;      
+   end decreaseOxygen;
    
    
    
@@ -46,13 +57,6 @@ package body Submarine_Controls with SPARK_Mode is
       return False;  
    end canOperateSubmarine;
    
-   function isOxygenLevelSafe(Oxygen : Integer) return Boolean is
-   begin
-      if Oxygen > 0 then
-           return True;
-      end if;
-      return False;
-   end isOxygenLevelSafe;
    
 
 

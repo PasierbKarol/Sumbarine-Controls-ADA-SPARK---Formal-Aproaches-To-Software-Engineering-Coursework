@@ -1,0 +1,2 @@
+submarine_controls.adb:38:10: warning: no Global contract available for "Put_Line"
+submarine_controls.adb:38:10: warning: assuming "Put_Line" has no effect on global items
