@@ -4,8 +4,10 @@ package Submarine_Controls with SPARK_Mode is
    outerAirlockState : Boolean; --True closed, False open
    airlockDoorsLocked : Boolean; --True no doors can be opened
    maximumOxygen : Integer := 10000; --maximum possible level of oxygen
-   oxygenLevel : Integer; --current oxygen level
+   oxygenLevel : Integer; --current oxygen level, each operation consumes oxygen
    submarineSubmerged : Boolean; --submarine status
+   currentDepth : Integer; 
+   maximumDepth : Integer := 5000; --maximum possible depth
    
    --at least one airlock door closed at all times
    --procedures below ensure that at least one airlock door is closed at all times
@@ -53,13 +55,22 @@ package Submarine_Controls with SPARK_Mode is
             submarineSubmerged = True,
      Post => oxygenLevel >= 0;
    
+--     procedure displayOxygenWarning;
    
-   
-   function canOperateSubmarine (innerAirlockState : in Boolean; 
-                                 outerAirlockState : in Boolean) 
-                                 return Boolean with
-     Pre => innerAirlockState = True and outerAirlockState = True,
-     Post => canOperateSubmarine'Result = True or canOperateSubmarine'Result = False;
-   
+   --submerge submarine
+   --cannot be done if there is no oxygen left
+   --diving or surfacing reduces oxygen
+   procedure diveDeeper with
+     Global =>(Input =>(airlockDoorsLocked, submarineSubmerged, maximumDepth), 
+               In_Out => (oxygenLevel, currentDepth )),
+     Pre => currentDepth < maximumDepth and then
+            maximumDepth = 5000 and then
+            oxygenLevel >= 100 and then 
+            airlockDoorsLocked = True and then
+            submarineSubmerged = True,
+     Post => maximumDepth = 5000 and then 
+             currentDepth <= maximumDepth and then 
+             oxygenLevel >= 0;
+
    
 end Submarine_Controls;

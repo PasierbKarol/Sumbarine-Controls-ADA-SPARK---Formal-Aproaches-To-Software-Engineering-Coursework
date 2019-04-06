@@ -34,28 +34,31 @@ package body Submarine_Controls with SPARK_Mode is
      
    procedure decreaseOxygen is begin
       --if oxygen is running low the warning is shown
-      if oxygenLevel <= 500 then
-         Put_Line("WARNING! Oxygen level is low!");
-      end if;
+--        if oxygenLevel <= 500 then
+--           displayOxygenWarning;
+--        end if;
       
       if oxygenLevel >= 100 and airlockDoorsLocked = True and submarineSubmerged = True then
          oxygenLevel := oxygenLevel - 100;
+
       end if;      
    end decreaseOxygen;
    
+--     procedure displayOxygenWarning is begin
+--                 Put_Line("WARNING! Oxygen level is low!");
+--     end displayOxygenWarning;
    
-   
-   
-   
-   function canOperateSubmarine (innerAirlockState : Boolean; 
-                                 outerAirlockState : Boolean) 
-                                 return Boolean is
-   begin
-      if innerAirlockState = True and outerAirlockState = True then      
-        return True;
+   procedure diveDeeper is begin
+      --increasing depth, 0 is on surface
+      if currentDepth <= maximumDepth - 100 and oxygenLevel >= 100 and airlockDoorsLocked = True and submarineSubmerged = True then
+         currentDepth := currentDepth + 100;
+         decreaseOxygen;
       end if;
-      return False;  
-   end canOperateSubmarine;
+      
+   end diveDeeper;
+   
+   
+
    
    
 

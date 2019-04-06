@@ -2187,7 +2187,7 @@ module Ada__streams__write__item
  use import "_gnatprove_standard".Main
  use        Ada__streams__stream_element_array
 
- function item #"a-stream.ads" 65 0 0#"model_projected" "name:Item" "model_trace:5420" 
+ function item #"a-stream.ads" 65 0 0#"model_projected" "name:Item" "model_trace:5433" 
    : Ada__streams__stream_element_array.stream_element_array
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2207,7 +2207,7 @@ module Ada__streams__write_sea__v
  use import "_gnatprove_standard".Main
  use        Ada__streams__stream_element_array
 
- function v #"a-stream.ads" 82 0 0#"model_projected" "name:V" "model_trace:5490" 
+ function v #"a-stream.ads" 82 0 0#"model_projected" "name:V" "model_trace:5503" 
    : Ada__streams__stream_element_array.stream_element_array
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2303,7 +2303,7 @@ end
 module System__system_name
  use import "_gnatprove_standard".Main
 
- function system_name #"system.ads" 47 0 0#"model" "model_trace:5551" "name:System_Name" 
+ function system_name #"system.ads" 47 0 0#"model" "model_trace:5564" "name:System_Name" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2392,7 +2392,7 @@ module System__null_address
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function null_address #"system.ads" 69 0 0#"model" "model_trace:5673" "name:Null_Address" 
+ function null_address #"system.ads" 69 0 0#"model" "model_trace:5686" "name:Null_Address" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2405,7 +2405,7 @@ module System__Olt__left
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function left #"system.ads" 77 0 0#"model" "model_trace:5720" "name:Left" 
+ function left #"system.ads" 77 0 0#"model" "model_trace:5733" "name:Left" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2425,7 +2425,7 @@ module System__Olt__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function right #"system.ads" 77 0 0#"model" "model_trace:5727" "name:Right" 
+ function right #"system.ads" 77 0 0#"model" "model_trace:5740" "name:Right" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2458,7 +2458,7 @@ module System__Ole__left
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function left #"system.ads" 78 0 0#"model" "name:Left" "model_trace:5747" 
+ function left #"system.ads" 78 0 0#"model" "name:Left" "model_trace:5760" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2478,7 +2478,7 @@ module System__Ole__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function right #"system.ads" 78 0 0#"model" "name:Right" "model_trace:5754" 
+ function right #"system.ads" 78 0 0#"model" "name:Right" "model_trace:5767" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2511,7 +2511,7 @@ module System__Ogt__left
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function left #"system.ads" 79 0 0#"model" "name:Left" "model_trace:5774" 
+ function left #"system.ads" 79 0 0#"model" "name:Left" "model_trace:5787" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2531,7 +2531,7 @@ module System__Ogt__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function right #"system.ads" 79 0 0#"model" "name:Right" "model_trace:5781" 
+ function right #"system.ads" 79 0 0#"model" "name:Right" "model_trace:5794" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2564,7 +2564,7 @@ module System__Oge__left
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function left #"system.ads" 80 0 0#"model" "name:Left" "model_trace:5801" 
+ function left #"system.ads" 80 0 0#"model" "name:Left" "model_trace:5814" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2584,7 +2584,7 @@ module System__Oge__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function right #"system.ads" 80 0 0#"model" "name:Right" "model_trace:5808" 
+ function right #"system.ads" 80 0 0#"model" "name:Right" "model_trace:5821" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2617,7 +2617,7 @@ module System__Oeq__left
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function left #"system.ads" 81 0 0#"model" "name:Left" "model_trace:5828" 
+ function left #"system.ads" 81 0 0#"model" "name:Left" "model_trace:5841" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2637,7 +2637,7 @@ module System__Oeq__right
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function right #"system.ads" 81 0 0#"model" "name:Right" "model_trace:5835" 
+ function right #"system.ads" 81 0 0#"model" "name:Right" "model_trace:5848" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2726,7 +2726,7 @@ end
 module System__default_bit_order
  use import "_gnatprove_standard".Main
 
- function default_bit_order #"system.ads" 92 0 0#"model" "model_trace:5902" "name:Default_Bit_Order" 
+ function default_bit_order #"system.ads" 92 0 0#"model" "model_trace:5915" "name:Default_Bit_Order" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2738,7 +2738,7 @@ end
 module System__max_priority
  use import "_gnatprove_standard".Main
 
- function max_priority #"system.ads" 97 0 0#"model" "model_trace:5918" "name:Max_Priority" 
+ function max_priority #"system.ads" 97 0 0#"model" "model_trace:5931" "name:Max_Priority" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2750,7 +2750,7 @@ end
 module System__max_interrupt_priority
  use import "_gnatprove_standard".Main
 
- function max_interrupt_priority #"system.ads" 98 0 0#"model" "model_trace:5928" "name:Max_Interrupt_Priority" 
+ function max_interrupt_priority #"system.ads" 98 0 0#"model" "model_trace:5941" "name:Max_Interrupt_Priority" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2951,7 +2951,7 @@ end
 module System__default_priority
  use import "_gnatprove_standard".Main
 
- function default_priority #"system.ads" 104 0 0#"model" "model_trace:5980" "name:Default_Priority" 
+ function default_priority #"system.ads" 104 0 0#"model" "model_trace:5993" "name:Default_Priority" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2963,7 +2963,7 @@ end
 module System__backend_divide_checks
  use import "_gnatprove_standard".Main
 
- function backend_divide_checks #"system.ads" 121 0 0#"model" "model_trace:6010" "name:Backend_Divide_Checks" 
+ function backend_divide_checks #"system.ads" 121 0 0#"model" "model_trace:6023" "name:Backend_Divide_Checks" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2975,7 +2975,7 @@ end
 module System__backend_overflow_checks
  use import "_gnatprove_standard".Main
 
- function backend_overflow_checks #"system.ads" 122 0 0#"model" "model_trace:6020" "name:Backend_Overflow_Checks" 
+ function backend_overflow_checks #"system.ads" 122 0 0#"model" "model_trace:6033" "name:Backend_Overflow_Checks" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2987,7 +2987,7 @@ end
 module System__command_line_args
  use import "_gnatprove_standard".Main
 
- function command_line_args #"system.ads" 123 0 0#"model" "model_trace:6030" "name:Command_Line_Args" 
+ function command_line_args #"system.ads" 123 0 0#"model" "model_trace:6043" "name:Command_Line_Args" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -2999,7 +2999,7 @@ end
 module System__configurable_run_time
  use import "_gnatprove_standard".Main
 
- function configurable_run_time #"system.ads" 124 0 0#"model" "model_trace:6040" "name:Configurable_Run_Time" 
+ function configurable_run_time #"system.ads" 124 0 0#"model" "model_trace:6053" "name:Configurable_Run_Time" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3011,7 +3011,7 @@ end
 module System__denorm
  use import "_gnatprove_standard".Main
 
- function denorm #"system.ads" 125 0 0#"model" "model_trace:6050" "name:Denorm" 
+ function denorm #"system.ads" 125 0 0#"model" "model_trace:6063" "name:Denorm" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3023,7 +3023,7 @@ end
 module System__duration_32_bits
  use import "_gnatprove_standard".Main
 
- function duration_32_bits #"system.ads" 126 0 0#"model" "model_trace:6060" "name:Duration_32_Bits" 
+ function duration_32_bits #"system.ads" 126 0 0#"model" "model_trace:6073" "name:Duration_32_Bits" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3035,7 +3035,7 @@ end
 module System__exit_status_supported
  use import "_gnatprove_standard".Main
 
- function exit_status_supported #"system.ads" 127 0 0#"model" "model_trace:6070" "name:Exit_Status_Supported" 
+ function exit_status_supported #"system.ads" 127 0 0#"model" "model_trace:6083" "name:Exit_Status_Supported" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3047,7 +3047,7 @@ end
 module System__fractional_fixed_ops
  use import "_gnatprove_standard".Main
 
- function fractional_fixed_ops #"system.ads" 128 0 0#"model" "model_trace:6080" "name:Fractional_Fixed_Ops" 
+ function fractional_fixed_ops #"system.ads" 128 0 0#"model" "model_trace:6093" "name:Fractional_Fixed_Ops" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3059,7 +3059,7 @@ end
 module System__frontend_layout
  use import "_gnatprove_standard".Main
 
- function frontend_layout #"system.ads" 129 0 0#"model" "model_trace:6090" "name:Frontend_Layout" 
+ function frontend_layout #"system.ads" 129 0 0#"model" "model_trace:6103" "name:Frontend_Layout" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3071,7 +3071,7 @@ end
 module System__machine_overflows
  use import "_gnatprove_standard".Main
 
- function machine_overflows #"system.ads" 130 0 0#"model" "model_trace:6100" "name:Machine_Overflows" 
+ function machine_overflows #"system.ads" 130 0 0#"model" "model_trace:6113" "name:Machine_Overflows" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3083,7 +3083,7 @@ end
 module System__machine_rounds
  use import "_gnatprove_standard".Main
 
- function machine_rounds #"system.ads" 131 0 0#"model" "model_trace:6110" "name:Machine_Rounds" 
+ function machine_rounds #"system.ads" 131 0 0#"model" "model_trace:6123" "name:Machine_Rounds" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3095,7 +3095,7 @@ end
 module System__preallocated_stacks
  use import "_gnatprove_standard".Main
 
- function preallocated_stacks #"system.ads" 132 0 0#"model" "model_trace:6120" "name:Preallocated_Stacks" 
+ function preallocated_stacks #"system.ads" 132 0 0#"model" "model_trace:6133" "name:Preallocated_Stacks" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3107,7 +3107,7 @@ end
 module System__signed_zeros
  use import "_gnatprove_standard".Main
 
- function signed_zeros #"system.ads" 133 0 0#"model" "model_trace:6130" "name:Signed_Zeros" 
+ function signed_zeros #"system.ads" 133 0 0#"model" "model_trace:6143" "name:Signed_Zeros" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3119,7 +3119,7 @@ end
 module System__stack_check_default
  use import "_gnatprove_standard".Main
 
- function stack_check_default #"system.ads" 134 0 0#"model" "model_trace:6140" "name:Stack_Check_Default" 
+ function stack_check_default #"system.ads" 134 0 0#"model" "model_trace:6153" "name:Stack_Check_Default" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3131,7 +3131,7 @@ end
 module System__stack_check_probes
  use import "_gnatprove_standard".Main
 
- function stack_check_probes #"system.ads" 135 0 0#"model" "model_trace:6150" "name:Stack_Check_Probes" 
+ function stack_check_probes #"system.ads" 135 0 0#"model" "model_trace:6163" "name:Stack_Check_Probes" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3143,7 +3143,7 @@ end
 module System__stack_check_limits
  use import "_gnatprove_standard".Main
 
- function stack_check_limits #"system.ads" 136 0 0#"model" "model_trace:6160" "name:Stack_Check_Limits" 
+ function stack_check_limits #"system.ads" 136 0 0#"model" "model_trace:6173" "name:Stack_Check_Limits" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3155,7 +3155,7 @@ end
 module System__support_aggregates
  use import "_gnatprove_standard".Main
 
- function support_aggregates #"system.ads" 137 0 0#"model" "model_trace:6170" "name:Support_Aggregates" 
+ function support_aggregates #"system.ads" 137 0 0#"model" "model_trace:6183" "name:Support_Aggregates" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3167,7 +3167,7 @@ end
 module System__support_atomic_primitives
  use import "_gnatprove_standard".Main
 
- function support_atomic_primitives #"system.ads" 138 0 0#"model" "model_trace:6180" "name:Support_Atomic_Primitives" 
+ function support_atomic_primitives #"system.ads" 138 0 0#"model" "model_trace:6193" "name:Support_Atomic_Primitives" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3179,7 +3179,7 @@ end
 module System__support_composite_assign
  use import "_gnatprove_standard".Main
 
- function support_composite_assign #"system.ads" 139 0 0#"model" "model_trace:6190" "name:Support_Composite_Assign" 
+ function support_composite_assign #"system.ads" 139 0 0#"model" "model_trace:6203" "name:Support_Composite_Assign" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3191,7 +3191,7 @@ end
 module System__support_composite_compare
  use import "_gnatprove_standard".Main
 
- function support_composite_compare #"system.ads" 140 0 0#"model" "model_trace:6200" "name:Support_Composite_Compare" 
+ function support_composite_compare #"system.ads" 140 0 0#"model" "model_trace:6213" "name:Support_Composite_Compare" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3203,7 +3203,7 @@ end
 module System__support_long_shifts
  use import "_gnatprove_standard".Main
 
- function support_long_shifts #"system.ads" 141 0 0#"model" "model_trace:6210" "name:Support_Long_Shifts" 
+ function support_long_shifts #"system.ads" 141 0 0#"model" "model_trace:6223" "name:Support_Long_Shifts" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3215,7 +3215,7 @@ end
 module System__always_compatible_rep
  use import "_gnatprove_standard".Main
 
- function always_compatible_rep #"system.ads" 142 0 0#"model" "model_trace:6220" "name:Always_Compatible_Rep" 
+ function always_compatible_rep #"system.ads" 142 0 0#"model" "model_trace:6233" "name:Always_Compatible_Rep" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3227,7 +3227,7 @@ end
 module System__suppress_standard_library
  use import "_gnatprove_standard".Main
 
- function suppress_standard_library #"system.ads" 143 0 0#"model" "model_trace:6230" "name:Suppress_Standard_Library" 
+ function suppress_standard_library #"system.ads" 143 0 0#"model" "model_trace:6243" "name:Suppress_Standard_Library" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3239,7 +3239,7 @@ end
 module System__use_ada_main_program_name
  use import "_gnatprove_standard".Main
 
- function use_ada_main_program_name #"system.ads" 144 0 0#"model" "model_trace:6240" "name:Use_Ada_Main_Program_Name" 
+ function use_ada_main_program_name #"system.ads" 144 0 0#"model" "model_trace:6253" "name:Use_Ada_Main_Program_Name" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3251,7 +3251,7 @@ end
 module System__frontend_exceptions
  use import "_gnatprove_standard".Main
 
- function frontend_exceptions #"system.ads" 145 0 0#"model" "model_trace:6250" "name:Frontend_Exceptions" 
+ function frontend_exceptions #"system.ads" 145 0 0#"model" "model_trace:6263" "name:Frontend_Exceptions" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3263,7 +3263,7 @@ end
 module System__zcx_by_default
  use import "_gnatprove_standard".Main
 
- function zcx_by_default #"system.ads" 146 0 0#"model" "model_trace:6260" "name:ZCX_By_Default" 
+ function zcx_by_default #"system.ads" 146 0 0#"model" "model_trace:6273" "name:ZCX_By_Default" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3547,7 +3547,7 @@ module System__underlying_priorities
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__integer
 
- function underlying_priorities #"system.ads" 165 0 0#"model_projected" "model_trace:6286" "name:Underlying_Priorities" 
+ function underlying_priorities #"system.ads" 165 0 0#"model_projected" "model_trace:6299" "name:Underlying_Priorities" 
    : Array__Int__Standard__integer.map
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3685,7 +3685,7 @@ end
 module System__parameters__unspecified_size
  use import "_gnatprove_standard".Main
 
- function unspecified_size #"s-parame.ads" 67 0 0#"model" "model_trace:11008" "name:Unspecified_Size" 
+ function unspecified_size #"s-parame.ads" 67 0 0#"model" "model_trace:11021" "name:Unspecified_Size" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3721,7 +3721,7 @@ end
 module System__parameters__adjust_storage_size__size
  use import "_gnatprove_standard".Main
 
- function size #"s-parame.ads" 76 0 0#"model" "model_trace:11047" "name:Size" 
+ function size #"s-parame.ads" 76 0 0#"model" "model_trace:11060" "name:Size" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3752,7 +3752,7 @@ end
 module System__parameters__default_env_stack_size
  use import "_gnatprove_standard".Main
 
- function default_env_stack_size #"s-parame.ads" 85 0 0#"model" "model_trace:11061" "name:Default_Env_Stack_Size" 
+ function default_env_stack_size #"s-parame.ads" 85 0 0#"model" "model_trace:11074" "name:Default_Env_Stack_Size" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3764,7 +3764,7 @@ end
 module System__parameters__stack_grows_down
  use import "_gnatprove_standard".Main
 
- function stack_grows_down #"s-parame.ads" 90 0 0#"model" "model_trace:11071" "name:Stack_Grows_Down" 
+ function stack_grows_down #"s-parame.ads" 90 0 0#"model" "model_trace:11084" "name:Stack_Grows_Down" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3776,7 +3776,7 @@ end
 module System__parameters__runtime_default_sec_stack_size
  use import "_gnatprove_standard".Main
 
- function runtime_default_sec_stack_size #"s-parame.ads" 95 0 0#"model" "model_trace:11081" "name:Runtime_Default_Sec_Stack_Size" 
+ function runtime_default_sec_stack_size #"s-parame.ads" 95 0 0#"model" "model_trace:11094" "name:Runtime_Default_Sec_Stack_Size" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3788,7 +3788,7 @@ end
 module System__parameters__sec_stack_dynamic
  use import "_gnatprove_standard".Main
 
- function sec_stack_dynamic #"s-parame.ads" 99 0 0#"model" "model_trace:11093" "name:Sec_Stack_Dynamic" 
+ function sec_stack_dynamic #"s-parame.ads" 99 0 0#"model" "model_trace:11106" "name:Sec_Stack_Dynamic" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3904,7 +3904,7 @@ module System__parameters__c_malloc_linkname
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function c_malloc_linkname #"s-parame.ads" 116 0 0#"model_projected" "model_trace:11136" "name:C_Malloc_Linkname" 
+ function c_malloc_linkname #"s-parame.ads" 116 0 0#"model_projected" "model_trace:11149" "name:C_Malloc_Linkname" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3916,7 +3916,7 @@ end
 module System__parameters__garbage_collected
  use import "_gnatprove_standard".Main
 
- function garbage_collected #"s-parame.ads" 139 0 0#"model" "model_trace:11146" "name:Garbage_Collected" 
+ function garbage_collected #"s-parame.ads" 139 0 0#"model" "model_trace:11159" "name:Garbage_Collected" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3928,7 +3928,7 @@ end
 module System__parameters__single_lock
  use import "_gnatprove_standard".Main
 
- function single_lock #"s-parame.ads" 154 0 0#"model" "model_trace:11156" "name:Single_Lock" 
+ function single_lock #"s-parame.ads" 154 0 0#"model" "model_trace:11169" "name:Single_Lock" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -3940,7 +3940,7 @@ end
 module System__parameters__no_abort
  use import "_gnatprove_standard".Main
 
- function no_abort #"s-parame.ads" 167 0 0#"model" "model_trace:11166" "name:No_Abort" 
+ function no_abort #"s-parame.ads" 167 0 0#"model" "model_trace:11179" "name:No_Abort" 
    : bool
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4818,7 +4818,7 @@ module System__crtl__strlen__a
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function a #"s-crtl.ads" 85 0 0#"model" "model_trace:9430" "name:A" 
+ function a #"s-crtl.ads" 85 0 0#"model" "model_trace:9443" "name:A" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4851,7 +4851,7 @@ module System__crtl__strncpy__dest
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function dest #"s-crtl.ads" 88 0 0#"model" "model_trace:9459" "name:dest" 
+ function dest #"s-crtl.ads" 88 0 0#"model" "model_trace:9472" "name:dest" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4871,7 +4871,7 @@ module System__crtl__strncpy__src
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function src #"s-crtl.ads" 88 0 0#"model" "model_trace:9466" "name:src" 
+ function src #"s-crtl.ads" 88 0 0#"model" "model_trace:9479" "name:src" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4891,7 +4891,7 @@ module System__crtl__strncpy__n
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function n #"s-crtl.ads" 88 0 0#"model" "model_trace:9480" "name:n" 
+ function n #"s-crtl.ads" 88 0 0#"model" "model_trace:9493" "name:n" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4911,7 +4911,7 @@ module System__crtl__atoi__a
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function a #"s-crtl.ads" 95 0 0#"model" "name:A" "model_trace:9506" 
+ function a #"s-crtl.ads" 95 0 0#"model" "name:A" "model_trace:9519" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4944,7 +4944,7 @@ module System__crtl__clearerr__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 98 0 0#"model" "model_trace:9535" "name:stream" 
+ function stream #"s-crtl.ads" 98 0 0#"model" "model_trace:9548" "name:stream" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4963,7 +4963,7 @@ end
 module System__crtl__dup__handle
  use import "_gnatprove_standard".Main
 
- function handle #"s-crtl.ads" 101 0 0#"model" "model_trace:9561" "name:handle" 
+ function handle #"s-crtl.ads" 101 0 0#"model" "model_trace:9574" "name:handle" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -4994,7 +4994,7 @@ end
 module System__crtl__dup2__from
  use import "_gnatprove_standard".Main
 
- function from #"s-crtl.ads" 104 0 0#"model" "model_trace:9588" "name:from" 
+ function from #"s-crtl.ads" 104 0 0#"model" "model_trace:9601" "name:from" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5013,7 +5013,7 @@ end
 module System__crtl__dup2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"s-crtl.ads" 104 0 0#"model" "model_trace:9595" "name:to" 
+ function to__ #"s-crtl.ads" 104 0 0#"model" "model_trace:9608" "name:to" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5045,7 +5045,7 @@ module System__crtl__fclose__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 107 0 0#"model" "name:stream" "model_trace:9623" 
+ function stream #"s-crtl.ads" 107 0 0#"model" "name:stream" "model_trace:9636" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5077,7 +5077,7 @@ end
 module System__crtl__fdopen__handle
  use import "_gnatprove_standard".Main
 
- function handle #"s-crtl.ads" 110 0 0#"model" "name:handle" "model_trace:9650" 
+ function handle #"s-crtl.ads" 110 0 0#"model" "name:handle" "model_trace:9663" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5097,7 +5097,7 @@ module System__crtl__fdopen__mode
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function mode #"s-crtl.ads" 110 0 0#"model" "model_trace:9659" "name:mode" 
+ function mode #"s-crtl.ads" 110 0 0#"model" "model_trace:9672" "name:mode" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5130,7 +5130,7 @@ module System__crtl__fflush__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 113 0 0#"model" "name:stream" "model_trace:9686" 
+ function stream #"s-crtl.ads" 113 0 0#"model" "name:stream" "model_trace:9699" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5163,7 +5163,7 @@ module System__crtl__fgetc__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 116 0 0#"model" "name:stream" "model_trace:9713" 
+ function stream #"s-crtl.ads" 116 0 0#"model" "name:stream" "model_trace:9726" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5196,7 +5196,7 @@ module System__crtl__fgets__strng
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function strng #"s-crtl.ads" 119 0 0#"model" "model_trace:9740" "name:strng" 
+ function strng #"s-crtl.ads" 119 0 0#"model" "model_trace:9753" "name:strng" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5215,7 +5215,7 @@ end
 module System__crtl__fgets__n
  use import "_gnatprove_standard".Main
 
- function n #"s-crtl.ads" 119 0 0#"model" "name:n" "model_trace:9749" 
+ function n #"s-crtl.ads" 119 0 0#"model" "name:n" "model_trace:9762" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5235,7 +5235,7 @@ module System__crtl__fgets__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 119 0 0#"model" "name:stream" "model_trace:9758" 
+ function stream #"s-crtl.ads" 119 0 0#"model" "name:stream" "model_trace:9771" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5268,7 +5268,7 @@ module System__crtl__fopen__filename
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function filename #"s-crtl.ads" 123 0 0#"model" "model_trace:9785" "name:filename" 
+ function filename #"s-crtl.ads" 123 0 0#"model" "model_trace:9798" "name:filename" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5288,7 +5288,7 @@ module System__crtl__fopen__mode
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function mode #"s-crtl.ads" 124 0 0#"model" "name:mode" "model_trace:9794" 
+ function mode #"s-crtl.ads" 124 0 0#"model" "name:mode" "model_trace:9807" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5307,7 +5307,7 @@ end
 module System__crtl__fopen__encoding
  use import "_gnatprove_standard".Main
 
- function encoding #"s-crtl.ads" 125 0 0#"model" "model_trace:9803" "name:encoding" 
+ function encoding #"s-crtl.ads" 125 0 0#"model" "model_trace:9816" "name:encoding" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5339,7 +5339,7 @@ end
 module System__crtl__fputc__c
  use import "_gnatprove_standard".Main
 
- function c #"s-crtl.ads" 128 0 0#"model" "model_trace:9831" "name:C" 
+ function c #"s-crtl.ads" 128 0 0#"model" "model_trace:9844" "name:C" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5359,7 +5359,7 @@ module System__crtl__fputc__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 128 0 0#"model" "name:stream" "model_trace:9840" 
+ function stream #"s-crtl.ads" 128 0 0#"model" "name:stream" "model_trace:9853" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5391,7 +5391,7 @@ end
 module System__crtl__fputwc__c
  use import "_gnatprove_standard".Main
 
- function c #"s-crtl.ads" 131 0 0#"model" "name:C" "model_trace:9867" 
+ function c #"s-crtl.ads" 131 0 0#"model" "name:C" "model_trace:9880" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5411,7 +5411,7 @@ module System__crtl__fputwc__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 131 0 0#"model" "name:stream" "model_trace:9876" 
+ function stream #"s-crtl.ads" 131 0 0#"model" "name:stream" "model_trace:9889" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5444,7 +5444,7 @@ module System__crtl__fputs__strng
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function strng #"s-crtl.ads" 134 0 0#"model" "model_trace:9903" "name:Strng" 
+ function strng #"s-crtl.ads" 134 0 0#"model" "model_trace:9916" "name:Strng" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5464,7 +5464,7 @@ module System__crtl__fputs__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 134 0 0#"model" "name:Stream" "model_trace:9912" 
+ function stream #"s-crtl.ads" 134 0 0#"model" "name:Stream" "model_trace:9925" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5497,7 +5497,7 @@ module System__crtl__free__ptr
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function ptr #"s-crtl.ads" 137 0 0#"model" "model_trace:9939" "name:Ptr" 
+ function ptr #"s-crtl.ads" 137 0 0#"model" "model_trace:9952" "name:Ptr" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5517,7 +5517,7 @@ module System__crtl__freopen__filename
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function filename #"s-crtl.ads" 141 0 0#"model" "name:filename" "model_trace:9967" 
+ function filename #"s-crtl.ads" 141 0 0#"model" "name:filename" "model_trace:9980" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5537,7 +5537,7 @@ module System__crtl__freopen__mode
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function mode #"s-crtl.ads" 142 0 0#"model" "name:mode" "model_trace:9976" 
+ function mode #"s-crtl.ads" 142 0 0#"model" "name:mode" "model_trace:9989" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5557,7 +5557,7 @@ module System__crtl__freopen__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 143 0 0#"model" "name:stream" "model_trace:9985" 
+ function stream #"s-crtl.ads" 143 0 0#"model" "name:stream" "model_trace:9998" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5576,7 +5576,7 @@ end
 module System__crtl__freopen__encoding
  use import "_gnatprove_standard".Main
 
- function encoding #"s-crtl.ads" 144 0 0#"model" "name:encoding" "model_trace:9994" 
+ function encoding #"s-crtl.ads" 144 0 0#"model" "name:encoding" "model_trace:10007" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5609,7 +5609,7 @@ module System__crtl__fseek__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 148 0 0#"model" "name:stream" "model_trace:10022" 
+ function stream #"s-crtl.ads" 148 0 0#"model" "name:stream" "model_trace:10035" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5628,7 +5628,7 @@ end
 module System__crtl__fseek__offset
  use import "_gnatprove_standard".Main
 
- function offset #"s-crtl.ads" 149 0 0#"model" "model_trace:10031" "name:offset" 
+ function offset #"s-crtl.ads" 149 0 0#"model" "model_trace:10044" "name:offset" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5647,7 +5647,7 @@ end
 module System__crtl__fseek__origin
  use import "_gnatprove_standard".Main
 
- function origin #"s-crtl.ads" 150 0 0#"model" "model_trace:10040" "name:origin" 
+ function origin #"s-crtl.ads" 150 0 0#"model" "model_trace:10053" "name:origin" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5680,7 +5680,7 @@ module System__crtl__fseek64__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 154 0 0#"model" "name:stream" "model_trace:10067" 
+ function stream #"s-crtl.ads" 154 0 0#"model" "name:stream" "model_trace:10080" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5699,7 +5699,7 @@ end
 module System__crtl__fseek64__offset
  use import "_gnatprove_standard".Main
 
- function offset #"s-crtl.ads" 155 0 0#"model" "name:offset" "model_trace:10076" 
+ function offset #"s-crtl.ads" 155 0 0#"model" "name:offset" "model_trace:10089" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5718,7 +5718,7 @@ end
 module System__crtl__fseek64__origin
  use import "_gnatprove_standard".Main
 
- function origin #"s-crtl.ads" 156 0 0#"model" "name:origin" "model_trace:10085" 
+ function origin #"s-crtl.ads" 156 0 0#"model" "name:origin" "model_trace:10098" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5751,7 +5751,7 @@ module System__crtl__ftell__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 159 0 0#"model" "name:stream" "model_trace:10112" 
+ function stream #"s-crtl.ads" 159 0 0#"model" "name:stream" "model_trace:10125" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5784,7 +5784,7 @@ module System__crtl__ftell64__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 162 0 0#"model" "name:stream" "model_trace:10139" 
+ function stream #"s-crtl.ads" 162 0 0#"model" "name:stream" "model_trace:10152" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5817,7 +5817,7 @@ module System__crtl__getenv__s
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function s #"s-crtl.ads" 165 0 0#"model_projected" "model_trace:10166" "name:S" 
+ function s #"s-crtl.ads" 165 0 0#"model_projected" "model_trace:10179" "name:S" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5850,7 +5850,7 @@ end
 module System__crtl__isatty__handle
  use import "_gnatprove_standard".Main
 
- function handle #"s-crtl.ads" 168 0 0#"model" "name:handle" "model_trace:10195" 
+ function handle #"s-crtl.ads" 168 0 0#"model" "name:handle" "model_trace:10208" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5881,7 +5881,7 @@ end
 module System__crtl__lseek__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 171 0 0#"model" "model_trace:10222" "name:fd" 
+ function fd #"s-crtl.ads" 171 0 0#"model" "model_trace:10235" "name:fd" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5900,7 +5900,7 @@ end
 module System__crtl__lseek__offset
  use import "_gnatprove_standard".Main
 
- function offset #"s-crtl.ads" 171 0 0#"model" "name:offset" "model_trace:10231" 
+ function offset #"s-crtl.ads" 171 0 0#"model" "name:offset" "model_trace:10244" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5919,7 +5919,7 @@ end
 module System__crtl__lseek__direction
  use import "_gnatprove_standard".Main
 
- function direction #"s-crtl.ads" 171 0 0#"model" "model_trace:10240" "name:direction" 
+ function direction #"s-crtl.ads" 171 0 0#"model" "model_trace:10253" "name:direction" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5951,7 +5951,7 @@ module System__crtl__malloc__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"s-crtl.ads" 174 0 0#"model" "name:Size" "model_trace:10267" 
+ function size #"s-crtl.ads" 174 0 0#"model" "name:Size" "model_trace:10280" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -5984,7 +5984,7 @@ module System__crtl__memcpy__s1
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function s1 #"s-crtl.ads" 177 0 0#"model" "model_trace:10296" "name:S1" 
+ function s1 #"s-crtl.ads" 177 0 0#"model" "model_trace:10309" "name:S1" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6004,7 +6004,7 @@ module System__crtl__memcpy__s2
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function s2 #"s-crtl.ads" 177 0 0#"model" "model_trace:10307" "name:S2" 
+ function s2 #"s-crtl.ads" 177 0 0#"model" "model_trace:10320" "name:S2" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6024,7 +6024,7 @@ module System__crtl__memcpy__n
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function n #"s-crtl.ads" 177 0 0#"model" "model_trace:10318" "name:N" 
+ function n #"s-crtl.ads" 177 0 0#"model" "model_trace:10331" "name:N" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6044,7 +6044,7 @@ module System__crtl__memmove__s1
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function s1 #"s-crtl.ads" 180 0 0#"model" "name:S1" "model_trace:10344" 
+ function s1 #"s-crtl.ads" 180 0 0#"model" "name:S1" "model_trace:10357" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6064,7 +6064,7 @@ module System__crtl__memmove__s2
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function s2 #"s-crtl.ads" 180 0 0#"model" "name:S2" "model_trace:10355" 
+ function s2 #"s-crtl.ads" 180 0 0#"model" "name:S2" "model_trace:10368" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6084,7 +6084,7 @@ module System__crtl__memmove__n
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function n #"s-crtl.ads" 180 0 0#"model" "name:N" "model_trace:10366" 
+ function n #"s-crtl.ads" 180 0 0#"model" "name:N" "model_trace:10379" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6104,7 +6104,7 @@ module System__crtl__mktemp__template
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function template #"s-crtl.ads" 183 0 0#"model" "model_trace:10392" "name:template" 
+ function template #"s-crtl.ads" 183 0 0#"model" "model_trace:10405" "name:template" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6124,7 +6124,7 @@ module System__crtl__pclose__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 186 0 0#"model" "name:stream" "model_trace:10418" 
+ function stream #"s-crtl.ads" 186 0 0#"model" "name:stream" "model_trace:10431" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6157,7 +6157,7 @@ module System__crtl__popen__command
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function command #"s-crtl.ads" 189 0 0#"model" "model_trace:10447" "name:command" 
+ function command #"s-crtl.ads" 189 0 0#"model" "model_trace:10460" "name:command" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6177,7 +6177,7 @@ module System__crtl__popen__mode
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function mode #"s-crtl.ads" 189 0 0#"model" "name:mode" "model_trace:10454" 
+ function mode #"s-crtl.ads" 189 0 0#"model" "name:mode" "model_trace:10467" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6210,7 +6210,7 @@ module System__crtl__realloc__ptr
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function ptr #"s-crtl.ads" 193 0 0#"model" "name:Ptr" "model_trace:10488" 
+ function ptr #"s-crtl.ads" 193 0 0#"model" "name:Ptr" "model_trace:10501" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6230,7 +6230,7 @@ module System__crtl__realloc__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"s-crtl.ads" 193 0 0#"model" "name:Size" "model_trace:10499" 
+ function size #"s-crtl.ads" 193 0 0#"model" "name:Size" "model_trace:10512" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6263,7 +6263,7 @@ module System__crtl__rewind__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 196 0 0#"model" "name:stream" "model_trace:10528" 
+ function stream #"s-crtl.ads" 196 0 0#"model" "name:stream" "model_trace:10541" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6283,7 +6283,7 @@ module System__crtl__rmdir__dir_name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function dir_name #"s-crtl.ads" 199 0 0#"model_projected" "model_trace:10554" "name:dir_name" 
+ function dir_name #"s-crtl.ads" 199 0 0#"model_projected" "model_trace:10567" "name:dir_name" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6316,7 +6316,7 @@ module System__crtl__chdir__dir_name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function dir_name #"s-crtl.ads" 202 0 0#"model_projected" "name:dir_name" "model_trace:10581" 
+ function dir_name #"s-crtl.ads" 202 0 0#"model_projected" "name:dir_name" "model_trace:10594" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6349,7 +6349,7 @@ module System__crtl__mkdir__dir_name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function dir_name #"s-crtl.ads" 206 0 0#"model_projected" "name:dir_name" "model_trace:10608" 
+ function dir_name #"s-crtl.ads" 206 0 0#"model_projected" "name:dir_name" "model_trace:10621" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6368,7 +6368,7 @@ end
 module System__crtl__mkdir__encoding
  use import "_gnatprove_standard".Main
 
- function encoding #"s-crtl.ads" 207 0 0#"model" "name:encoding" "model_trace:10617" 
+ function encoding #"s-crtl.ads" 207 0 0#"model" "name:encoding" "model_trace:10630" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6401,7 +6401,7 @@ module System__crtl__setvbuf__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 211 0 0#"model" "name:stream" "model_trace:10645" 
+ function stream #"s-crtl.ads" 211 0 0#"model" "name:stream" "model_trace:10658" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6421,7 +6421,7 @@ module System__crtl__setvbuf__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"s-crtl.ads" 212 0 0#"model" "model_trace:10654" "name:buffer" 
+ function buffer #"s-crtl.ads" 212 0 0#"model" "model_trace:10667" "name:buffer" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6440,7 +6440,7 @@ end
 module System__crtl__setvbuf__mode
  use import "_gnatprove_standard".Main
 
- function mode #"s-crtl.ads" 213 0 0#"model" "name:mode" "model_trace:10663" 
+ function mode #"s-crtl.ads" 213 0 0#"model" "name:mode" "model_trace:10676" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6460,7 +6460,7 @@ module System__crtl__setvbuf__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"s-crtl.ads" 214 0 0#"model" "model_trace:10672" "name:size" 
+ function size #"s-crtl.ads" 214 0 0#"model" "model_trace:10685" "name:size" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6493,7 +6493,7 @@ module System__crtl__tmpnam__str
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function str #"s-crtl.ads" 217 0 0#"model" "model_trace:10699" "name:str" 
+ function str #"s-crtl.ads" 217 0 0#"model" "model_trace:10712" "name:str" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6525,7 +6525,7 @@ end
 module System__crtl__ungetc__c
  use import "_gnatprove_standard".Main
 
- function c #"s-crtl.ads" 223 0 0#"model" "model_trace:10743" "name:c" 
+ function c #"s-crtl.ads" 223 0 0#"model" "model_trace:10756" "name:c" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6545,7 +6545,7 @@ module System__crtl__ungetc__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"s-crtl.ads" 223 0 0#"model" "name:stream" "model_trace:10752" 
+ function stream #"s-crtl.ads" 223 0 0#"model" "name:stream" "model_trace:10765" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6578,7 +6578,7 @@ module System__crtl__unlink__filename
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function filename #"s-crtl.ads" 226 0 0#"model" "name:filename" "model_trace:10779" 
+ function filename #"s-crtl.ads" 226 0 0#"model" "name:filename" "model_trace:10792" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6611,7 +6611,7 @@ module System__crtl__open__filename
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function filename #"s-crtl.ads" 229 0 0#"model" "name:filename" "model_trace:10806" 
+ function filename #"s-crtl.ads" 229 0 0#"model" "name:filename" "model_trace:10819" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6630,7 +6630,7 @@ end
 module System__crtl__open__oflag
  use import "_gnatprove_standard".Main
 
- function oflag #"s-crtl.ads" 229 0 0#"model" "model_trace:10815" "name:oflag" 
+ function oflag #"s-crtl.ads" 229 0 0#"model" "model_trace:10828" "name:oflag" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6662,7 +6662,7 @@ end
 module System__crtl__close__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 232 0 0#"model" "name:fd" "model_trace:10842" 
+ function fd #"s-crtl.ads" 232 0 0#"model" "name:fd" "model_trace:10855" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6693,7 +6693,7 @@ end
 module System__crtl__read__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 235 0 0#"model" "name:fd" "model_trace:10869" 
+ function fd #"s-crtl.ads" 235 0 0#"model" "name:fd" "model_trace:10882" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6713,7 +6713,7 @@ module System__crtl__read__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"s-crtl.ads" 235 0 0#"model" "name:buffer" "model_trace:10878" 
+ function buffer #"s-crtl.ads" 235 0 0#"model" "name:buffer" "model_trace:10891" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6733,7 +6733,7 @@ module System__crtl__read__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function count #"s-crtl.ads" 235 0 0#"model" "model_trace:10887" "name:count" 
+ function count #"s-crtl.ads" 235 0 0#"model" "model_trace:10900" "name:count" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6765,7 +6765,7 @@ end
 module System__crtl__write__fd
  use import "_gnatprove_standard".Main
 
- function fd #"s-crtl.ads" 238 0 0#"model" "name:fd" "model_trace:10914" 
+ function fd #"s-crtl.ads" 238 0 0#"model" "name:fd" "model_trace:10927" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6785,7 +6785,7 @@ module System__crtl__write__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"s-crtl.ads" 238 0 0#"model" "name:buffer" "model_trace:10923" 
+ function buffer #"s-crtl.ads" 238 0 0#"model" "name:buffer" "model_trace:10936" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -6805,7 +6805,7 @@ module System__crtl__write__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function count #"s-crtl.ads" 238 0 0#"model" "name:count" "model_trace:10932" 
+ function count #"s-crtl.ads" 238 0 0#"model" "name:count" "model_trace:10945" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7725,7 +7725,7 @@ module Interfaces__shift_left__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 82 0 0#"model" "model_trace:6995" "name:Value" 
+ function value #"interfac.ads" 82 0 0#"model" "model_trace:7008" "name:Value" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7744,7 +7744,7 @@ end
 module Interfaces__shift_left__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 83 0 0#"model" "model_trace:7004" "name:Amount" 
+ function amount #"interfac.ads" 83 0 0#"model" "model_trace:7017" "name:Amount" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7764,7 +7764,7 @@ module Interfaces__shift_right__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 86 0 0#"model" "name:Value" "model_trace:7023" 
+ function value #"interfac.ads" 86 0 0#"model" "name:Value" "model_trace:7036" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7783,7 +7783,7 @@ end
 module Interfaces__shift_right__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 87 0 0#"model" "name:Amount" "model_trace:7032" 
+ function amount #"interfac.ads" 87 0 0#"model" "name:Amount" "model_trace:7045" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7803,7 +7803,7 @@ module Interfaces__shift_right_arithmetic__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 90 0 0#"model" "name:Value" "model_trace:7051" 
+ function value #"interfac.ads" 90 0 0#"model" "name:Value" "model_trace:7064" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7822,7 +7822,7 @@ end
 module Interfaces__shift_right_arithmetic__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 91 0 0#"model" "name:Amount" "model_trace:7060" 
+ function amount #"interfac.ads" 91 0 0#"model" "name:Amount" "model_trace:7073" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7842,7 +7842,7 @@ module Interfaces__rotate_left__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 94 0 0#"model" "name:Value" "model_trace:7079" 
+ function value #"interfac.ads" 94 0 0#"model" "name:Value" "model_trace:7092" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7861,7 +7861,7 @@ end
 module Interfaces__rotate_left__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 95 0 0#"model" "name:Amount" "model_trace:7088" 
+ function amount #"interfac.ads" 95 0 0#"model" "name:Amount" "model_trace:7101" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7881,7 +7881,7 @@ module Interfaces__rotate_right__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV8
 
- function value #"interfac.ads" 98 0 0#"model" "name:Value" "model_trace:7107" 
+ function value #"interfac.ads" 98 0 0#"model" "name:Value" "model_trace:7120" 
    : BV8.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7900,7 +7900,7 @@ end
 module Interfaces__rotate_right__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 99 0 0#"model" "name:Amount" "model_trace:7116" 
+ function amount #"interfac.ads" 99 0 0#"model" "name:Amount" "model_trace:7129" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7920,7 +7920,7 @@ module Interfaces__shift_left__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 102 0 0#"model" "name:Value" "model_trace:7135" 
+ function value #"interfac.ads" 102 0 0#"model" "name:Value" "model_trace:7148" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7939,7 +7939,7 @@ end
 module Interfaces__shift_left__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 103 0 0#"model" "name:Amount" "model_trace:7144" 
+ function amount #"interfac.ads" 103 0 0#"model" "name:Amount" "model_trace:7157" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7959,7 +7959,7 @@ module Interfaces__shift_right__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 106 0 0#"model" "name:Value" "model_trace:7163" 
+ function value #"interfac.ads" 106 0 0#"model" "name:Value" "model_trace:7176" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7978,7 +7978,7 @@ end
 module Interfaces__shift_right__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 107 0 0#"model" "name:Amount" "model_trace:7172" 
+ function amount #"interfac.ads" 107 0 0#"model" "name:Amount" "model_trace:7185" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -7998,7 +7998,7 @@ module Interfaces__shift_right_arithmetic__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 110 0 0#"model" "name:Value" "model_trace:7191" 
+ function value #"interfac.ads" 110 0 0#"model" "name:Value" "model_trace:7204" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8017,7 +8017,7 @@ end
 module Interfaces__shift_right_arithmetic__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 111 0 0#"model" "name:Amount" "model_trace:7200" 
+ function amount #"interfac.ads" 111 0 0#"model" "name:Amount" "model_trace:7213" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8037,7 +8037,7 @@ module Interfaces__rotate_left__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 114 0 0#"model" "name:Value" "model_trace:7219" 
+ function value #"interfac.ads" 114 0 0#"model" "name:Value" "model_trace:7232" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8056,7 +8056,7 @@ end
 module Interfaces__rotate_left__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 115 0 0#"model" "name:Amount" "model_trace:7228" 
+ function amount #"interfac.ads" 115 0 0#"model" "name:Amount" "model_trace:7241" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8076,7 +8076,7 @@ module Interfaces__rotate_right__2__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV16
 
- function value #"interfac.ads" 118 0 0#"model" "name:Value" "model_trace:7247" 
+ function value #"interfac.ads" 118 0 0#"model" "name:Value" "model_trace:7260" 
    : BV16.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8095,7 +8095,7 @@ end
 module Interfaces__rotate_right__2__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 119 0 0#"model" "name:Amount" "model_trace:7256" 
+ function amount #"interfac.ads" 119 0 0#"model" "name:Amount" "model_trace:7269" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8115,7 +8115,7 @@ module Interfaces__shift_left__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 122 0 0#"model" "name:Value" "model_trace:7275" 
+ function value #"interfac.ads" 122 0 0#"model" "name:Value" "model_trace:7288" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8134,7 +8134,7 @@ end
 module Interfaces__shift_left__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 123 0 0#"model" "name:Amount" "model_trace:7284" 
+ function amount #"interfac.ads" 123 0 0#"model" "name:Amount" "model_trace:7297" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8154,7 +8154,7 @@ module Interfaces__shift_right__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 126 0 0#"model" "name:Value" "model_trace:7303" 
+ function value #"interfac.ads" 126 0 0#"model" "name:Value" "model_trace:7316" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8173,7 +8173,7 @@ end
 module Interfaces__shift_right__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 127 0 0#"model" "name:Amount" "model_trace:7312" 
+ function amount #"interfac.ads" 127 0 0#"model" "name:Amount" "model_trace:7325" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8193,7 +8193,7 @@ module Interfaces__shift_right_arithmetic__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 130 0 0#"model" "name:Value" "model_trace:7331" 
+ function value #"interfac.ads" 130 0 0#"model" "name:Value" "model_trace:7344" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8212,7 +8212,7 @@ end
 module Interfaces__shift_right_arithmetic__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 131 0 0#"model" "name:Amount" "model_trace:7340" 
+ function amount #"interfac.ads" 131 0 0#"model" "name:Amount" "model_trace:7353" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8232,7 +8232,7 @@ module Interfaces__rotate_left__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 134 0 0#"model" "name:Value" "model_trace:7359" 
+ function value #"interfac.ads" 134 0 0#"model" "name:Value" "model_trace:7372" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8251,7 +8251,7 @@ end
 module Interfaces__rotate_left__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 135 0 0#"model" "name:Amount" "model_trace:7368" 
+ function amount #"interfac.ads" 135 0 0#"model" "name:Amount" "model_trace:7381" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8271,7 +8271,7 @@ module Interfaces__rotate_right__3__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV32
 
- function value #"interfac.ads" 138 0 0#"model" "name:Value" "model_trace:7387" 
+ function value #"interfac.ads" 138 0 0#"model" "name:Value" "model_trace:7400" 
    : BV32.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8290,7 +8290,7 @@ end
 module Interfaces__rotate_right__3__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 139 0 0#"model" "name:Amount" "model_trace:7396" 
+ function amount #"interfac.ads" 139 0 0#"model" "name:Amount" "model_trace:7409" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8310,7 +8310,7 @@ module Interfaces__shift_left__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 142 0 0#"model" "name:Value" "model_trace:7415" 
+ function value #"interfac.ads" 142 0 0#"model" "name:Value" "model_trace:7428" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8329,7 +8329,7 @@ end
 module Interfaces__shift_left__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 143 0 0#"model" "name:Amount" "model_trace:7424" 
+ function amount #"interfac.ads" 143 0 0#"model" "name:Amount" "model_trace:7437" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8349,7 +8349,7 @@ module Interfaces__shift_right__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 146 0 0#"model" "name:Value" "model_trace:7443" 
+ function value #"interfac.ads" 146 0 0#"model" "name:Value" "model_trace:7456" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8368,7 +8368,7 @@ end
 module Interfaces__shift_right__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 147 0 0#"model" "name:Amount" "model_trace:7452" 
+ function amount #"interfac.ads" 147 0 0#"model" "name:Amount" "model_trace:7465" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8388,7 +8388,7 @@ module Interfaces__shift_right_arithmetic__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 150 0 0#"model" "name:Value" "model_trace:7471" 
+ function value #"interfac.ads" 150 0 0#"model" "name:Value" "model_trace:7484" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8407,7 +8407,7 @@ end
 module Interfaces__shift_right_arithmetic__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 151 0 0#"model" "name:Amount" "model_trace:7480" 
+ function amount #"interfac.ads" 151 0 0#"model" "name:Amount" "model_trace:7493" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8427,7 +8427,7 @@ module Interfaces__rotate_left__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 154 0 0#"model" "name:Value" "model_trace:7499" 
+ function value #"interfac.ads" 154 0 0#"model" "name:Value" "model_trace:7512" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8446,7 +8446,7 @@ end
 module Interfaces__rotate_left__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 155 0 0#"model" "name:Amount" "model_trace:7508" 
+ function amount #"interfac.ads" 155 0 0#"model" "name:Amount" "model_trace:7521" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8466,7 +8466,7 @@ module Interfaces__rotate_right__4__value
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function value #"interfac.ads" 158 0 0#"model" "name:Value" "model_trace:7527" 
+ function value #"interfac.ads" 158 0 0#"model" "name:Value" "model_trace:7540" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -8485,7 +8485,7 @@ end
 module Interfaces__rotate_right__4__amount
  use import "_gnatprove_standard".Main
 
- function amount #"interfac.ads" 159 0 0#"model" "name:Amount" "model_trace:7536" 
+ function amount #"interfac.ads" 159 0 0#"model" "name:Amount" "model_trace:7549" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9293,7 +9293,7 @@ module Interfaces__c_streams__null_stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function null_stream #"i-cstrea.ads" 49 0 0#"model" "model_trace:7745" "name:NULL_Stream" 
+ function null_stream #"i-cstrea.ads" 49 0 0#"model" "model_trace:7758" "name:NULL_Stream" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9305,7 +9305,7 @@ end
 module Interfaces__c_streams__eof
  use import "_gnatprove_standard".Main
 
- function eof #"i-cstrea.ads" 56 0 0#"model" "model_trace:7754" "name:EOF" 
+ function eof #"i-cstrea.ads" 56 0 0#"model" "model_trace:7767" "name:EOF" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9317,7 +9317,7 @@ end
 module Interfaces__c_streams__iofbf
  use import "_gnatprove_standard".Main
 
- function iofbf #"i-cstrea.ads" 59 0 0#"model" "model_trace:7763" "name:IOFBF" 
+ function iofbf #"i-cstrea.ads" 59 0 0#"model" "model_trace:7776" "name:IOFBF" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9329,7 +9329,7 @@ end
 module Interfaces__c_streams__iolbf
  use import "_gnatprove_standard".Main
 
- function iolbf #"i-cstrea.ads" 60 0 0#"model" "model_trace:7772" "name:IOLBF" 
+ function iolbf #"i-cstrea.ads" 60 0 0#"model" "model_trace:7785" "name:IOLBF" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9341,7 +9341,7 @@ end
 module Interfaces__c_streams__ionbf
  use import "_gnatprove_standard".Main
 
- function ionbf #"i-cstrea.ads" 61 0 0#"model" "model_trace:7781" "name:IONBF" 
+ function ionbf #"i-cstrea.ads" 61 0 0#"model" "model_trace:7794" "name:IONBF" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9353,7 +9353,7 @@ end
 module Interfaces__c_streams__l_tmpnam
  use import "_gnatprove_standard".Main
 
- function l_tmpnam #"i-cstrea.ads" 64 0 0#"model" "model_trace:7790" "name:L_tmpnam" 
+ function l_tmpnam #"i-cstrea.ads" 64 0 0#"model" "model_trace:7803" "name:L_tmpnam" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9365,7 +9365,7 @@ end
 module Interfaces__c_streams__seek_cur
  use import "_gnatprove_standard".Main
 
- function seek_cur #"i-cstrea.ads" 67 0 0#"model" "model_trace:7799" "name:SEEK_CUR" 
+ function seek_cur #"i-cstrea.ads" 67 0 0#"model" "model_trace:7812" "name:SEEK_CUR" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9377,7 +9377,7 @@ end
 module Interfaces__c_streams__seek_end
  use import "_gnatprove_standard".Main
 
- function seek_end #"i-cstrea.ads" 68 0 0#"model" "model_trace:7808" "name:SEEK_END" 
+ function seek_end #"i-cstrea.ads" 68 0 0#"model" "model_trace:7821" "name:SEEK_END" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9389,7 +9389,7 @@ end
 module Interfaces__c_streams__seek_set
  use import "_gnatprove_standard".Main
 
- function seek_set #"i-cstrea.ads" 69 0 0#"model" "model_trace:7817" "name:SEEK_SET" 
+ function seek_set #"i-cstrea.ads" 69 0 0#"model" "model_trace:7830" "name:SEEK_SET" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9441,7 +9441,7 @@ module Interfaces__c_streams__feof__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 95 0 0#"model" "name:stream" "model_trace:7943" 
+ function stream #"i-cstrea.ads" 95 0 0#"model" "name:stream" "model_trace:7956" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9474,7 +9474,7 @@ module Interfaces__c_streams__ferror__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 97 0 0#"model" "name:stream" "model_trace:7962" 
+ function stream #"i-cstrea.ads" 97 0 0#"model" "name:stream" "model_trace:7975" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9507,7 +9507,7 @@ module Interfaces__c_streams__fileno__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 106 0 0#"model" "name:stream" "model_trace:8071" 
+ function stream #"i-cstrea.ads" 106 0 0#"model" "name:stream" "model_trace:8084" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9540,7 +9540,7 @@ module Interfaces__c_streams__fread__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"i-cstrea.ads" 129 0 0#"model" "name:buffer" "model_trace:8240" 
+ function buffer #"i-cstrea.ads" 129 0 0#"model" "name:buffer" "model_trace:8253" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9560,7 +9560,7 @@ module Interfaces__c_streams__fread__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"i-cstrea.ads" 130 0 0#"model" "name:size" "model_trace:8249" 
+ function size #"i-cstrea.ads" 130 0 0#"model" "name:size" "model_trace:8262" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9580,7 +9580,7 @@ module Interfaces__c_streams__fread__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function count #"i-cstrea.ads" 131 0 0#"model" "name:count" "model_trace:8258" 
+ function count #"i-cstrea.ads" 131 0 0#"model" "name:count" "model_trace:8271" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9600,7 +9600,7 @@ module Interfaces__c_streams__fread__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 132 0 0#"model" "name:stream" "model_trace:8267" 
+ function stream #"i-cstrea.ads" 132 0 0#"model" "name:stream" "model_trace:8280" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9633,7 +9633,7 @@ module Interfaces__c_streams__fread__2__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"i-cstrea.ads" 135 0 0#"model" "name:buffer" "model_trace:8286" 
+ function buffer #"i-cstrea.ads" 135 0 0#"model" "name:buffer" "model_trace:8299" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9653,7 +9653,7 @@ module Interfaces__c_streams__fread__2__index
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function index #"i-cstrea.ads" 136 0 0#"model" "model_trace:8295" "name:index" 
+ function index #"i-cstrea.ads" 136 0 0#"model" "model_trace:8308" "name:index" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9673,7 +9673,7 @@ module Interfaces__c_streams__fread__2__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"i-cstrea.ads" 137 0 0#"model" "name:size" "model_trace:8304" 
+ function size #"i-cstrea.ads" 137 0 0#"model" "name:size" "model_trace:8317" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9693,7 +9693,7 @@ module Interfaces__c_streams__fread__2__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function count #"i-cstrea.ads" 138 0 0#"model" "name:count" "model_trace:8313" 
+ function count #"i-cstrea.ads" 138 0 0#"model" "name:count" "model_trace:8326" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9713,7 +9713,7 @@ module Interfaces__c_streams__fread__2__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 139 0 0#"model" "name:stream" "model_trace:8322" 
+ function stream #"i-cstrea.ads" 139 0 0#"model" "name:stream" "model_trace:8335" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9746,7 +9746,7 @@ module Interfaces__c_streams__fwrite__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"i-cstrea.ads" 172 0 0#"model" "name:buffer" "model_trace:8533" 
+ function buffer #"i-cstrea.ads" 172 0 0#"model" "name:buffer" "model_trace:8546" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9766,7 +9766,7 @@ module Interfaces__c_streams__fwrite__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"i-cstrea.ads" 173 0 0#"model" "name:size" "model_trace:8542" 
+ function size #"i-cstrea.ads" 173 0 0#"model" "name:size" "model_trace:8555" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9786,7 +9786,7 @@ module Interfaces__c_streams__fwrite__count
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function count #"i-cstrea.ads" 174 0 0#"model" "name:count" "model_trace:8551" 
+ function count #"i-cstrea.ads" 174 0 0#"model" "name:count" "model_trace:8564" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9806,7 +9806,7 @@ module Interfaces__c_streams__fwrite__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 175 0 0#"model" "name:stream" "model_trace:8560" 
+ function stream #"i-cstrea.ads" 175 0 0#"model" "name:stream" "model_trace:8573" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9839,7 +9839,7 @@ module Interfaces__c_streams__setvbuf__stream
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function stream #"i-cstrea.ads" 185 0 0#"model" "name:stream" "model_trace:8649" 
+ function stream #"i-cstrea.ads" 185 0 0#"model" "name:stream" "model_trace:8662" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9859,7 +9859,7 @@ module Interfaces__c_streams__setvbuf__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"i-cstrea.ads" 186 0 0#"model" "name:buffer" "model_trace:8658" 
+ function buffer #"i-cstrea.ads" 186 0 0#"model" "name:buffer" "model_trace:8671" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9878,7 +9878,7 @@ end
 module Interfaces__c_streams__setvbuf__mode
  use import "_gnatprove_standard".Main
 
- function mode #"i-cstrea.ads" 187 0 0#"model" "name:mode" "model_trace:8667" 
+ function mode #"i-cstrea.ads" 187 0 0#"model" "name:mode" "model_trace:8680" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9898,7 +9898,7 @@ module Interfaces__c_streams__setvbuf__size
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function size #"i-cstrea.ads" 188 0 0#"model" "name:size" "model_trace:8676" 
+ function size #"i-cstrea.ads" 188 0 0#"model" "name:size" "model_trace:8689" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9931,7 +9931,7 @@ module Interfaces__c_streams__file_exists__name
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function name #"i-cstrea.ads" 212 0 0#"model" "model_trace:8790" "name:name" 
+ function name #"i-cstrea.ads" 212 0 0#"model" "model_trace:8803" "name:name" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9963,7 +9963,7 @@ end
 module Interfaces__c_streams__is_regular_file__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 215 0 0#"model" "name:handle" "model_trace:8809" 
+ function handle #"i-cstrea.ads" 215 0 0#"model" "name:handle" "model_trace:8822" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -9994,7 +9994,7 @@ end
 module Interfaces__c_streams__set_binary_mode__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 223 0 0#"model" "name:handle" "model_trace:8828" 
+ function handle #"i-cstrea.ads" 223 0 0#"model" "name:handle" "model_trace:8841" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10013,7 +10013,7 @@ end
 module Interfaces__c_streams__set_text_mode__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 224 0 0#"model" "name:handle" "model_trace:8846" 
+ function handle #"i-cstrea.ads" 224 0 0#"model" "name:handle" "model_trace:8859" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10203,7 +10203,7 @@ end
 module Interfaces__c_streams__set_mode__handle
  use import "_gnatprove_standard".Main
 
- function handle #"i-cstrea.ads" 254 0 0#"model" "name:handle" "model_trace:8960" 
+ function handle #"i-cstrea.ads" 254 0 0#"model" "name:handle" "model_trace:8973" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10222,7 +10222,7 @@ end
 module Interfaces__c_streams__set_mode__mode
  use import "_gnatprove_standard".Main
 
- function mode #"i-cstrea.ads" 254 0 0#"model" "model_trace:8969" "name:Mode" 
+ function mode #"i-cstrea.ads" 254 0 0#"model" "model_trace:8982" "name:Mode" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10242,7 +10242,7 @@ module Interfaces__c_streams__full_name__nam
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function nam #"i-cstrea.ads" 262 0 0#"model" "model_trace:8987" "name:nam" 
+ function nam #"i-cstrea.ads" 262 0 0#"model" "model_trace:9000" "name:nam" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10262,7 +10262,7 @@ module Interfaces__c_streams__full_name__buffer
  use import "_gnatprove_standard".Main
  use        "_gnatprove_standard".BV64
 
- function buffer #"i-cstrea.ads" 262 0 0#"model" "name:buffer" "model_trace:8996" 
+ function buffer #"i-cstrea.ads" 262 0 0#"model" "name:buffer" "model_trace:9009" 
    : BV64.t
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10281,7 +10281,7 @@ end
 module Interfaces__c_streams__max_path_len
  use import "_gnatprove_standard".Main
 
- function max_path_len #"i-cstrea.ads" 270 0 0#"model" "model_trace:9010" "name:max_path_len" 
+ function max_path_len #"i-cstrea.ads" 270 0 0#"model" "model_trace:9023" "name:max_path_len" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10590,7 +10590,7 @@ end
 module System__wch_con__wcem_hex
  use import "_gnatprove_standard".Main
 
- function wcem_hex #"s-wchcon.ads" 100 0 0#"model" "model_trace:11239" "name:WCEM_Hex" 
+ function wcem_hex #"s-wchcon.ads" 100 0 0#"model" "model_trace:11252" "name:WCEM_Hex" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10602,7 +10602,7 @@ end
 module System__wch_con__wcem_upper
  use import "_gnatprove_standard".Main
 
- function wcem_upper #"s-wchcon.ads" 108 0 0#"model" "model_trace:11249" "name:WCEM_Upper" 
+ function wcem_upper #"s-wchcon.ads" 108 0 0#"model" "model_trace:11262" "name:WCEM_Upper" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10614,7 +10614,7 @@ end
 module System__wch_con__wcem_shift_jis
  use import "_gnatprove_standard".Main
 
- function wcem_shift_jis #"s-wchcon.ads" 117 0 0#"model" "model_trace:11259" "name:WCEM_Shift_JIS" 
+ function wcem_shift_jis #"s-wchcon.ads" 117 0 0#"model" "model_trace:11272" "name:WCEM_Shift_JIS" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10626,7 +10626,7 @@ end
 module System__wch_con__wcem_euc
  use import "_gnatprove_standard".Main
 
- function wcem_euc #"s-wchcon.ads" 126 0 0#"model" "model_trace:11269" "name:WCEM_EUC" 
+ function wcem_euc #"s-wchcon.ads" 126 0 0#"model" "model_trace:11282" "name:WCEM_EUC" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10638,7 +10638,7 @@ end
 module System__wch_con__wcem_utf8
  use import "_gnatprove_standard".Main
 
- function wcem_utf8 #"s-wchcon.ads" 134 0 0#"model" "model_trace:11279" "name:WCEM_UTF8" 
+ function wcem_utf8 #"s-wchcon.ads" 134 0 0#"model" "model_trace:11292" "name:WCEM_UTF8" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10650,7 +10650,7 @@ end
 module System__wch_con__wcem_brackets
  use import "_gnatprove_standard".Main
 
- function wcem_brackets #"s-wchcon.ads" 156 0 0#"model" "model_trace:11289" "name:WCEM_Brackets" 
+ function wcem_brackets #"s-wchcon.ads" 156 0 0#"model" "model_trace:11302" "name:WCEM_Brackets" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -10840,7 +10840,7 @@ module System__wch_con__wc_encoding_letters
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__character
 
- function wc_encoding_letters #"s-wchcon.ads" 169 0 0#"model_projected" "model_trace:11299" "name:WC_Encoding_Letters" 
+ function wc_encoding_letters #"s-wchcon.ads" 169 0 0#"model_projected" "model_trace:11312" "name:WC_Encoding_Letters" 
    : Array__Int__Standard__character.map
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11250,7 +11250,7 @@ module System__wch_con__wc_longest_sequences
  use import "_gnatprove_standard".Main
  use        Array__Int__Standard__natural
 
- function wc_longest_sequences #"s-wchcon.ads" 193 0 0#"model_projected" "model_trace:11367" "name:WC_Longest_Sequences" 
+ function wc_longest_sequences #"s-wchcon.ads" 193 0 0#"model_projected" "model_trace:11380" "name:WC_Longest_Sequences" 
    : Array__Int__Standard__natural.map
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11262,7 +11262,7 @@ end
 module System__wch_con__get_wc_encoding_method__c
  use import "_gnatprove_standard".Main
 
- function c #"s-wchcon.ads" 203 0 0#"model" "name:C" "model_trace:11405" 
+ function c #"s-wchcon.ads" 203 0 0#"model" "name:C" "model_trace:11418" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11294,7 +11294,7 @@ module System__wch_con__get_wc_encoding_method__2__s
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function s #"s-wchcon.ads" 207 0 0#"model_projected" "name:S" "model_trace:11424" 
+ function s #"s-wchcon.ads" 207 0 0#"model_projected" "name:S" "model_trace:11437" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11326,7 +11326,7 @@ end
 module System__wch_con__is_start_of_encoding__c
  use import "_gnatprove_standard".Main
 
- function c #"s-wchcon.ads" 213 0 0#"model" "name:C" "model_trace:11443" 
+ function c #"s-wchcon.ads" 213 0 0#"model" "name:C" "model_trace:11456" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11345,7 +11345,7 @@ end
 module System__wch_con__is_start_of_encoding__em
  use import "_gnatprove_standard".Main
 
- function em #"s-wchcon.ads" 214 0 0#"model" "model_trace:11452" "name:EM" 
+ function em #"s-wchcon.ads" 214 0 0#"model" "model_trace:11465" "name:EM" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11704,7 +11704,7 @@ end
 module Ada__text_io__unbounded
  use import "_gnatprove_standard".Main
 
- function unbounded #"a-textio.ads" 70 0 0#"model" "model_trace:3007" "name:Unbounded" 
+ function unbounded #"a-textio.ads" 70 0 0#"model" "model_trace:3020" "name:Unbounded" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11899,7 +11899,7 @@ end
 module Ada__text_io__create__mode
  use import "_gnatprove_standard".Main
 
- function mode #"a-textio.ads" 88 0 0#"model" "name:Mode" "model_trace:3085" 
+ function mode #"a-textio.ads" 88 0 0#"model" "name:Mode" "model_trace:3098" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11919,7 +11919,7 @@ module Ada__text_io__create__name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function name #"a-textio.ads" 89 0 0#"model_projected" "model_trace:3095" "name:Name" 
+ function name #"a-textio.ads" 89 0 0#"model_projected" "model_trace:3108" "name:Name" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11939,7 +11939,7 @@ module Ada__text_io__create__form
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function form #"a-textio.ads" 90 0 0#"model_projected" "model_trace:3105" "name:Form" 
+ function form #"a-textio.ads" 90 0 0#"model_projected" "model_trace:3118" "name:Form" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11958,7 +11958,7 @@ end
 module Ada__text_io__open__mode
  use import "_gnatprove_standard".Main
 
- function mode #"a-textio.ads" 94 0 0#"model" "name:Mode" "model_trace:3133" 
+ function mode #"a-textio.ads" 94 0 0#"model" "name:Mode" "model_trace:3146" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11978,7 +11978,7 @@ module Ada__text_io__open__name
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function name #"a-textio.ads" 95 0 0#"model_projected" "name:Name" "model_trace:3142" 
+ function name #"a-textio.ads" 95 0 0#"model_projected" "name:Name" "model_trace:3155" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -11998,7 +11998,7 @@ module Ada__text_io__open__form
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function form #"a-textio.ads" 96 0 0#"model_projected" "name:Form" "model_trace:3151" 
+ function form #"a-textio.ads" 96 0 0#"model_projected" "name:Form" "model_trace:3164" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12017,7 +12017,7 @@ end
 module Ada__text_io__reset__mode
  use import "_gnatprove_standard".Main
 
- function mode #"a-textio.ads" 100 0 0#"model" "name:Mode" "model_trace:3215" 
+ function mode #"a-textio.ads" 100 0 0#"model" "name:Mode" "model_trace:3228" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12348,7 +12348,7 @@ end
 module Ada__text_io__set_line_length__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 149 0 0#"model" "model_trace:3547" "name:To" 
+ function to__ #"a-textio.ads" 149 0 0#"model" "model_trace:3560" "name:To" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12367,7 +12367,7 @@ end
 module Ada__text_io__set_line_length__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 150 0 0#"model" "name:To" "model_trace:3565" 
+ function to__ #"a-textio.ads" 150 0 0#"model" "name:To" "model_trace:3578" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12406,7 +12406,7 @@ end
 module Ada__text_io__set_page_length__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 152 0 0#"model" "name:To" "model_trace:3592" 
+ function to__ #"a-textio.ads" 152 0 0#"model" "name:To" "model_trace:3605" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12425,7 +12425,7 @@ end
 module Ada__text_io__set_page_length__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 153 0 0#"model" "name:To" "model_trace:3610" 
+ function to__ #"a-textio.ads" 153 0 0#"model" "name:To" "model_trace:3623" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12554,7 +12554,7 @@ end
 module Ada__text_io__new_line__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 165 0 0#"model" "model_trace:3695" "name:Spacing" 
+ function spacing #"a-textio.ads" 165 0 0#"model" "model_trace:3708" "name:Spacing" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12573,7 +12573,7 @@ end
 module Ada__text_io__new_line__2__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 166 0 0#"model" "name:Spacing" "model_trace:3714" 
+ function spacing #"a-textio.ads" 166 0 0#"model" "name:Spacing" "model_trace:3727" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12612,7 +12612,7 @@ end
 module Ada__text_io__skip_line__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 168 0 0#"model" "name:Spacing" "model_trace:3742" 
+ function spacing #"a-textio.ads" 168 0 0#"model" "name:Spacing" "model_trace:3755" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12631,7 +12631,7 @@ end
 module Ada__text_io__skip_line__2__spacing
  use import "_gnatprove_standard".Main
 
- function spacing #"a-textio.ads" 169 0 0#"model" "name:Spacing" "model_trace:3761" 
+ function spacing #"a-textio.ads" 169 0 0#"model" "name:Spacing" "model_trace:3774" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12845,7 +12845,7 @@ end
 module Ada__text_io__set_col__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 186 0 0#"model" "name:To" "model_trace:3930" 
+ function to__ #"a-textio.ads" 186 0 0#"model" "name:To" "model_trace:3943" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12864,7 +12864,7 @@ end
 module Ada__text_io__set_col__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 187 0 0#"model" "name:To" "model_trace:3948" 
+ function to__ #"a-textio.ads" 187 0 0#"model" "name:To" "model_trace:3961" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12903,7 +12903,7 @@ end
 module Ada__text_io__set_line__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 189 0 0#"model" "name:To" "model_trace:3975" 
+ function to__ #"a-textio.ads" 189 0 0#"model" "name:To" "model_trace:3988" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -12922,7 +12922,7 @@ end
 module Ada__text_io__set_line__2__to
  use import "_gnatprove_standard".Main
 
- function to__ #"a-textio.ads" 190 0 0#"model" "name:To" "model_trace:3993" 
+ function to__ #"a-textio.ads" 190 0 0#"model" "name:To" "model_trace:4006" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13116,7 +13116,7 @@ end
 module Ada__text_io__put__item
  use import "_gnatprove_standard".Main
 
- function item #"a-textio.ads" 207 0 0#"model" "name:Item" "model_trace:4152" 
+ function item #"a-textio.ads" 207 0 0#"model" "name:Item" "model_trace:4165" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13135,7 +13135,7 @@ end
 module Ada__text_io__put__2__item
  use import "_gnatprove_standard".Main
 
- function item #"a-textio.ads" 208 0 0#"model" "name:Item" "model_trace:4170" 
+ function item #"a-textio.ads" 208 0 0#"model" "name:Item" "model_trace:4183" 
    : int
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13255,7 +13255,7 @@ module Ada__text_io__put__3__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 241 0 0#"model_projected" "name:Item" "model_trace:4413" 
+ function item #"a-textio.ads" 241 0 0#"model_projected" "name:Item" "model_trace:4426" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13275,7 +13275,7 @@ module Ada__text_io__put__4__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 242 0 0#"model_projected" "name:Item" "model_trace:4431" 
+ function item #"a-textio.ads" 242 0 0#"model_projected" "name:Item" "model_trace:4444" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13382,7 +13382,7 @@ module Ada__text_io__put_line__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 261 0 0#"model_projected" "name:Item" "model_trace:4558" 
+ function item #"a-textio.ads" 261 0 0#"model_projected" "name:Item" "model_trace:4571" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13402,7 +13402,7 @@ module Ada__text_io__put_line__2__item
  use import "_gnatprove_standard".Main
  use        Standard__string
 
- function item #"a-textio.ads" 264 0 0#"model_projected" "name:Item" "model_trace:4576" 
+ function item #"a-textio.ads" 264 0 0#"model_projected" "name:Item" "model_trace:4589" 
    : Standard__string.string
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13422,7 +13422,7 @@ module Ada__text_io__write__2__item
  use import "_gnatprove_standard".Main
  use        Ada__streams__stream_element_array
 
- function item #"a-textio.ads" 439 0 0#"model_projected" "name:Item" "model_trace:5067" 
+ function item #"a-textio.ads" 439 0 0#"model_projected" "name:Item" "model_trace:5080" 
    : Ada__streams__stream_element_array.stream_element_array
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13448,89 +13448,12 @@ module Ada__text_io__eof_char
    (result : int) (__void_param : unit) 
 
 end
-
-(* Module for defining the constant "innerairlockstate" defined at submarine_controls.ads:58, created in Gnat2Why.Decls.Translate_Constant *)
-module Submarine_controls__canoperatesubmarine__innerairlockstate
- use import "_gnatprove_standard".Main
-
- function innerairlockstate #"submarine_controls.ads" 58 0 0#"model" "name:innerAirlockState" "model_trace:2821" 
-   : bool
- 
- function attr__ATTRIBUTE_ADDRESS 
-   : int
-
-end
-
-(* Module giving an empty axiom for the entity "innerairlockstate" defined at submarine_controls.ads:58, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
-module Submarine_controls__canoperatesubmarine__innerairlockstate___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module for defining the constant "outerairlockstate" defined at submarine_controls.ads:59, created in Gnat2Why.Decls.Translate_Constant *)
-module Submarine_controls__canoperatesubmarine__outerairlockstate
- use import "_gnatprove_standard".Main
-
- function outerairlockstate #"submarine_controls.ads" 59 0 0#"model" "name:outerAirlockState" "model_trace:2830" 
-   : bool
- 
- function attr__ATTRIBUTE_ADDRESS 
-   : int
-
-end
-
-(* Module giving an empty axiom for the entity "outerairlockstate" defined at submarine_controls.ads:59, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
-module Submarine_controls__canoperatesubmarine__outerairlockstate___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module for possibly declaring a logic function for "canoperatesubmarine" defined at submarine_controls.ads:58, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
-module Submarine_controls__canoperatesubmarine
- use import "_gnatprove_standard".Main
-
- function canoperatesubmarine 
-   (innerairlockstate : bool) (outerairlockstate : bool) : bool
- 
- predicate canoperatesubmarine__function_guard 
-   (result : bool) (innerairlockstate : bool) (outerairlockstate : bool) 
-
-end
-
-(* Module for axiomatizing type "T1b" defined at submarine_controls.adb:38, created in Gnat2Why.Types.Translate_Type *)
-module Submarine_controls__decreaseoxygen__T1b
- use import "_gnatprove_standard".Main
- use import "int".Int
- use        Standard__character
- use        Array__Int__Standard__character
-
- type component_type =
-  Standard__character.character
- 
- function first 
-   : int =
-  1
- 
- function last 
-   : int =
-  29
- 
- clone export "ada__model".Constr_Array with
- type map = Array__Int__Standard__character.map, 
- function array_bool_eq = Array__Int__Standard__character.bool_eq, 
- function first = first, 
- function last = last, 
- type index_rep_type = int
-
-end
 (* Module for defining a ref holding the value of variable "stream" defined at a-stream.ads:58, created in Gnat2Why.Decls.Translate_Variable *)
 module Ada__streams__read__stream
  use import "_gnatprove_standard".Main
  use        Ada__streams__root_stream_type
 
- val stream__split_fields #"a-stream.ads" 58 0 0#"model_projected" "model_trace:5375" "name:Stream"  : Ada__streams__root_stream_type.__split_fields__ref 
+ val stream__split_fields #"a-stream.ads" 58 0 0#"model_projected" "model_trace:5388" "name:Stream"  : Ada__streams__root_stream_type.__split_fields__ref 
  
  function stream__attr__tag #"a-stream.ads" 58 0 0#
    : int
@@ -13553,12 +13476,12 @@ module Ada__streams__read__item
  use        Ada__streams__Tstream_element_offsetB
  use        Array__Int__Ada__streams__stream_element
 
- val item #"a-stream.ads" 59 0 0#"model_projected" "model_trace:5384" "name:Item"  : Array__Int__Ada__streams__stream_element.map__ref 
+ val item #"a-stream.ads" 59 0 0#"model_projected" "model_trace:5397" "name:Item"  : Array__Int__Ada__streams__stream_element.map__ref 
  
- function item__first #"a-stream.ads" 59 0 0#"model_projected" "name:Item" "model_trace:5384'First" 
+ function item__first #"a-stream.ads" 59 0 0#"model_projected" "name:Item" "model_trace:5397'First" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
- function item__last #"a-stream.ads" 59 0 0#"model_projected" "name:Item" "model_trace:5384'Last" 
+ function item__last #"a-stream.ads" 59 0 0#"model_projected" "name:Item" "model_trace:5397'Last" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13577,7 +13500,7 @@ end
 module Ada__streams__read__last
  use import "_gnatprove_standard".Main
 
- val last #"a-stream.ads" 60 0 0#"model_projected" "model_trace:5393" "name:Last"  : int__ref 
+ val last #"a-stream.ads" 60 0 0#"model_projected" "model_trace:5406" "name:Last"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13596,7 +13519,7 @@ module Ada__streams__write__stream
  use import "_gnatprove_standard".Main
  use        Ada__streams__root_stream_type
 
- val stream__split_fields #"a-stream.ads" 64 0 0#"model_projected" "name:Stream" "model_trace:5411"  : Ada__streams__root_stream_type.__split_fields__ref 
+ val stream__split_fields #"a-stream.ads" 64 0 0#"model_projected" "name:Stream" "model_trace:5424"  : Ada__streams__root_stream_type.__split_fields__ref 
  
  function stream__attr__tag #"a-stream.ads" 64 0 0#
    : int
@@ -13619,12 +13542,12 @@ module Ada__streams__read_sea__v
  use        Ada__streams__Tstream_element_offsetB
  use        Array__Int__Ada__streams__stream_element
 
- val v #"a-stream.ads" 78 0 0#"model_projected" "model_trace:5460" "name:V"  : Array__Int__Ada__streams__stream_element.map__ref 
+ val v #"a-stream.ads" 78 0 0#"model_projected" "model_trace:5473" "name:V"  : Array__Int__Ada__streams__stream_element.map__ref 
  
- function v__first #"a-stream.ads" 78 0 0#"model_projected" "name:V" "model_trace:5460'First" 
+ function v__first #"a-stream.ads" 78 0 0#"model_projected" "name:V" "model_trace:5473'First" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
- function v__last #"a-stream.ads" 78 0 0#"model_projected" "name:V" "model_trace:5460'Last" 
+ function v__last #"a-stream.ads" 78 0 0#"model_projected" "name:V" "model_trace:5473'Last" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -13783,7 +13706,7 @@ end
 module Ada__text_io__get__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 205 0 0#"model_projected" "name:Item" "model_trace:4107"  : int__ref 
+ val item #"a-textio.ads" 205 0 0#"model_projected" "name:Item" "model_trace:4120"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13801,7 +13724,7 @@ end
 module Ada__text_io__get__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 206 0 0#"model_projected" "name:Item" "model_trace:4125"  : int__ref 
+ val item #"a-textio.ads" 206 0 0#"model_projected" "name:Item" "model_trace:4138"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13819,7 +13742,7 @@ end
 module Ada__text_io__look_ahead__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 212 0 0#"model_projected" "name:Item" "model_trace:4197"  : int__ref 
+ val item #"a-textio.ads" 212 0 0#"model_projected" "name:Item" "model_trace:4210"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13837,7 +13760,7 @@ end
 module Ada__text_io__look_ahead__end_of_line
  use import "_gnatprove_standard".Main
 
- val end_of_line #"a-textio.ads" 213 0 0#"model_projected" "model_trace:4206" "name:End_Of_Line"  : bool__ref 
+ val end_of_line #"a-textio.ads" 213 0 0#"model_projected" "model_trace:4219" "name:End_Of_Line"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13855,7 +13778,7 @@ end
 module Ada__text_io__look_ahead__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 216 0 0#"model_projected" "name:Item" "model_trace:4224"  : int__ref 
+ val item #"a-textio.ads" 216 0 0#"model_projected" "name:Item" "model_trace:4237"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13873,7 +13796,7 @@ end
 module Ada__text_io__look_ahead__2__end_of_line
  use import "_gnatprove_standard".Main
 
- val end_of_line #"a-textio.ads" 217 0 0#"model_projected" "name:End_Of_Line" "model_trace:4233"  : bool__ref 
+ val end_of_line #"a-textio.ads" 217 0 0#"model_projected" "name:End_Of_Line" "model_trace:4246"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13891,7 +13814,7 @@ end
 module Ada__text_io__get_immediate__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 221 0 0#"model_projected" "name:Item" "model_trace:4260"  : int__ref 
+ val item #"a-textio.ads" 221 0 0#"model_projected" "name:Item" "model_trace:4273"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13909,7 +13832,7 @@ end
 module Ada__text_io__get_immediate__2__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 224 0 0#"model_projected" "name:Item" "model_trace:4278"  : int__ref 
+ val item #"a-textio.ads" 224 0 0#"model_projected" "name:Item" "model_trace:4291"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13927,7 +13850,7 @@ end
 module Ada__text_io__get_immediate__3__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 228 0 0#"model_projected" "name:Item" "model_trace:4305"  : int__ref 
+ val item #"a-textio.ads" 228 0 0#"model_projected" "name:Item" "model_trace:4318"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13945,7 +13868,7 @@ end
 module Ada__text_io__get_immediate__3__available
  use import "_gnatprove_standard".Main
 
- val available #"a-textio.ads" 229 0 0#"model_projected" "model_trace:4314" "name:Available"  : bool__ref 
+ val available #"a-textio.ads" 229 0 0#"model_projected" "model_trace:4327" "name:Available"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13963,7 +13886,7 @@ end
 module Ada__text_io__get_immediate__4__item
  use import "_gnatprove_standard".Main
 
- val item #"a-textio.ads" 232 0 0#"model_projected" "name:Item" "model_trace:4332"  : int__ref 
+ val item #"a-textio.ads" 232 0 0#"model_projected" "name:Item" "model_trace:4345"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -13981,7 +13904,7 @@ end
 module Ada__text_io__get_immediate__4__available
  use import "_gnatprove_standard".Main
 
- val available #"a-textio.ads" 233 0 0#"model_projected" "name:Available" "model_trace:4341"  : bool__ref 
+ val available #"a-textio.ads" 233 0 0#"model_projected" "name:Available" "model_trace:4354"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14001,12 +13924,12 @@ module Ada__text_io__get__3__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 239 0 0#"model_projected" "name:Item" "model_trace:4368"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 239 0 0#"model_projected" "name:Item" "model_trace:4381"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 239 0 0#"model_projected" "name:Item" "model_trace:4368'First" 
+ function item__first #"a-textio.ads" 239 0 0#"model_projected" "name:Item" "model_trace:4381'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 239 0 0#"model_projected" "name:Item" "model_trace:4368'Last" 
+ function item__last #"a-textio.ads" 239 0 0#"model_projected" "name:Item" "model_trace:4381'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -14027,12 +13950,12 @@ module Ada__text_io__get__4__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 240 0 0#"model_projected" "name:Item" "model_trace:4386"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 240 0 0#"model_projected" "name:Item" "model_trace:4399"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 240 0 0#"model_projected" "name:Item" "model_trace:4386'First" 
+ function item__first #"a-textio.ads" 240 0 0#"model_projected" "name:Item" "model_trace:4399'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 240 0 0#"model_projected" "name:Item" "model_trace:4386'Last" 
+ function item__last #"a-textio.ads" 240 0 0#"model_projected" "name:Item" "model_trace:4399'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -14053,12 +13976,12 @@ module Ada__text_io__get_line__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 246 0 0#"model_projected" "name:Item" "model_trace:4458"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 246 0 0#"model_projected" "name:Item" "model_trace:4471"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 246 0 0#"model_projected" "name:Item" "model_trace:4458'First" 
+ function item__first #"a-textio.ads" 246 0 0#"model_projected" "name:Item" "model_trace:4471'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 246 0 0#"model_projected" "name:Item" "model_trace:4458'Last" 
+ function item__last #"a-textio.ads" 246 0 0#"model_projected" "name:Item" "model_trace:4471'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -14077,7 +14000,7 @@ end
 module Ada__text_io__get_line__last
  use import "_gnatprove_standard".Main
 
- val last #"a-textio.ads" 247 0 0#"model_projected" "name:Last" "model_trace:4467"  : int__ref 
+ val last #"a-textio.ads" 247 0 0#"model_projected" "name:Last" "model_trace:4480"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14097,12 +14020,12 @@ module Ada__text_io__get_line__2__item
  use        Standard__integer
  use        Array__Int__Standard__character
 
- val item #"a-textio.ads" 250 0 0#"model_projected" "name:Item" "model_trace:4485"  : Array__Int__Standard__character.map__ref 
+ val item #"a-textio.ads" 250 0 0#"model_projected" "name:Item" "model_trace:4498"  : Array__Int__Standard__character.map__ref 
  
- function item__first #"a-textio.ads" 250 0 0#"model_projected" "name:Item" "model_trace:4485'First" 
+ function item__first #"a-textio.ads" 250 0 0#"model_projected" "name:Item" "model_trace:4498'First" 
    : Standard__integer.integer
  
- function item__last #"a-textio.ads" 250 0 0#"model_projected" "name:Item" "model_trace:4485'Last" 
+ function item__last #"a-textio.ads" 250 0 0#"model_projected" "name:Item" "model_trace:4498'Last" 
    : Standard__integer.integer
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -14121,7 +14044,7 @@ end
 module Ada__text_io__get_line__2__last
  use import "_gnatprove_standard".Main
 
- val last #"a-textio.ads" 251 0 0#"model_projected" "name:Last" "model_trace:4494"  : int__ref 
+ val last #"a-textio.ads" 251 0 0#"model_projected" "name:Last" "model_trace:4507"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14139,7 +14062,7 @@ end
 module Ada__text_io__default_wcem
  use import "_gnatprove_standard".Main
 
- val default_wcem #"a-textio.ads" 362 0 0#"model_projected" "model_trace:4761" "name:Default_WCEM"  : int__ref 
+ val default_wcem #"a-textio.ads" 362 0 0#"model_projected" "model_trace:4774" "name:Default_WCEM"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14159,12 +14082,12 @@ module Ada__text_io__read__2__item
  use        Ada__streams__Tstream_element_offsetB
  use        Array__Int__Ada__streams__stream_element
 
- val item #"a-textio.ads" 433 0 0#"model_projected" "name:Item" "model_trace:5023"  : Array__Int__Ada__streams__stream_element.map__ref 
+ val item #"a-textio.ads" 433 0 0#"model_projected" "name:Item" "model_trace:5036"  : Array__Int__Ada__streams__stream_element.map__ref 
  
- function item__first #"a-textio.ads" 433 0 0#"model_projected" "name:Item" "model_trace:5023'First" 
+ function item__first #"a-textio.ads" 433 0 0#"model_projected" "name:Item" "model_trace:5036'First" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
- function item__last #"a-textio.ads" 433 0 0#"model_projected" "name:Item" "model_trace:5023'Last" 
+ function item__last #"a-textio.ads" 433 0 0#"model_projected" "name:Item" "model_trace:5036'Last" 
    : Ada__streams__Tstream_element_offsetB.tstream_element_offsetB
  
  function attr__ATTRIBUTE_ADDRESS 
@@ -14183,7 +14106,7 @@ end
 module Ada__text_io__read__2__last
  use import "_gnatprove_standard".Main
 
- val last #"a-textio.ads" 434 0 0#"model_projected" "name:Last" "model_trace:5036"  : int__ref 
+ val last #"a-textio.ads" 434 0 0#"model_projected" "name:Last" "model_trace:5049"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14201,7 +14124,7 @@ end
 module Submarine_controls__innerairlockstate
  use import "_gnatprove_standard".Main
 
- val innerairlockstate #"submarine_controls.ads" 3 0 0#"model_projected" "model_trace:2515" "name:innerAirlockState"  : bool__ref 
+ val innerairlockstate #"submarine_controls.ads" 3 0 0#"model_projected" "model_trace:2502" "name:innerAirlockState"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14219,7 +14142,7 @@ end
 module Submarine_controls__outerairlockstate
  use import "_gnatprove_standard".Main
 
- val outerairlockstate #"submarine_controls.ads" 4 0 0#"model_projected" "model_trace:2524" "name:outerAirlockState"  : bool__ref 
+ val outerairlockstate #"submarine_controls.ads" 4 0 0#"model_projected" "model_trace:2511" "name:outerAirlockState"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14237,7 +14160,7 @@ end
 module Submarine_controls__airlockdoorslocked
  use import "_gnatprove_standard".Main
 
- val airlockdoorslocked #"submarine_controls.ads" 5 0 0#"model_projected" "model_trace:2533" "name:airlockDoorsLocked"  : bool__ref 
+ val airlockdoorslocked #"submarine_controls.ads" 5 0 0#"model_projected" "model_trace:2520" "name:airlockDoorsLocked"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14255,7 +14178,7 @@ end
 module Submarine_controls__maximumoxygen
  use import "_gnatprove_standard".Main
 
- val maximumoxygen #"submarine_controls.ads" 6 0 0#"model_projected" "model_trace:2542" "name:maximumOxygen"  : int__ref 
+ val maximumoxygen #"submarine_controls.ads" 6 0 0#"model_projected" "model_trace:2529" "name:maximumOxygen"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14273,7 +14196,7 @@ end
 module Submarine_controls__oxygenlevel
  use import "_gnatprove_standard".Main
 
- val oxygenlevel #"submarine_controls.ads" 7 0 0#"model_projected" "model_trace:2552" "name:oxygenLevel"  : int__ref 
+ val oxygenlevel #"submarine_controls.ads" 7 0 0#"model_projected" "model_trace:2539" "name:oxygenLevel"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14291,7 +14214,7 @@ end
 module Submarine_controls__submarinesubmerged
  use import "_gnatprove_standard".Main
 
- val submarinesubmerged #"submarine_controls.ads" 8 0 0#"model_projected" "model_trace:2561" "name:submarineSubmerged"  : bool__ref 
+ val submarinesubmerged #"submarine_controls.ads" 8 0 0#"model_projected" "model_trace:2548" "name:submarineSubmerged"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -14300,6 +14223,42 @@ end
 
 (* Module giving an empty axiom for the entity "submarinesubmerged" defined at submarine_controls.ads:8, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Submarine_controls__submarinesubmerged___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "currentdepth" defined at submarine_controls.ads:9, created in Gnat2Why.Decls.Translate_Variable *)
+module Submarine_controls__currentdepth
+ use import "_gnatprove_standard".Main
+
+ val currentdepth #"submarine_controls.ads" 9 0 0#"model_projected" "model_trace:2557" "name:currentDepth"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "currentdepth" defined at submarine_controls.ads:9, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Submarine_controls__currentdepth___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "maximumdepth" defined at submarine_controls.ads:10, created in Gnat2Why.Decls.Translate_Variable *)
+module Submarine_controls__maximumdepth
+ use import "_gnatprove_standard".Main
+
+ val maximumdepth #"submarine_controls.ads" 10 0 0#"model_projected" "model_trace:2566" "name:maximumDepth"  : int__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "maximumdepth" defined at submarine_controls.ads:10, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Submarine_controls__maximumdepth___axiom
  use import "_gnatprove_standard".Main
 
 
@@ -15135,43 +15094,50 @@ module Ada__text_io__initialize_standard_files
 
 end
 
-(* Module for possibly declaring a logic function for "closeinnerairlock" defined at submarine_controls.ads:12, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "closeinnerairlock" defined at submarine_controls.ads:14, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__closeinnerairlock
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "openinnerairlock" defined at submarine_controls.ads:17, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "openinnerairlock" defined at submarine_controls.ads:19, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__openinnerairlock
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "closeouterairlock" defined at submarine_controls.ads:24, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "closeouterairlock" defined at submarine_controls.ads:26, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__closeouterairlock
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "openouterairlock" defined at submarine_controls.ads:29, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "openouterairlock" defined at submarine_controls.ads:31, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__openouterairlock
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "lockairlockdoors" defined at submarine_controls.ads:36, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "lockairlockdoors" defined at submarine_controls.ads:38, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__lockairlockdoors
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "decreaseoxygen" defined at submarine_controls.ads:49, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "decreaseoxygen" defined at submarine_controls.ads:51, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Submarine_controls__decreaseoxygen
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for possibly declaring a logic function for "divedeeper" defined at submarine_controls.ads:63, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+module Submarine_controls__divedeeper
  use import "_gnatprove_standard".Main
 
 
@@ -16274,31 +16240,6 @@ module Ada__text_io__type_set___axiom
  predicate default_initial_assumption "inline" 
    (temp___expr_571 : int) (temp___skip_top_level_572 : bool)  =
   true
-
-end
-
-(* Module giving axioms for type "T1b" defined at submarine_controls.adb:38, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Submarine_controls__decreaseoxygen__T1b___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module for defining a value for string literal  defined at submarine_controls.adb:38, created in Gnat2Why.Expr.Transform_String_Literal *)
-module Temp___String_Literal_597
- use import "_gnatprove_standard".Main
- use import "int".Int
- use        Standard__character
- use        Standard__character__rep
- use        Array__Int__Standard__character
- use        Array__Int__Standard__character
-
- function temp___String_Literal_597 
-   (__void_param : unit) : Array__Int__Standard__character.map
- 
- axiom temp___String_Literal_597__def_axiom :
-  (forall __void_param   : unit [(temp___String_Literal_597 __void_param)].
-   ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 1)) = 87) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 2)) = 65) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 3)) = 82) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 4)) = 78) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 5)) = 73) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 6)) = 78) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 7)) = 71) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 8)) = 33) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 9)) = 32) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 10)) = 79) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 11)) = 120) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 12)) = 121) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 13)) = 103) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 14)) = 101) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 15)) = 110) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 16)) = 32) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 17)) = 108) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 18)) = 101) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 19)) = 118) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 20)) = 101) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 21)) = 108) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 22)) = 32) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 23)) = 105) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 24)) = 115) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 25)) = 32) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 26)) = 108) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 27)) = 111) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 28)) = 119) ) /\ ((Standard__character__rep.to_rep (Array__Int__Standard__character.get (temp___String_Literal_597 __void_param) 29)) = 33) ))
 
 end
 (* Module for defining the value of constant "system_name" defined at system.ads:47, created in Gnat2Why.Decls.Translate_Constant_Value *)
@@ -19764,7 +19705,7 @@ module Ada__text_io__initialize_standard_files___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "closeinnerairlock" defined at submarine_controls.ads:12, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "closeinnerairlock" defined at submarine_controls.ads:14, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__closeinnerairlock___axiom
  use        Submarine_controls__innerairlockstate
  use        Submarine_controls__outerairlockstate
@@ -19781,7 +19722,7 @@ module Submarine_controls__closeinnerairlock___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "openinnerairlock" defined at submarine_controls.ads:17, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "openinnerairlock" defined at submarine_controls.ads:19, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__openinnerairlock___axiom
  use        Submarine_controls__innerairlockstate
  use        Submarine_controls__outerairlockstate
@@ -19800,7 +19741,7 @@ module Submarine_controls__openinnerairlock___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "closeouterairlock" defined at submarine_controls.ads:24, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "closeouterairlock" defined at submarine_controls.ads:26, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__closeouterairlock___axiom
  use        Submarine_controls__innerairlockstate
  use        Submarine_controls__outerairlockstate
@@ -19817,7 +19758,7 @@ module Submarine_controls__closeouterairlock___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "openouterairlock" defined at submarine_controls.ads:29, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "openouterairlock" defined at submarine_controls.ads:31, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__openouterairlock___axiom
  use        Submarine_controls__innerairlockstate
  use        Submarine_controls__outerairlockstate
@@ -19836,7 +19777,7 @@ module Submarine_controls__openouterairlock___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "lockairlockdoors" defined at submarine_controls.ads:36, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "lockairlockdoors" defined at submarine_controls.ads:38, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__lockairlockdoors___axiom
  use        Submarine_controls__innerairlockstate
  use        Submarine_controls__outerairlockstate
@@ -19855,11 +19796,11 @@ module Submarine_controls__lockairlockdoors___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "decreaseoxygen" defined at submarine_controls.ads:49, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "decreaseoxygen" defined at submarine_controls.ads:51, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Submarine_controls__decreaseoxygen___axiom
- use        Submarine_controls__oxygenlevel
  use        Submarine_controls__submarinesubmerged
  use        Submarine_controls__airlockdoorslocked
+ use        Submarine_controls__oxygenlevel
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        Standard__integer___axiom
@@ -19876,22 +19817,28 @@ module Submarine_controls__decreaseoxygen___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "canoperatesubmarine" defined at submarine_controls.ads:58, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
-module Submarine_controls__canoperatesubmarine___axiom
+(* Module for declaring a program function (and possibly an axiom) for "divedeeper" defined at submarine_controls.ads:63, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+module Submarine_controls__divedeeper___axiom
+ use        Submarine_controls__submarinesubmerged
+ use        Submarine_controls__currentdepth
+ use        Submarine_controls__maximumdepth
+ use        Submarine_controls__airlockdoorslocked
+ use        Submarine_controls__oxygenlevel
  use import "_gnatprove_standard".Main
- use        Submarine_controls__canoperatesubmarine
+ use import "int".Int
+ use        Standard__integer___axiom
+ use        Submarine_controls__airlockdoorslocked
+ use        Submarine_controls__oxygenlevel
+ use        Submarine_controls__submarinesubmerged
+ use        Submarine_controls__currentdepth
+ use        Submarine_controls__maximumdepth
 
- val canoperatesubmarine 
-   (innerairlockstate : bool) (outerairlockstate : bool) : bool
-  requires {  ( ( (innerairlockstate = True) <-> true ) /\ ( (outerairlockstate = True) <-> true ) ) }
-  ensures {  ( ( (result = (Submarine_controls__canoperatesubmarine.canoperatesubmarine innerairlockstate outerairlockstate)) /\ (Submarine_controls__canoperatesubmarine.canoperatesubmarine__function_guard result innerairlockstate outerairlockstate) ) /\ ( ( (result = True) <-> true ) \/ ( (result = True) <-> false ) ) ) }
- 
- axiom canoperatesubmarine__post_axiom :
-  (forall innerairlockstate   outerairlockstate   : bool [(Submarine_controls__canoperatesubmarine.canoperatesubmarine innerairlockstate outerairlockstate)].
-   ( ( ( (innerairlockstate = True) <-> true ) /\ ( (outerairlockstate = True) <-> true ) ) -> (let result = (Submarine_controls__canoperatesubmarine.canoperatesubmarine innerairlockstate outerairlockstate) in (
-    (if ((Submarine_controls__canoperatesubmarine.canoperatesubmarine__function_guard result innerairlockstate outerairlockstate)) then (
-     ( ( ( ( (result = True) <-> true ) \/ ( (result = True) <-> false ) ) /\ true ) /\ true )) else true)))
-    ))
+ val divedeeper 
+   (__void_param : unit) : unit
+  requires {  ( (Submarine_controls__currentdepth.currentdepth.int__content < Submarine_controls__maximumdepth.maximumdepth.int__content) /\ ( (Submarine_controls__maximumdepth.maximumdepth.int__content = 5000) /\ ( (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100) /\ ( ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( (Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content = True) <-> true ) ) ) ) ) }
+  ensures {  ( ( (Submarine_controls__maximumdepth.maximumdepth.int__content = 5000) /\ ( (Submarine_controls__currentdepth.currentdepth.int__content <= Submarine_controls__maximumdepth.maximumdepth.int__content) /\ (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 0) ) ) /\ ( (Standard__integer___axiom.dynamic_invariant Submarine_controls__currentdepth.currentdepth.int__content True True True True) /\ (Standard__integer___axiom.dynamic_invariant Submarine_controls__oxygenlevel.oxygenlevel.int__content True True True True) ) ) }
+  reads {Submarine_controls__airlockdoorslocked.airlockdoorslocked, Submarine_controls__oxygenlevel.oxygenlevel, Submarine_controls__submarinesubmerged.submarinesubmerged, Submarine_controls__currentdepth.currentdepth, Submarine_controls__maximumdepth.maximumdepth}
+  writes {Submarine_controls__oxygenlevel.oxygenlevel, Submarine_controls__currentdepth.currentdepth}
 
 end
 
@@ -19902,9 +19849,13 @@ module Submarine_controls__package_def
  use        Standard__integer___axiom
  use        Submarine_controls__maximumoxygen
  use        Submarine_controls__oxygenlevel
+ use        Submarine_controls__currentdepth
+ use        Submarine_controls__maximumdepth
  use        Standard__integer___axiom
  use        Submarine_controls__maximumoxygen___axiom
  use        Submarine_controls__oxygenlevel___axiom
+ use        Submarine_controls__currentdepth___axiom
+ use        Submarine_controls__maximumdepth___axiom
 
  let def #"submarine_controls.ads" 1 0 0#"GP_Subp:submarine_controls.ads:1" "W:diverges:N" 
    (__void_param : unit)
@@ -19923,46 +19874,60 @@ module Submarine_controls__package_def
   #"submarine_controls.ads" 7 0 0# assume { #"submarine_controls.ads" 7 0 0# (Standard__integer___axiom.default_initial_assumption Submarine_controls__oxygenlevel.oxygenlevel.int__content False) };
   #"submarine_controls.ads" 7 0 0# assume { #"submarine_controls.ads" 7 0 0# (Standard__integer___axiom.dynamic_invariant Submarine_controls__oxygenlevel.oxygenlevel.int__content False False True True) } ));
   (#"submarine_controls.ads" 8 0 0# ());
-  (#"submarine_controls.ads" 12 0 0# ());
-  (#"submarine_controls.ads" 15 0 0# ());
-  (#"submarine_controls.ads" 15 0 0# ());
+  (#"submarine_controls.ads" 9 0 0# ( #"submarine_controls.ads" 9 0 0# abstract ensures {true}(let _ = () in (
+   ()))
+   end ;
+  #"submarine_controls.ads" 9 0 0# assume { #"submarine_controls.ads" 9 0 0# (Standard__integer___axiom.default_initial_assumption Submarine_controls__currentdepth.currentdepth.int__content False) };
+  #"submarine_controls.ads" 9 0 0# assume { #"submarine_controls.ads" 9 0 0# (Standard__integer___axiom.dynamic_invariant Submarine_controls__currentdepth.currentdepth.int__content False False True True) } ));
+  (#"submarine_controls.ads" 10 0 0# ( #"submarine_controls.ads" 10 0 0# Submarine_controls__maximumdepth.maximumdepth.int__content <- ( 5000 );
+  #"submarine_controls.ads" 10 0 0# assume { #"submarine_controls.ads" 10 0 0# (Standard__integer___axiom.dynamic_invariant Submarine_controls__maximumdepth.maximumdepth.int__content True False True True) } ));
   (#"submarine_controls.ads" 14 0 0# ());
-  (#"submarine_controls.ads" 13 0 0# ());
   (#"submarine_controls.ads" 17 0 0# ());
-  (#"submarine_controls.ads" 22 0 0# ());
-  (#"submarine_controls.ads" 22 0 0# ());
-  (#"submarine_controls.ads" 20 0 0# ());
-  (#"submarine_controls.ads" 20 0 0# ());
-  (#"submarine_controls.ads" 20 0 0# ());
-  (#"submarine_controls.ads" 18 0 0# ());
+  (#"submarine_controls.ads" 17 0 0# ());
+  (#"submarine_controls.ads" 16 0 0# ());
+  (#"submarine_controls.ads" 15 0 0# ());
+  (#"submarine_controls.ads" 19 0 0# ());
   (#"submarine_controls.ads" 24 0 0# ());
-  (#"submarine_controls.ads" 27 0 0# ());
-  (#"submarine_controls.ads" 27 0 0# ());
+  (#"submarine_controls.ads" 24 0 0# ());
+  (#"submarine_controls.ads" 22 0 0# ());
+  (#"submarine_controls.ads" 22 0 0# ());
+  (#"submarine_controls.ads" 22 0 0# ());
+  (#"submarine_controls.ads" 20 0 0# ());
   (#"submarine_controls.ads" 26 0 0# ());
-  (#"submarine_controls.ads" 25 0 0# ());
   (#"submarine_controls.ads" 29 0 0# ());
-  (#"submarine_controls.ads" 34 0 0# ());
-  (#"submarine_controls.ads" 34 0 0# ());
-  (#"submarine_controls.ads" 32 0 0# ());
-  (#"submarine_controls.ads" 32 0 0# ());
-  (#"submarine_controls.ads" 32 0 0# ());
-  (#"submarine_controls.ads" 30 0 0# ());
+  (#"submarine_controls.ads" 29 0 0# ());
+  (#"submarine_controls.ads" 28 0 0# ());
+  (#"submarine_controls.ads" 27 0 0# ());
+  (#"submarine_controls.ads" 31 0 0# ());
   (#"submarine_controls.ads" 36 0 0# ());
-  (#"submarine_controls.ads" 40 0 0# ());
-  (#"submarine_controls.ads" 40 0 0# ());
-  (#"submarine_controls.ads" 40 0 0# ());
+  (#"submarine_controls.ads" 36 0 0# ());
+  (#"submarine_controls.ads" 34 0 0# ());
+  (#"submarine_controls.ads" 34 0 0# ());
+  (#"submarine_controls.ads" 34 0 0# ());
+  (#"submarine_controls.ads" 32 0 0# ());
+  (#"submarine_controls.ads" 38 0 0# ());
+  (#"submarine_controls.ads" 42 0 0# ());
+  (#"submarine_controls.ads" 42 0 0# ());
+  (#"submarine_controls.ads" 42 0 0# ());
+  (#"submarine_controls.ads" 41 0 0# ());
+  (#"submarine_controls.ads" 41 0 0# ());
   (#"submarine_controls.ads" 39 0 0# ());
-  (#"submarine_controls.ads" 39 0 0# ());
-  (#"submarine_controls.ads" 37 0 0# ());
-  (#"submarine_controls.ads" 49 0 0# ());
-  (#"submarine_controls.ads" 54 0 0# ());
   (#"submarine_controls.ads" 51 0 0# ());
-  (#"submarine_controls.ads" 51 0 0# ());
-  (#"submarine_controls.ads" 51 0 0# ());
-  (#"submarine_controls.ads" 50 0 0# ());
-  (#"submarine_controls.ads" 58 0 0# ());
-  (#"submarine_controls.ads" 62 0 0# ());
-  (#"submarine_controls.ads" 61 0 0# ());
+  (#"submarine_controls.ads" 56 0 0# ());
+  (#"submarine_controls.ads" 53 0 0# ());
+  (#"submarine_controls.ads" 53 0 0# ());
+  (#"submarine_controls.ads" 53 0 0# ());
+  (#"submarine_controls.ads" 52 0 0# ());
+  (#"submarine_controls.ads" 63 0 0# ());
+  (#"submarine_controls.ads" 71 0 0# ());
+  (#"submarine_controls.ads" 71 0 0# ());
+  (#"submarine_controls.ads" 71 0 0# ());
+  (#"submarine_controls.ads" 66 0 0# ());
+  (#"submarine_controls.ads" 66 0 0# ());
+  (#"submarine_controls.ads" 67 0 0# ());
+  (#"submarine_controls.ads" 68 0 0# ());
+  (#"submarine_controls.ads" 66 0 0# ());
+  (#"submarine_controls.ads" 64 0 0# ());
   (#"submarine_controls.adb" 2 0 0# ());
   (#"submarine_controls.adb" 5 0 0# ());
   (#"submarine_controls.adb" 11 0 0# ());
@@ -19971,10 +19936,10 @@ module Submarine_controls__package_def
   (#"submarine_controls.adb" 29 0 0# ());
   (#"submarine_controls.adb" 35 0 0# ());
   (#"submarine_controls.adb" 50 0 0# ());
-  ( "GP_Sloc:submarine_controls.adb:64:1" (#"submarine_controls.adb" 64 0 0# ()) ) )
+  ( "GP_Sloc:submarine_controls.adb:66:1" (#"submarine_controls.adb" 66 0 0# ()) ) )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "closeinnerairlock" defined at submarine_controls.ads:12, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "closeinnerairlock" defined at submarine_controls.ads:14, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__closeinnerairlock__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -19984,23 +19949,23 @@ module Submarine_controls__closeinnerairlock__subprogram_def
  use        Submarine_controls__innerairlockstate___axiom
  use        Submarine_controls__outerairlockstate___axiom
 
- let def #"submarine_controls.ads" 12 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:12" 
+ let def #"submarine_controls.ads" 14 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:14" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 12 0 0# true }
-  ensures { #"submarine_controls.ads" 12 0 0# (#"submarine_controls.ads" 15 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:submarine_controls.ads:15:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:0" "comment:     Post => innerAirlockState = True and then outerAirlockState = True;
-             ^ submarine_controls.ads:15:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( ( "GP_Pretty_Ada:13662" "GP_Sloc:submarine_controls.ads:15:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2603" "GP_Sloc:submarine_controls.ads:15:66" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) ) )) }
+  requires { #"submarine_controls.ads" 14 0 0# true }
+  ensures { #"submarine_controls.ads" 14 0 0# (#"submarine_controls.ads" 17 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:submarine_controls.ads:17:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:0" "comment:     Post => innerAirlockState = True and then outerAirlockState = True;
+             ^ submarine_controls.ads:17:14:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" ( ( "GP_Pretty_Ada:13675" "GP_Sloc:submarine_controls.ads:17:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2609" "GP_Sloc:submarine_controls.ads:17:66" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:12 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:14 *)
   ;
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:12 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:14 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:12 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:14 *)
   ;
    abstract ensures {true}(let _ = ((Boolean.to_int(Submarine_controls__outerairlockstate.outerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:12 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:14 *)
   ;
    assume {  ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) };
    try
@@ -20018,7 +19983,7 @@ module Submarine_controls__closeinnerairlock__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "openinnerairlock" defined at submarine_controls.ads:17, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "openinnerairlock" defined at submarine_controls.ads:19, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__openinnerairlock__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -20030,23 +19995,23 @@ module Submarine_controls__openinnerairlock__subprogram_def
  use        Submarine_controls__outerairlockstate___axiom
  use        Submarine_controls__airlockdoorslocked___axiom
 
- let def #"submarine_controls.ads" 17 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:17" 
+ let def #"submarine_controls.ads" 19 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:19" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 17 0 0# true }
-  ensures { #"submarine_controls.ads" 17 0 0# (#"submarine_controls.ads" 22 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:22:14" "GP_Id:1" "comment:     Post => innerAirlockState = False and then outerAirlockState = True;
-             ^ submarine_controls.ads:22:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:13776" "GP_Sloc:submarine_controls.ads:22:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> false ) ) /\ ( "GP_Pretty_Ada:2648" "GP_Sloc:submarine_controls.ads:22:67" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) ) )) }
+  requires { #"submarine_controls.ads" 19 0 0# true }
+  ensures { #"submarine_controls.ads" 19 0 0# (#"submarine_controls.ads" 24 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:24:14" "GP_Id:1" "comment:     Post => innerAirlockState = False and then outerAirlockState = True;
+             ^ submarine_controls.ads:24:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:13789" "GP_Sloc:submarine_controls.ads:24:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> false ) ) /\ ( "GP_Pretty_Ada:2654" "GP_Sloc:submarine_controls.ads:24:67" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:17 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:19 *)
   ;
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:17 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:19 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:17 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:19 *)
   ;
    abstract ensures {true}(let _ = ( ((Boolean.to_int(Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(0))))) && ( ((Boolean.to_int(Submarine_controls__outerairlockstate.outerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ((Boolean.to_int(Submarine_controls__innerairlockstate.innerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) ) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:17 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:19 *)
   ;
    assume {  ( ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> false ) /\ ( ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) /\ ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) ) };
    try
@@ -20065,7 +20030,7 @@ module Submarine_controls__openinnerairlock__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "closeouterairlock" defined at submarine_controls.ads:24, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "closeouterairlock" defined at submarine_controls.ads:26, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__closeouterairlock__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -20075,23 +20040,23 @@ module Submarine_controls__closeouterairlock__subprogram_def
  use        Submarine_controls__innerairlockstate___axiom
  use        Submarine_controls__outerairlockstate___axiom
 
- let def #"submarine_controls.ads" 24 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:24" 
+ let def #"submarine_controls.ads" 26 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:26" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 24 0 0# true }
-  ensures { #"submarine_controls.ads" 24 0 0# (#"submarine_controls.ads" 27 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:27:14" "GP_Id:2" "comment:     Post => outerAirlockState = True and then innerAirlockState = True;
-             ^ submarine_controls.ads:27:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:13862" "GP_Sloc:submarine_controls.ads:27:14" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2682" "GP_Sloc:submarine_controls.ads:27:66" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) ) )) }
+  requires { #"submarine_controls.ads" 26 0 0# true }
+  ensures { #"submarine_controls.ads" 26 0 0# (#"submarine_controls.ads" 29 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:29:14" "GP_Id:2" "comment:     Post => outerAirlockState = True and then innerAirlockState = True;
+             ^ submarine_controls.ads:29:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:13875" "GP_Sloc:submarine_controls.ads:29:14" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2688" "GP_Sloc:submarine_controls.ads:29:66" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:24 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:26 *)
   ;
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:24 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:26 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:24 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:26 *)
   ;
    abstract ensures {true}(let _ = ((Boolean.to_int(Submarine_controls__innerairlockstate.innerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:24 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:26 *)
   ;
    assume {  ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) };
    try
@@ -20109,7 +20074,7 @@ module Submarine_controls__closeouterairlock__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "openouterairlock" defined at submarine_controls.ads:29, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "openouterairlock" defined at submarine_controls.ads:31, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__openouterairlock__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -20121,23 +20086,23 @@ module Submarine_controls__openouterairlock__subprogram_def
  use        Submarine_controls__outerairlockstate___axiom
  use        Submarine_controls__airlockdoorslocked___axiom
 
- let def #"submarine_controls.ads" 29 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:29" 
+ let def #"submarine_controls.ads" 31 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:31" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 29 0 0# true }
-  ensures { #"submarine_controls.ads" 29 0 0# (#"submarine_controls.ads" 34 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:34:14" "GP_Id:3" "comment:     Post => innerAirlockState = True and then outerAirlockState = False;
-             ^ submarine_controls.ads:34:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:13976" "GP_Sloc:submarine_controls.ads:34:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2727" "GP_Sloc:submarine_controls.ads:34:66" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> false ) ) ) )) }
+  requires { #"submarine_controls.ads" 31 0 0# true }
+  ensures { #"submarine_controls.ads" 31 0 0# (#"submarine_controls.ads" 36 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:36:14" "GP_Id:3" "comment:     Post => innerAirlockState = True and then outerAirlockState = False;
+             ^ submarine_controls.ads:36:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:13989" "GP_Sloc:submarine_controls.ads:36:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2733" "GP_Sloc:submarine_controls.ads:36:66" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> false ) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:29 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:31 *)
   ;
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:29 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:31 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:29 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:31 *)
   ;
    abstract ensures {true}(let _ = ( ((Boolean.to_int(Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(0))))) && ( ((Boolean.to_int(Submarine_controls__outerairlockstate.outerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ((Boolean.to_int(Submarine_controls__innerairlockstate.innerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) ) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:29 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:31 *)
   ;
    assume {  ( ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> false ) /\ ( ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) /\ ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) ) };
    try
@@ -20156,7 +20121,7 @@ module Submarine_controls__openouterairlock__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "lockairlockdoors" defined at submarine_controls.ads:36, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "lockairlockdoors" defined at submarine_controls.ads:38, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__lockairlockdoors__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -20168,23 +20133,23 @@ module Submarine_controls__lockairlockdoors__subprogram_def
  use        Submarine_controls__outerairlockstate___axiom
  use        Submarine_controls__airlockdoorslocked___axiom
 
- let def #"submarine_controls.ads" 36 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:36" 
+ let def #"submarine_controls.ads" 38 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:38" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 36 0 0# true }
-  ensures { #"submarine_controls.ads" 36 0 0# (#"submarine_controls.ads" 40 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:40:14" "GP_Id:4" "comment:     Post => innerAirlockState = True and then outerAirlockState = True 
-             ^ submarine_controls.ads:40:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:14104" "GP_Sloc:submarine_controls.ads:40:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) /\ ( ( "GP_Pretty_Ada:2768" "GP_Sloc:submarine_controls.ads:40:66" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2772" "GP_Sloc:submarine_controls.ads:41:34" ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) ) ) )) }
+  requires { #"submarine_controls.ads" 38 0 0# true }
+  ensures { #"submarine_controls.ads" 38 0 0# (#"submarine_controls.ads" 42 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:42:14" "GP_Id:4" "comment:     Post => innerAirlockState = True and then outerAirlockState = True 
+             ^ submarine_controls.ads:42:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:14117" "GP_Sloc:submarine_controls.ads:42:14" ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) ) /\ ( ( "GP_Pretty_Ada:2774" "GP_Sloc:submarine_controls.ads:42:66" ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2778" "GP_Sloc:submarine_controls.ads:43:34" ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:36 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:38 *)
   ;
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:36 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:38 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:36 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:38 *)
   ;
    abstract ensures {true}(let _ = ( ((Boolean.to_int(Submarine_controls__innerairlockstate.innerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ((Boolean.to_int(Submarine_controls__outerairlockstate.outerairlockstate.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:36 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:38 *)
   ;
    assume {  ( ( (Submarine_controls__innerairlockstate.innerairlockstate.bool__content = True) <-> true ) /\ ( (Submarine_controls__outerairlockstate.outerairlockstate.bool__content = True) <-> true ) ) };
    try
@@ -20203,58 +20168,44 @@ module Submarine_controls__lockairlockdoors__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "decreaseoxygen" defined at submarine_controls.ads:49, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "decreaseoxygen" defined at submarine_controls.ads:51, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Submarine_controls__decreaseoxygen__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        "_gnatprove_standard".Boolean
- use        Standard__string
  use        Standard__integer
  use        Standard__integer___axiom
- use        Ada__text_io__put_line__2___axiom
  use        Submarine_controls__airlockdoorslocked
  use        Submarine_controls__oxygenlevel
  use        Submarine_controls__submarinesubmerged
- use        Temp___String_Literal_597
- use        Array__Int__Standard__character
- use        Array__Int__Standard__character
  use        Standard__integer___axiom
- use        Standard__positive___axiom
- use        Standard__character___axiom
- use        Standard__string___axiom
  use        Standard__integer___axiom
  use        Submarine_controls__airlockdoorslocked___axiom
  use        Submarine_controls__oxygenlevel___axiom
  use        Submarine_controls__submarinesubmerged___axiom
- use        Ada__text_io__put_line__2___axiom
 
- let def #"submarine_controls.ads" 49 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:49" 
+ let def #"submarine_controls.ads" 51 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:51" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 49 0 0# true }
-  ensures { #"submarine_controls.ads" 49 0 0# (#"submarine_controls.ads" 54 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:54:14" "GP_Id:6" "comment:     Post => oxygenLevel >= 0;
-             ^ submarine_controls.ads:54:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:14214" "GP_Sloc:submarine_controls.ads:54:14" (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 0) ) )) }
+  requires { #"submarine_controls.ads" 51 0 0# true }
+  ensures { #"submarine_controls.ads" 51 0 0# (#"submarine_controls.ads" 56 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:56:14" "GP_Id:6" "comment:     Post => oxygenLevel >= 0;
+             ^ submarine_controls.ads:56:14:VC_POSTCONDITION" ( "GP_Pretty_Ada:14227" "GP_Sloc:submarine_controls.ads:56:14" (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 0) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:49 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:51 *)
   ;
    assume {  (Standard__integer___axiom.dynamic_invariant Submarine_controls__oxygenlevel.oxygenlevel.int__content True False True True) };
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:49 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:51 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:49 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:51 *)
   ;
    abstract ensures {true}(let _ = ( (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100) && ( ((Boolean.to_int(Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ((Boolean.to_int(Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) ) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:49 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:51 *)
   ;
    assume {  ( (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100) /\ ( ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( (Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content = True) <-> true ) ) ) };
    try
-   ( ( "GP_Sloc:submarine_controls.adb:37:10" (#"submarine_controls.adb" 37 0 0# ()) );
-   ( "GP_Sloc:submarine_controls.adb:37:7" (#"submarine_controls.adb" 37 0 0# (if ((Submarine_controls__oxygenlevel.oxygenlevel.int__content <= 500)) then (
-    ( ( "GP_Sloc:submarine_controls.adb:38:10" (#"submarine_controls.adb" 38 0 0# ()) );
-    ( "GP_Sloc:submarine_controls.adb:38:10" (#"submarine_controls.adb" 38 0 0# ( (Ada__text_io__put_line__2___axiom.put_line__2((Standard__string.of_array((Temp___String_Literal_597.temp___String_Literal_597(()))) (1) (29)))) )) ) )) else (
-    ()))) );
-   ( "GP_Sloc:submarine_controls.adb:41:10" (#"submarine_controls.adb" 41 0 0# ()) );
+   ( ( "GP_Sloc:submarine_controls.adb:41:10" (#"submarine_controls.adb" 41 0 0# ()) );
    ( "GP_Sloc:submarine_controls.adb:41:33" (#"submarine_controls.adb" 41 0 0# ()) );
    ( "GP_Sloc:submarine_controls.adb:41:63" (#"submarine_controls.adb" 41 0 0# ()) );
    ( "GP_Sloc:submarine_controls.adb:41:7" (#"submarine_controls.adb" 41 0 0# (if ((Boolean.andb((Boolean.andb((Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100)) (((Boolean.to_int(Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) (((Boolean.to_int(Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
@@ -20272,50 +20223,71 @@ module Submarine_controls__decreaseoxygen__subprogram_def
    end  )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "canoperatesubmarine" defined at submarine_controls.ads:58, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
-module Submarine_controls__canoperatesubmarine__subprogram_def
+(* Module for checking contracts and absence of run-time errors in subprogram "divedeeper" defined at submarine_controls.ads:63, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+module Submarine_controls__divedeeper__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        "_gnatprove_standard".Boolean
- use        Submarine_controls__canoperatesubmarine__innerairlockstate
- use        Submarine_controls__canoperatesubmarine__outerairlockstate
- use        Submarine_controls__canoperatesubmarine__innerairlockstate___axiom
- use        Submarine_controls__canoperatesubmarine__outerairlockstate___axiom
+ use        Standard__integer
+ use        Standard__integer___axiom
+ use        Submarine_controls__decreaseoxygen___axiom
+ use        Submarine_controls__airlockdoorslocked
+ use        Submarine_controls__oxygenlevel
+ use        Submarine_controls__submarinesubmerged
+ use        Submarine_controls__currentdepth
+ use        Submarine_controls__maximumdepth
+ use        Standard__integer___axiom
+ use        Standard__integer___axiom
+ use        Submarine_controls__airlockdoorslocked___axiom
+ use        Submarine_controls__oxygenlevel___axiom
+ use        Submarine_controls__submarinesubmerged___axiom
+ use        Submarine_controls__currentdepth___axiom
+ use        Submarine_controls__maximumdepth___axiom
+ use        Submarine_controls__decreaseoxygen___axiom
 
- val submarine_controls__canoperatesubmarine__result "model_projected" "model_trace:2814@result" "name:canOperateSubmarine"  : bool__ref 
- 
- let def #"submarine_controls.ads" 58 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:58" 
+ let def #"submarine_controls.ads" 63 0 0#"W:diverges:N" "GP_Subp:submarine_controls.ads:63" 
    (__void_param : unit)
-  requires { #"submarine_controls.ads" 58 0 0# true }
-  ensures { #"submarine_controls.ads" 58 0 0# (#"submarine_controls.ads" 62 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Sloc:submarine_controls.ads:62:14" "GP_Id:7" "comment:     Post => canOperateSubmarine'Result = True or canOperateSubmarine'Result = False;
-             ^ submarine_controls.ads:62:14:VC_POSTCONDITION" "GP_Shape:pragargs__or" ( "GP_Pretty_Ada:14273" "GP_Sloc:submarine_controls.ads:62:14" ( ( (submarine_controls__canoperatesubmarine__result.bool__content = True) <-> true ) \/ ( (submarine_controls__canoperatesubmarine__result.bool__content = True) <-> false ) ) ) )) }
+  requires { #"submarine_controls.ads" 63 0 0# true }
+  ensures { #"submarine_controls.ads" 63 0 0# (#"submarine_controls.ads" 71 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__cmp" "GP_Sloc:submarine_controls.ads:71:14" "GP_Id:10" "comment:     Post => maximumDepth = 5000 and then 
+             ^ submarine_controls.ads:71:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:14429" "GP_Sloc:submarine_controls.ads:71:14" (Submarine_controls__maximumdepth.maximumdepth.int__content = 5000) ) /\ ( ( "GP_Pretty_Ada:2875" "GP_Sloc:submarine_controls.ads:72:27" (Submarine_controls__currentdepth.currentdepth.int__content <= Submarine_controls__maximumdepth.maximumdepth.int__content) ) /\ ( "GP_Pretty_Ada:2879" "GP_Sloc:submarine_controls.ads:73:26" (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 0) ) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:58 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram submarine_controls.ads:63 *)
   ;
+   assume {  (Standard__integer___axiom.dynamic_invariant Submarine_controls__oxygenlevel.oxygenlevel.int__content True False True True) };
+   assume {  (Standard__integer___axiom.dynamic_invariant Submarine_controls__currentdepth.currentdepth.int__content True False True True) };
+   assume {  (Standard__integer___axiom.dynamic_invariant Submarine_controls__maximumdepth.maximumdepth.int__content True False True True) };
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:58 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram submarine_controls.ads:63 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:58 *)
+  () (* Check for RTE in the Pre of the subprogram submarine_controls.ads:63 *)
   ;
-   abstract ensures {true}(let _ = (Boolean.andb(((Boolean.to_int(Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate)) = (Boolean.to_int((Boolean.of_int(1)))))) (((Boolean.to_int(Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate)) = (Boolean.to_int((Boolean.of_int(1))))))) in (
+   abstract ensures {true}(let _ = ( (Submarine_controls__currentdepth.currentdepth.int__content < Submarine_controls__maximumdepth.maximumdepth.int__content) && ( (Submarine_controls__maximumdepth.maximumdepth.int__content = 5000) && ( (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100) && ( ((Boolean.to_int(Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ((Boolean.to_int(Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) ) ) ) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram submarine_controls.ads:58 *)
+  () (* Assume Pre of the subprogram submarine_controls.ads:63 *)
   ;
-   assume {  ( ( (Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate = True) <-> true ) /\ ( (Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate = True) <-> true ) ) };
+   assume {  ( (Submarine_controls__currentdepth.currentdepth.int__content < Submarine_controls__maximumdepth.maximumdepth.int__content) /\ ( (Submarine_controls__maximumdepth.maximumdepth.int__content = 5000) /\ ( (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100) /\ ( ( (Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( (Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content = True) <-> true ) ) ) ) ) };
    try
-   ( ( "GP_Sloc:submarine_controls.adb:54:7" (#"submarine_controls.adb" 54 0 0# (if ((Boolean.andb(((Boolean.to_int(Submarine_controls__canoperatesubmarine__innerairlockstate.innerairlockstate)) = (Boolean.to_int((Boolean.of_int(1)))))) (((Boolean.to_int(Submarine_controls__canoperatesubmarine__outerairlockstate.outerairlockstate)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
-    ( "GP_Sloc:submarine_controls.adb:55:9" (#"submarine_controls.adb" 55 0 0# ( #"submarine_controls.adb" 55 0 0# submarine_controls__canoperatesubmarine__result.bool__content <- ( (Boolean.of_int(1)) );
-    #"submarine_controls.adb" 55 0 0# raise Return__exc )) )) else (
+   ( ( "GP_Sloc:submarine_controls.adb:52:10" (#"submarine_controls.adb" 52 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:52:26" (#"submarine_controls.adb" 52 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:52:49" (#"submarine_controls.adb" 52 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:52:72" (#"submarine_controls.adb" 52 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:52:102" (#"submarine_controls.adb" 52 0 0# ()) );
+   ( "GP_Sloc:submarine_controls.adb:52:7" (#"submarine_controls.adb" 52 0 0# (if ((Boolean.andb((Boolean.andb((Boolean.andb((Submarine_controls__currentdepth.currentdepth.int__content <= (#"submarine_controls.adb" 52 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:submarine_controls.adb:52:39" "GP_Id:9" "comment:      if currentDepth <= maximumDepth - 100 and oxygenLevel >= 100 and airlockDoorsLocked = True and submarineSubmerged = True then
+                                      ^ submarine_controls.adb:52:39:VC_OVERFLOW_CHECK" "GP_Shape:if__and__and__and__cmp__sub" (Standard__integer.range_check_((Submarine_controls__maximumdepth.maximumdepth.int__content - 100))) )))) ((Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 100)))) (((Boolean.to_int(Submarine_controls__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) (((Boolean.to_int(Submarine_controls__submarinesubmerged.submarinesubmerged.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
+    ( ( "GP_Sloc:submarine_controls.adb:53:10" (#"submarine_controls.adb" 53 0 0# ()) );
+    ( "GP_Sloc:submarine_controls.adb:53:26" (#"submarine_controls.adb" 53 0 0# ()) );
+    ( "GP_Sloc:submarine_controls.adb:53:23" (#"submarine_controls.adb" 53 0 0# #"submarine_controls.adb" 53 0 0# Submarine_controls__currentdepth.currentdepth.int__content <- ( (#"submarine_controls.adb" 53 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_OVERFLOW_CHECK" "GP_Sloc:submarine_controls.adb:53:39" "GP_Id:7" "comment:         currentDepth := currentDepth + 100;
+                                      ^ submarine_controls.adb:53:39:VC_OVERFLOW_CHECK" "GP_Shape:if__currentdepth_assign__add" (Standard__integer.range_check_((Submarine_controls__currentdepth.currentdepth.int__content + 100))) )) )) );
+    ( "GP_Sloc:submarine_controls.adb:54:10" (#"submarine_controls.adb" 54 0 0# ()) );
+    ( "GP_Sloc:submarine_controls.adb:54:10" (#"submarine_controls.adb" 54 0 0# ( (#"submarine_controls.adb" 54 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:submarine_controls.adb:54:10" "GP_Reason:VC_PRECONDITION" "GP_Id:8" "comment:         decreaseOxygen;
+         ^ submarine_controls.adb:54:10:VC_PRECONDITION" "GP_Shape:if__call_decreaseoxygen" (Submarine_controls__decreaseoxygen___axiom.decreaseoxygen(())) )) )) ) )) else (
     ()))) );
-   ( "GP_Sloc:submarine_controls.adb:57:7" (#"submarine_controls.adb" 57 0 0# ( #"submarine_controls.adb" 57 0 0# submarine_controls__canoperatesubmarine__result.bool__content <- ( (Boolean.of_int(0)) );
-   #"submarine_controls.adb" 57 0 0# raise Return__exc )) );
     raise Return__exc )
   with
    Return__exc -> ()
   end;
-   abstract ensures {true}(let _ = (Boolean.orb(((Boolean.to_int(submarine_controls__canoperatesubmarine__result.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) (((Boolean.to_int(submarine_controls__canoperatesubmarine__result.bool__content)) = (Boolean.to_int((Boolean.of_int(0))))))) in (
+   abstract ensures {true}(let _ = ( (Submarine_controls__maximumdepth.maximumdepth.int__content = 5000) && ( (Submarine_controls__currentdepth.currentdepth.int__content <= Submarine_controls__maximumdepth.maximumdepth.int__content) && (Submarine_controls__oxygenlevel.oxygenlevel.int__content >= 0) ) ) in (
    ()))
-   end ;
-  submarine_controls__canoperatesubmarine__result.bool__content )
+   end  )
 end
