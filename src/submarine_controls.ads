@@ -3,11 +3,15 @@ package Submarine_Controls with SPARK_Mode is
    innerAirlockState : Boolean; --True closed, False open
    outerAirlockState : Boolean; --True closed, False open
    airlockDoorsLocked : Boolean; --True no doors can be opened
-   maximumOxygen : Integer := 10000; --maximum possible level of oxygen
-   oxygenLevel : Integer; --current oxygen level, each operation consumes oxygen
+--maximum possible level of oxygen, 0 is depleted
+   maximumOxygen : constant Integer := 10000; 
+--current oxygen level, each operation consumes oxygen
+   oxygenLevel : Integer; 
    submarineSubmerged : Boolean; --submarine status
    currentDepth : Integer; 
-   maximumDepth : Integer := 5000; --maximum possible depth
+   --maximum possible depth, 0 is on surface
+   maximumDepth : constant Integer := 5000; 
+   reactorOverheatThreshold : constant Integer := 12000;
    
    --at least one airlock door closed at all times
    --procedures below ensure that at least one airlock door is closed at all times
@@ -57,20 +61,26 @@ package Submarine_Controls with SPARK_Mode is
    
 --     procedure displayOxygenWarning;
    
+   procedure checkOxygenAndReactorStatus with 
+     Global => (In_Out => (oxygenLevel, currentDepth)),
+     Pre =>  oxygenLevel >= 0,
+     Post =>  oxygenLevel >= 0;
+    
+   
    --submerge submarine
    --cannot be done if there is no oxygen left
    --diving or surfacing reduces oxygen
    procedure diveDeeper with
-     Global =>(Input =>(airlockDoorsLocked, submarineSubmerged, maximumDepth), 
+     Global =>(Input =>(airlockDoorsLocked, submarineSubmerged), 
                In_Out => (oxygenLevel, currentDepth )),
      Pre => currentDepth < maximumDepth and then
-            maximumDepth = 5000 and then
             oxygenLevel >= 100 and then 
             airlockDoorsLocked = True and then
             submarineSubmerged = True,
-     Post => maximumDepth = 5000 and then 
-             currentDepth <= maximumDepth and then 
-             oxygenLevel >= 0;
+     Post => 
+       currentDepth <= maximumDepth and then 
+       currentDepth >= 0 and then
+       oxygenLevel >= 0;
 
    
 end Submarine_Controls;
