@@ -47,23 +47,22 @@ package body Submarine_Controls with SPARK_Mode is
       
       if oxygenLevel >= 100 and airlockDoorsLocked = True then
          oxygenLevel := oxygenLevel - 100;             
-      end if;      
-   end decreaseOxygen;
-   
-   --==== Description ===--
-   --if oxygen runs low warning must be shown
-   procedure displayOxygenWarning is begin
-      if oxygenLevel <=  500 
+      end if;    
+      
+      --if oxygen runs low warning must be shown
+      if oxygenLevel <=  500 then 
+         pragma Warnings (Off, "Put_Line");
         Put_Line("WARNING! Oxygen level is low!");
       end if;
-   end displayOxygenWarning;
+   end decreaseOxygen;
+
    
    --==== Description ===--
    --if decreasing oxygen lead to the point when it's 0 submarine has to resurface
    --therefore depth goes back to initial level
    procedure checkOxygenStatus is begin      
       --if oxygenLevel = 0 and currentDepth <= maximumDepth and currentDepth >= 0 then
-      if oxygenLevel = 0 then
+      if oxygenLevel = 0 and airlockDoorsLocked = True then
          --if oxygen runs out submarine has to resurface
             currentDepth := 0; --submarine resurfaced
             oxygenLevel := maximumOxygen; --oxygen is refilled
@@ -91,6 +90,7 @@ package body Submarine_Controls with SPARK_Mode is
    --==== Description ===--
    --increasing depth by 100 point at each operation, 0 is on surface, 5000 is maximum
    --altering depth consumes oxygen
+   --submarine can go deeper only if current depth is at least 100 points less than maximum
    --if submarine reaches maximum depth it cannot go lower
    --therefore current depth must be always at least 100 point less than the maximum
    procedure increaseDepth is begin
@@ -101,6 +101,15 @@ package body Submarine_Controls with SPARK_Mode is
       end if;
       --checking oxygen and reactor status after each operation       
    end increaseDepth;
+   
+    procedure decreaseDepth is begin
+      
+      if currentDepth <= maximumDepth - 100 and oxygenLevel >= 100 and airlockDoorsLocked = True then
+         currentDepth := currentDepth - 100;
+         --decreaseOxygen; --calling decrease oxygen
+      end if;
+      --checking oxygen and reactor status after each operation       
+   end decreaseDepth;
    
    
 

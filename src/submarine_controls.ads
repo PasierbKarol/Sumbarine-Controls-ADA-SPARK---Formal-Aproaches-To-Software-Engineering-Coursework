@@ -58,10 +58,9 @@ package Submarine_Controls with SPARK_Mode is
             airlockDoorsLocked = True,
      Post => oxygenLevel >= 0;
    
-   procedure displayOxygenWarning;
-   
+ 
    procedure checkOxygenStatus with 
-     Global => (In_Out => (oxygenLevel, currentDepth)),
+     Global => (Input => airlockDoorsLocked, In_Out => (oxygenLevel, currentDepth)),
      Pre =>  oxygenLevel >= 0,
      Post =>  oxygenLevel >= 0;
     
@@ -73,8 +72,20 @@ package Submarine_Controls with SPARK_Mode is
    --cannot be done if there is no oxygen left
    --diving or surfacing reduces oxygen
    procedure increaseDepth with
-     Global =>(Input =>airlockDoorsLocked, 
-               In_Out => (oxygenLevel, currentDepth )),
+     Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
+               In_Out => ( currentDepth )),
+     Pre => currentDepth < maximumDepth and then
+            oxygenLevel >= 100 and then 
+            airlockDoorsLocked = True,
+     Post => 
+       airlockDoorsLocked = True and then
+       currentDepth <= maximumDepth and then 
+       currentDepth >= 0 and then
+       oxygenLevel >= 0;
+   
+   procedure decreaseDepth with
+     Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
+               In_Out => ( currentDepth )),
      Pre => currentDepth < maximumDepth and then
             oxygenLevel >= 100 and then 
             airlockDoorsLocked = True,
