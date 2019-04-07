@@ -105,7 +105,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 100
+          "line": 101
         }
       ],
       "spark": "all"
@@ -115,7 +115,17 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 112
+          "line": 115
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Submarine_Controls.loadTorpedo",
+      "sloc": [
+        {
+          "file": "submarine_controls.ads",
+          "line": 121
         }
       ],
       "spark": "all"
@@ -126,75 +136,15 @@
   "assumptions": [
     {
       "assumptions": [
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Ada.Text_IO.Put_Line",
-            "sloc": [
-              {
-                "file": "a-textio.ads",
-                "line": 263
-              }
-            ]
-          }
-        }
       ],
       "claim": {
         "predicate": "CLAIM_EFFECTS",
         "arg": {
-          "name": "Submarine_Controls.decreaseOxygen",
+          "name": "Submarine_Controls.loadTorpedo",
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 69
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.checkReactorStatus",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 81
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.openOuterAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 49
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.openInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 37
+              "line": 121
             }
           ]
         }
@@ -290,7 +240,7 @@
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 100
+              "line": 101
             }
           ]
         }
@@ -306,7 +256,83 @@
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 112
+              "line": 115
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.decreaseOxygen",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 69
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.checkReactorStatus",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 81
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.openOuterAirlock",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 49
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.openInnerAirlock",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 37
             }
           ]
         }
@@ -314,9 +340,9 @@
     }
   ],
   "timings": {
-    "marking": 1.25208799727261E-03,
-    "globals (basic)": 7.93823413550854E-03,
-    "globals/properties (advanced)": 1.44267659634352E-02,
-    "flow analysis": 1.06746722012758E-02
+    "marking": 1.30085099954158E-03,
+    "globals (basic)": 7.57701089605689E-03,
+    "globals/properties (advanced)": 1.50263449177146E-02,
+    "flow analysis": 1.24050742015243E-02
   }
 }

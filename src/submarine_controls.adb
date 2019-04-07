@@ -119,6 +119,14 @@ package body Submarine_Controls with SPARK_Mode is
       end if;
    end storeTorpedo;   
    
+   procedure loadTorpedo is begin
+      if loadedTorpedoes < maximumLoadedTorpedoes 
+        and storedTorpedoes >= 1 
+        and airlockDoorsLocked = True then
+         loadedTorpedoes := loadedTorpedoes +1;
+         storedTorpedoes := storedTorpedoes - 1;
+      end if;
+   end loadTorpedo;
 
 
 

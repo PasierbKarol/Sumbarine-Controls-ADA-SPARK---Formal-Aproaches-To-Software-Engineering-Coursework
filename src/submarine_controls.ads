@@ -97,6 +97,7 @@ package Submarine_Controls with SPARK_Mode is
        currentDepth >= 0 and then
        oxygenLevel >= 0;
    
+   --the same purpose as above, just opposite
    procedure decreaseDepth with
      Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
                In_Out => ( currentDepth )),
@@ -109,10 +110,26 @@ package Submarine_Controls with SPARK_Mode is
        currentDepth >= 0 and then
        oxygenLevel >= 0;
 
+   --to store a torpedo there has to be a place for it
+   --after the fact a maximum number can be reached or not, allowing to add more
    procedure storeTorpedo with
      Global => (In_Out => storedTorpedoes ),
      Pre => storedTorpedoes < maximumTorpedoes,
-     Post => storedTorpedoes <= maximumTorpedoes;
+     Post => storedTorpedoes <= maximumTorpedoes and then
+             storedTorpedoes = storedTorpedoes'Old + 1;
+   
+   procedure loadTorpedo with
+     Global => (In_Out => (storedTorpedoes, loadedTorpedoes), Input => airlockDoorsLocked),
+     Pre => storedTorpedoes >= 1 and then
+     loadedTorpedoes < maximumLoadedTorpedoes and then
+     airlockDoorsLocked = True,
+     Post => storedTorpedoes >= 0 and then 
+             loadedTorpedoes <= maximumLoadedTorpedoes and then
+     loadedTorpedoes = loadedTorpedoes'Old + 1 and then 
+     storedTorpedoes = storedTorpedoes'Old - 1 and then
+     airlockDoorsLocked = True;
+   
+   
    
    
    
