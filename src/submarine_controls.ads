@@ -10,7 +10,8 @@ package Submarine_Controls with SPARK_Mode is
    currentDepth : Integer; 
    --maximum possible depth, 0 is on surface
    maximumDepth : constant Integer := 5000; 
-   reactorOverheatThreshold : constant Integer := 12000;
+   --reactorOverheatThreshold : constant Integer := 12000;
+   isReactorOverheated : Boolean := False;
    
    --at least one airlock door closed at all times
    --procedures below ensure that at least one airlock door is closed at all times
@@ -57,13 +58,15 @@ package Submarine_Controls with SPARK_Mode is
             airlockDoorsLocked = True,
      Post => oxygenLevel >= 0;
    
---     procedure displayOxygenWarning;
+   procedure displayOxygenWarning;
    
-   procedure checkOxygenAndReactorStatus with 
+   procedure checkOxygenStatus with 
      Global => (In_Out => (oxygenLevel, currentDepth)),
      Pre =>  oxygenLevel >= 0,
      Post =>  oxygenLevel >= 0;
     
+   procedure checkReactorStatus;
+   
 --     procedure diveDeeper;
    
    --submerge submarine

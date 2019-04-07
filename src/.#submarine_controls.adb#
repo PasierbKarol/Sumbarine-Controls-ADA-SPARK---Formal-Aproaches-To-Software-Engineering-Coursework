@@ -91,6 +91,7 @@ package body Submarine_Controls with SPARK_Mode is
    --==== Description ===--
    --increasing depth by 100 point at each operation, 0 is on surface, 5000 is maximum
    --altering depth consumes oxygen
+   --submarine can go deeper only if current depth is at least 100 points less than maximum
    --if submarine reaches maximum depth it cannot go lower
    --therefore current depth must be always at least 100 point less than the maximum
    procedure increaseDepth is begin
