@@ -19,15 +19,16 @@ Total                             .         .          .          .         .   
 Analyzed 2 units
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:1 skipped
-in unit submarine_controls, 11 subprograms and packages out of 11 analyzed
+in unit submarine_controls, 12 subprograms and packages out of 12 analyzed
   Submarine_Controls at submarine_controls.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.checkOxygenStatus at submarine_controls.ads:62 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.checkReactorStatus at submarine_controls.ads:67 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:18 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:30 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.decreaseDepth at submarine_controls.ads:86 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.decreaseOxygen at submarine_controls.ads:55 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.increaseDepth at submarine_controls.ads:74 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:42 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.openInnerAirlock at submarine_controls.ads:23 flow analyzed (0 errors, 0 checks and 0 warnings)
-  Submarine_Controls.openOuterAirlock at submarine_controls.ads:35 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.checkOxygenStatus at submarine_controls.ads:76 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.checkReactorStatus at submarine_controls.ads:81 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:32 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:44 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.decreaseDepth at submarine_controls.ads:100 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.decreaseOxygen at submarine_controls.ads:69 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.increaseDepth at submarine_controls.ads:88 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:56 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.openInnerAirlock at submarine_controls.ads:37 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.openOuterAirlock at submarine_controls.ads:49 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.storeTorpedo at submarine_controls.ads:112 flow analyzed (0 errors, 0 checks and 0 warnings)

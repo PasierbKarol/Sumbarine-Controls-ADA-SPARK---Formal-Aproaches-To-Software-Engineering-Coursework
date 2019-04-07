@@ -112,8 +112,12 @@ package body Submarine_Controls with SPARK_Mode is
    end decreaseDepth;
    
    
-
-   
+   --======== Torpedoes ======
+   procedure storeTorpedo is begin
+      if storedTorpedoes < maximumTorpedoes then
+         storedTorpedoes := storedTorpedoes + 1;
+      end if;
+   end storeTorpedo;   
    
 
 

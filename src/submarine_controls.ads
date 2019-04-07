@@ -1,17 +1,31 @@
 package Submarine_Controls with SPARK_Mode is
 
+   --Variables ======================================================
    innerAirlockState : Boolean; --True closed, False open
    outerAirlockState : Boolean; --True closed, False open
    airlockDoorsLocked : Boolean; --True no doors can be opened
+   
 --maximum possible level of oxygen, 0 is depleted
    maximumOxygen : constant Integer := 10000; 
 --current oxygen level, each operation consumes oxygen
    oxygenLevel : Integer; 
+   
    currentDepth : Integer; 
    --maximum possible depth, 0 is on surface
    maximumDepth : constant Integer := 5000; 
+   
    --reactorOverheatThreshold : constant Integer := 12000;
    isReactorOverheated : Boolean := False;
+   
+   --how many torpedoes can be stored on the boat
+   maximumTorpedoes : constant Integer := 20; 
+   storedTorpedoes : Integer; --currently stored torpedoes, except loaded ones
+   --how many torpedoes can be loaded for firing
+   maximumLoadedTorpedoes : constant Integer := 6;
+   loadedTorpedoes : Integer;
+   
+   
+   --Contracts =======================================================
    
    --at least one airlock door closed at all times
    --procedures below ensure that at least one airlock door is closed at all times
@@ -95,5 +109,11 @@ package Submarine_Controls with SPARK_Mode is
        currentDepth >= 0 and then
        oxygenLevel >= 0;
 
+   procedure storeTorpedo with
+     Global => (In_Out => storedTorpedoes ),
+     Pre => storedTorpedoes < maximumTorpedoes,
+     Post => storedTorpedoes <= maximumTorpedoes;
+   
+   
    
 end Submarine_Controls;
