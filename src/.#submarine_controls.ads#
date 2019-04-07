@@ -59,7 +59,7 @@ package Submarine_Controls with SPARK_Mode is
    
 --     procedure displayOxygenWarning;
    
-   procedure checkOxygenAndReactorStatus with 
+   procedure checkOxygenStatus with 
      Global => (In_Out => (oxygenLevel, currentDepth)),
      Pre =>  oxygenLevel >= 0,
      Post =>  oxygenLevel >= 0;
