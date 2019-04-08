@@ -32,33 +32,35 @@ package Submarine_Controls with SPARK_Mode is
    procedure closeInnerAirlock  with
      Global => (In_Out => innerAirlockState, Input => outerAirlockState),
      Pre => outerAirlockState = True,
-     Post => innerAirlockState = True and then outerAirlockState = True;
+     Post => innerAirlockState = True and outerAirlockState = True;
    
    procedure openInnerAirlock  with
      Global => (In_Out => innerAirlockState, 
                 Input => (outerAirlockState, airlockDoorsLocked)),
-     Pre => airlockDoorsLocked = False and then 
-            outerAirlockState = True and then innerAirlockState = True,
-     Post => innerAirlockState = False and then outerAirlockState = True;
+     Pre => airlockDoorsLocked = False and 
+            outerAirlockState = True and innerAirlockState = True,
+     Post => innerAirlockState = False and outerAirlockState = True;
    
    procedure closeOuterAirlock  with
      Global => (In_Out => outerAirlockState, Input => innerAirlockState),
      Pre => innerAirlockState = True,
-     Post => outerAirlockState = True and then innerAirlockState = True;
+     Post => outerAirlockState = True and innerAirlockState = True;
 
    procedure openOuterAirlock  with
      Global => (In_Out => outerAirlockState, 
                 Input => (innerAirlockState, airlockDoorsLocked)),
-     Pre => airlockDoorsLocked = False and then 
-            outerAirlockState = True and then innerAirlockState = True,
-     Post => innerAirlockState = True and then outerAirlockState = False;
+     Pre => airlockDoorsLocked = False and 
+            outerAirlockState = True and innerAirlockState = True,
+     Post => innerAirlockState = True and outerAirlockState = False;
    
    procedure lockAirlockDoors with
      Global => (Input => (innerAirlockState, outerAirlockState), 
                 In_Out => airlockDoorsLocked),
-     Pre => innerAirlockState = True and then outerAirlockState = True,
-     Post => innerAirlockState = True and then outerAirlockState = True 
-     and then airlockDoorsLocked = True;
+     Pre => innerAirlockState = True and 
+     outerAirlockState = True,
+     Post => innerAirlockState = True and 
+     outerAirlockState = True and 
+     airlockDoorsLocked = True;
    
    
    
@@ -68,13 +70,14 @@ package Submarine_Controls with SPARK_Mode is
    --decreasing oxygen below 500 points shows a warning
    procedure decreaseOxygen with
      Global => (Input => airlockDoorsLocked, In_Out => oxygenLevel),
-     Pre => oxygenLevel >= 100 and then 
+     Pre => oxygenLevel >= 100 and  
             airlockDoorsLocked = True,
      Post => oxygenLevel >= 0;
    
  
    procedure checkOxygenStatus with 
-     Global => (Input => airlockDoorsLocked, In_Out => (oxygenLevel, currentDepth)),
+     Global => (Input => airlockDoorsLocked, 
+                In_Out => (oxygenLevel, currentDepth)),
      Pre =>  oxygenLevel >= 0,
      Post =>  oxygenLevel >= 0;
     
@@ -88,26 +91,26 @@ package Submarine_Controls with SPARK_Mode is
    procedure increaseDepth with
      Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
                In_Out => ( currentDepth )),
-     Pre => currentDepth < maximumDepth and then
-            oxygenLevel >= 100 and then 
+     Pre => currentDepth < maximumDepth and 
+            oxygenLevel >= 100 and  
             airlockDoorsLocked = True,
      Post => 
-       airlockDoorsLocked = True and then
-       currentDepth <= maximumDepth and then 
-       currentDepth >= 0 and then
+       airlockDoorsLocked = True and 
+       currentDepth <= maximumDepth and  
+       currentDepth >= 0 and 
        oxygenLevel >= 0;
    
    --the same purpose as above, just opposite
    procedure decreaseDepth with
      Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
                In_Out => ( currentDepth )),
-     Pre => currentDepth < maximumDepth and then
-            oxygenLevel >= 100 and then 
+     Pre => currentDepth < maximumDepth and 
+            oxygenLevel >= 100 and  
             airlockDoorsLocked = True,
      Post => 
-       airlockDoorsLocked = True and then
-       currentDepth <= maximumDepth and then 
-       currentDepth >= 0 and then
+       airlockDoorsLocked = True and 
+       currentDepth <= maximumDepth and  
+       currentDepth >= 0 and 
        oxygenLevel >= 0;
 
    --to store a torpedo there has to be a place for it
@@ -115,21 +118,29 @@ package Submarine_Controls with SPARK_Mode is
    procedure storeTorpedo with
      Global => (In_Out => storedTorpedoes ),
      Pre => storedTorpedoes < maximumTorpedoes,
-     Post => storedTorpedoes <= maximumTorpedoes and then
+     Post => storedTorpedoes <= maximumTorpedoes and 
              storedTorpedoes = storedTorpedoes'Old + 1;
    
    procedure loadTorpedo with
      Global => (In_Out => (storedTorpedoes, loadedTorpedoes), Input => airlockDoorsLocked),
-     Pre => storedTorpedoes >= 1 and then
-     loadedTorpedoes < maximumLoadedTorpedoes and then
+     Pre => storedTorpedoes >= 1 and 
+     loadedTorpedoes < maximumLoadedTorpedoes and 
      airlockDoorsLocked = True,
-     Post => storedTorpedoes >= 0 and then 
-             loadedTorpedoes <= maximumLoadedTorpedoes and then
-     loadedTorpedoes = loadedTorpedoes'Old + 1 and then 
-     storedTorpedoes = storedTorpedoes'Old - 1 and then
+     Post => storedTorpedoes >= 0 and 
+             loadedTorpedoes <= maximumLoadedTorpedoes and 
+     loadedTorpedoes = loadedTorpedoes'Old + 1 and  
+     storedTorpedoes = storedTorpedoes'Old - 1 and 
      airlockDoorsLocked = True;
    
-   
+   procedure fireTorpedo with
+     Global => (In_Out => (loadedTorpedoes), Input => airlockDoorsLocked),
+     Pre => loadedTorpedoes > 0 and 
+     loadedTorpedoes <= maximumLoadedTorpedoes and 
+     airlockDoorsLocked = True,
+     Post => loadedTorpedoes = loadedTorpedoes'Old - 1 and 
+     loadedTorpedoes < maximumLoadedTorpedoes and 
+     airlockDoorsLocked = True;
+     
    
    
    

@@ -6,7 +6,7 @@ package body Submarine_Controls with SPARK_Mode is
    --following procedures ensure that at least one airlock door must be closed at all times
    procedure closeInnerAirlock is begin
       if outerAirlockState = True then        
-         innerAirlockState := True;      
+         innerAirlockState := True;    
       end if;      
    end closeInnerAirlock;
    
@@ -113,12 +113,14 @@ package body Submarine_Controls with SPARK_Mode is
    
    
    --======== Torpedoes ======
+   --torpedoes can be stored while on surface
    procedure storeTorpedo is begin
       if storedTorpedoes < maximumTorpedoes then
          storedTorpedoes := storedTorpedoes + 1;
       end if;
    end storeTorpedo;   
    
+   --cannot load torpedo if submarine doors are unlocked
    procedure loadTorpedo is begin
       if loadedTorpedoes < maximumLoadedTorpedoes 
         and storedTorpedoes >= 1 
@@ -127,6 +129,16 @@ package body Submarine_Controls with SPARK_Mode is
          storedTorpedoes := storedTorpedoes - 1;
       end if;
    end loadTorpedo;
+   
+   --cannot fire torpedo if submarine doors are unlocked
+   procedure fireTorpedo is begin
+      if loadedTorpedoes <= maximumLoadedTorpedoes
+        and loadedTorpedoes > 0 
+        and airlockDoorsLocked = True then
+         loadedTorpedoes := loadedTorpedoes - 1;
+      end if;
+   end fireTorpedo;
+   
 
 
 
