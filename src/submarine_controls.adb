@@ -40,24 +40,19 @@ package body Submarine_Controls with SPARK_Mode is
    --==== Description ===--
    --each operation on the sea decreases the oxygen
    procedure decreaseOxygen is begin
-      --if oxygen is running low the warning is shown
---        if oxygenLevel <= 500 then
---           displayOxygenWarning;
---        end if;
-      
-      if oxygenLevel > Oxygen'First and airlockDoorsLocked = True 
-      then
-         oxygenLevel := oxygenLevel - 1;   
-      else
-         oxygenLevel := oxygenLevel;
-      end if;    
-      
       --if oxygen runs low warning must be shown
       if oxygenLevel <=  50 
       then 
          pragma Warnings (Off, "Put_Line");
         Put_Line("WARNING! Oxygen level is low!");
       end if;
+      
+      if oxygenLevel > Oxygen'First and airlockDoorsLocked = True 
+      then
+         oxygenLevel := oxygenLevel - 1;   
+      else
+         oxygenLevel := oxygenLevel;
+      end if;          
    end decreaseOxygen;
 
    
@@ -96,11 +91,11 @@ package body Submarine_Controls with SPARK_Mode is
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
       then
-         increaseDepth;
-         decreaseOxygen;
+         increaseDepth; 
+         decreaseOxygen;--whether submarine can go deeper or not it will consume oxygen
       end if;
-      checkOxygenStatus;
-      checkReactorStatus;
+      checkOxygenStatus; --if oxygen run out sub will resurface
+      checkReactorStatus; -- reactor overheated sub will resurface
    end diveDeeper;
    
    procedure riseUp is begin
@@ -109,10 +104,15 @@ package body Submarine_Controls with SPARK_Mode is
         and airlockDoorsLocked = True 
       then
          decreaseDepth;
-         decreaseOxygen;
+         if currentDepth = DepthLevel'First --if rising up was to the surface oxygen is refilled
+         then
+            oxygenLevel := Oxygen'Last;
+         else
+            decreaseOxygen; --whether submarine can riseup or not it will consume oxygen
+         end if;
       end if;
-      checkOxygenStatus;
-      checkReactorStatus;
+      checkOxygenStatus; --if oxygen run out sub will resurface
+      checkReactorStatus; -- reactor overheated sub will resurface
    end riseUp;
    
    --Depth procedures ========================================================
@@ -141,7 +141,7 @@ package body Submarine_Controls with SPARK_Mode is
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
       then
-         currentDepth := currentDepth - 1;
+         currentDepth := currentDepth - 1;                  
       else
          currentDepth := currentDepth;
       end if;
