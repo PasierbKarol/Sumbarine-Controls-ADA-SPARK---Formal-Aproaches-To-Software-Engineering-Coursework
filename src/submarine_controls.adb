@@ -86,16 +86,34 @@ package body Submarine_Controls with SPARK_Mode is
          oxygenLevel := Oxygen'Last; --oxygen is refilled
       else
          oxygenLevel := oxygenLevel;
+         currentDepth := currentDepth;
       end if;      
    end checkReactorStatus;   
    
+      
+   procedure diveDeeper is begin
+      if currentDepth < DepthLevel'Last
+        and oxygenLevel > Oxygen'First 
+        and airlockDoorsLocked = True 
+      then
+         increaseDepth;
+         decreaseOxygen;
+      end if;
+      checkOxygenStatus;
+      checkReactorStatus;
+   end diveDeeper;
    
-
-   
---     procedure diveDeeper is begin
---        increaseDepth;
---        checkOxygenAndReactorStatus;
---     end diveDeeper;
+   procedure riseUp is begin
+      if currentDepth > DepthLevel'First  
+        and oxygenLevel > Oxygen'First 
+        and airlockDoorsLocked = True 
+      then
+         decreaseDepth;
+         decreaseOxygen;
+      end if;
+      checkOxygenStatus;
+      checkReactorStatus;
+   end riseUp;
    
    --Depth procedures ========================================================
    --==== Description ===--
@@ -111,7 +129,6 @@ package body Submarine_Controls with SPARK_Mode is
         and airlockDoorsLocked = True 
       then
          currentDepth := currentDepth + 1;
-         --decreaseOxygen; --calling decrease oxygen
       else
          currentDepth := currentDepth;
       end if;
@@ -125,7 +142,6 @@ package body Submarine_Controls with SPARK_Mode is
         and airlockDoorsLocked = True 
       then
          currentDepth := currentDepth - 1;
-         --decreaseOxygen; --calling decrease oxygen
       else
          currentDepth := currentDepth;
       end if;

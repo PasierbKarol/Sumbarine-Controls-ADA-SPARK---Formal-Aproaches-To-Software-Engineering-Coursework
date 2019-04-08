@@ -81,17 +81,19 @@ package Submarine_Controls with SPARK_Mode is
     
    procedure checkReactorStatus;
    
---     procedure diveDeeper;
+   procedure diveDeeper;
+   
+   procedure riseUp;
    
    --submerge submarine
    --cannot be done if there is no oxygen left
    --diving or surfacing reduces oxygen
    procedure increaseDepth with
-     Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
-               In_Out => ( currentDepth )),
-     Pre => airlockDoorsLocked = True and 
-            currentDepth < DepthLevel'Last and 
-            oxygenLevel > Oxygen'First,
+     Global =>(Input => (airlockDoorsLocked, oxygenLevel), 
+               In_Out => currentDepth),
+     Pre => airlockDoorsLocked = True and then 
+            oxygenLevel > Oxygen'First and then
+            currentDepth < DepthLevel'Last,
      Post => 
        airlockDoorsLocked = True and 
        (currentDepth = currentDepth'Old + 1 or  
@@ -99,8 +101,8 @@ package Submarine_Controls with SPARK_Mode is
    
    --the same purpose as above, just opposite
    procedure decreaseDepth with
-     Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
-               In_Out => ( currentDepth )),
+     Global =>(Input => (airlockDoorsLocked, oxygenLevel), 
+               In_Out => currentDepth),
      Pre => airlockDoorsLocked = True and 
             currentDepth > DepthLevel'First and 
             oxygenLevel > Oxygen'First,
