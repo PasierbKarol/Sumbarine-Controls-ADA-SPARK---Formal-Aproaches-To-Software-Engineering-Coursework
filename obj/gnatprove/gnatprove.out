@@ -1,36 +1,36 @@
 Summary of SPARK analysis
 =========================
 
--------------------------------------------------------------------------------------------------------
-SPARK Analysis results        Total      Flow   Interval   CodePeer      Provers   Justified   Unproved
--------------------------------------------------------------------------------------------------------
-Data Dependencies                 .         .          .          .            .           .          .
-Flow Dependencies                 .         .          .          .            .           .          .
-Initialization                    .         .          .          .            .           .          .
-Non-Aliasing                      .         .          .          .            .           .          .
-Run-time Checks                   7         .          .          .     6 (CVC4)           .          1
-Assertions                        .         .          .          .            .           .          .
-Functional Contracts             12         .          .          .    12 (CVC4)           .          .
-LSP Verification                  .         .          .          .            .           .          .
--------------------------------------------------------------------------------------------------------
-Total                            19         .          .          .     18 (95%)           .     1 (5%)
+----------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   Interval   CodePeer   Provers   Justified   Unproved
+----------------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .          .         .           .          .
+Flow Dependencies                 .         .          .          .         .           .          .
+Initialization                    .         .          .          .         .           .          .
+Non-Aliasing                      .         .          .          .         .           .          .
+Run-time Checks                   .         .          .          .         .           .          .
+Assertions                        .         .          .          .         .           .          .
+Functional Contracts              .         .          .          .         .           .          .
+LSP Verification                  .         .          .          .         .           .          .
+----------------------------------------------------------------------------------------------------
+Total                             .         .          .          .         .           .          .
 
 
 Analyzed 2 units
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:1 skipped
 in unit submarine_controls, 14 subprograms and packages out of 14 analyzed
-  Submarine_Controls at submarine_controls.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine_Controls.checkOxygenStatus at submarine_controls.ads:77 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.checkReactorStatus at submarine_controls.ads:83 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:31 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:43 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.decreaseDepth at submarine_controls.ads:103 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 1 checks out of 2 proved
-  Submarine_Controls.decreaseOxygen at submarine_controls.ads:70 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
-  Submarine_Controls.fireTorpedo at submarine_controls.ads:134 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
-  Submarine_Controls.increaseDepth at submarine_controls.ads:90 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
-  Submarine_Controls.loadTorpedo at submarine_controls.ads:123 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:55 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.openInnerAirlock at submarine_controls.ads:36 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.openOuterAirlock at submarine_controls.ads:48 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.storeTorpedo at submarine_controls.ads:117 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Submarine_Controls at submarine_controls.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.checkOxygenStatus at submarine_controls.ads:75 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.checkReactorStatus at submarine_controls.ads:82 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:31 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:43 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.decreaseDepth at submarine_controls.ads:101 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.decreaseOxygen at submarine_controls.ads:67 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.fireTorpedo at submarine_controls.ads:129 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.increaseDepth at submarine_controls.ads:89 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.loadTorpedo at submarine_controls.ads:120 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:55 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.openInnerAirlock at submarine_controls.ads:36 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.openOuterAirlock at submarine_controls.ads:48 flow analyzed (0 errors, 0 checks and 0 warnings)
+  Submarine_Controls.storeTorpedo at submarine_controls.ads:114 flow analyzed (0 errors, 0 checks and 0 warnings)

@@ -47,7 +47,9 @@ package body Submarine_Controls with SPARK_Mode is
       
       if oxygenLevel > Oxygen'First and airlockDoorsLocked = True 
       then
-         oxygenLevel := oxygenLevel - 1;             
+         oxygenLevel := oxygenLevel - 1;   
+      else
+         oxygenLevel := oxygenLevel;
       end if;    
       
       --if oxygen runs low warning must be shown
@@ -82,6 +84,8 @@ package body Submarine_Controls with SPARK_Mode is
       then
          currentDepth := 0; --submarine resurfaced
          oxygenLevel := Oxygen'Last; --oxygen is refilled
+      else
+         oxygenLevel := oxygenLevel;
       end if;      
    end checkReactorStatus;   
    
@@ -102,18 +106,28 @@ package body Submarine_Controls with SPARK_Mode is
    --therefore current depth must be always at least 100 point less than the maximum
    procedure increaseDepth is begin
       
-      if currentDepth <= DepthLevel'Last - 1 and oxygenLevel >= 1 and airlockDoorsLocked = True then
+      if currentDepth < DepthLevel'Last
+        and oxygenLevel > Oxygen'First 
+        and airlockDoorsLocked = True 
+      then
          currentDepth := currentDepth + 1;
          --decreaseOxygen; --calling decrease oxygen
+      else
+         currentDepth := currentDepth;
       end if;
       --checking oxygen and reactor status after each operation       
    end increaseDepth;
    
     procedure decreaseDepth is begin
       
-      if currentDepth < DepthLevel'Last  and oxygenLevel > 0 and airlockDoorsLocked = True then
+      if currentDepth < DepthLevel'Last  
+        and oxygenLevel > Oxygen'First 
+        and airlockDoorsLocked = True 
+      then
          currentDepth := currentDepth - 1;
          --decreaseOxygen; --calling decrease oxygen
+      else
+         currentDepth := currentDepth;
       end if;
       --checking oxygen and reactor status after each operation       
    end decreaseDepth;
@@ -130,18 +144,18 @@ package body Submarine_Controls with SPARK_Mode is
    --cannot load torpedo if submarine doors are unlocked
    procedure loadTorpedo is begin
       if loadedTorpedoes < TorpedoesLoaded'Last 
-        and storedTorpedoes >= 1 
+        and storedTorpedoes > Torpedoes'First
         and airlockDoorsLocked = True then
-         loadedTorpedoes := loadedTorpedoes +1;
+         loadedTorpedoes := loadedTorpedoes + 1;
          storedTorpedoes := storedTorpedoes - 1;
       end if;
    end loadTorpedo;
    
    --cannot fire torpedo if submarine doors are unlocked
    procedure fireTorpedo is begin
-      if loadedTorpedoes <= TorpedoesLoaded'Last
-        and loadedTorpedoes > 0 
-        and airlockDoorsLocked = True then
+      if loadedTorpedoes > TorpedoesLoaded'First
+        and airlockDoorsLocked = True 
+      then
          loadedTorpedoes := loadedTorpedoes - 1;
       end if;
    end fireTorpedo;
