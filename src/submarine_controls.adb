@@ -65,7 +65,7 @@ package body Submarine_Controls with SPARK_Mode is
       if oxygenLevel = 0 and airlockDoorsLocked = True then
          --if oxygen runs out submarine has to resurface
             currentDepth := 0; --submarine resurfaced
-            oxygenLevel := maximumOxygen; --oxygen is refilled
+            oxygenLevel := Oxygen'Last; --oxygen is refilled
          end if;   
    end checkOxygenStatus;
      
