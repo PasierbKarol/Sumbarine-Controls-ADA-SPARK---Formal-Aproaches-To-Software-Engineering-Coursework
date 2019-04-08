@@ -20,8 +20,8 @@ package Submarine_Controls with SPARK_Mode is
    storedTorpedoes : Torpedoes;
 
    --how many torpedoes can be loaded for firing
-   type LoadedTorpedoes is range 0..6;
-   loadedTorpedoes : LoadedTorpedoes;
+   type TorpedoesLoaded is range 0..6;
+   loadedTorpedoes : TorpedoesLoaded;
    
    
    --Contracts =======================================================
@@ -64,21 +64,21 @@ package Submarine_Controls with SPARK_Mode is
    
    
    
-   --oxygen is decreased 100 points while the submarine is submerged
+   --oxygen is decreased 1 point while the submarine is submerged
    --it can happen only if the airlock is locked and there is still any oxygen left
-   --decreasing oxygen below 500 points shows a warning
+   --decreasing oxygen below 50 points shows a warning
    procedure decreaseOxygen with
      Global => (Input => airlockDoorsLocked, In_Out => oxygenLevel),
-     Pre => oxygenLevel >= 100 and  
+     Pre => oxygenLevel > Oxygen'First and  
             airlockDoorsLocked = True,
-     Post => oxygenLevel >= 0;
+     Post => oxygenLevel >= Oxygen'First;
    
  
    procedure checkOxygenStatus with 
      Global => (Input => airlockDoorsLocked, 
                 In_Out => (oxygenLevel, currentDepth)),
-     Pre =>  oxygenLevel >= 0,
-     Post =>  oxygenLevel >= 0;
+     Pre =>  oxygenLevel >= Oxygen'First,
+     Post =>  oxygenLevel = oxygenLevel'Old or oxygenLevel = Oxygen'Last;
     
    procedure checkReactorStatus;
    
@@ -90,12 +90,12 @@ package Submarine_Controls with SPARK_Mode is
    procedure increaseDepth with
      Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
                In_Out => ( currentDepth )),
-     Pre => currentDepth < currentDepth'Last and 
+     Pre => currentDepth < DepthLevel'Last and 
             oxygenLevel >= 100 and  
             airlockDoorsLocked = True,
      Post => 
        airlockDoorsLocked = True and 
-       currentDepth <= maximumDepth and  
+       currentDepth <= DepthLevel'Last and  
        currentDepth >= 0 and 
        oxygenLevel >= 0;
    
@@ -103,12 +103,12 @@ package Submarine_Controls with SPARK_Mode is
    procedure decreaseDepth with
      Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
                In_Out => ( currentDepth )),
-     Pre => currentDepth < maximumDepth and 
+     Pre => currentDepth < DepthLevel'Last and 
             oxygenLevel >= 100 and  
             airlockDoorsLocked = True,
      Post => 
        airlockDoorsLocked = True and 
-       currentDepth <= maximumDepth and  
+       currentDepth <= DepthLevel'Last and  
        currentDepth >= 0 and 
        oxygenLevel >= 0;
 
@@ -116,17 +116,17 @@ package Submarine_Controls with SPARK_Mode is
    --after the fact a maximum number can be reached or not, allowing to add more
    procedure storeTorpedo with
      Global => (In_Out => storedTorpedoes ),
-     Pre => storedTorpedoes < maximumTorpedoes,
-     Post => storedTorpedoes <= maximumTorpedoes and 
+     Pre => storedTorpedoes < Torpedoes'Last,
+     Post => storedTorpedoes <= Torpedoes'Last and 
              storedTorpedoes = storedTorpedoes'Old + 1;
    
    procedure loadTorpedo with
      Global => (In_Out => (storedTorpedoes, loadedTorpedoes), Input => airlockDoorsLocked),
      Pre => storedTorpedoes >= 1 and 
-     loadedTorpedoes < maximumLoadedTorpedoes and 
+     loadedTorpedoes < TorpedoesLoaded'Last and 
      airlockDoorsLocked = True,
      Post => storedTorpedoes >= 0 and 
-             loadedTorpedoes <= maximumLoadedTorpedoes and 
+             loadedTorpedoes <= TorpedoesLoaded'Last and 
      loadedTorpedoes = loadedTorpedoes'Old + 1 and  
      storedTorpedoes = storedTorpedoes'Old - 1 and 
      airlockDoorsLocked = True;
@@ -134,10 +134,10 @@ package Submarine_Controls with SPARK_Mode is
    procedure fireTorpedo with
      Global => (In_Out => (loadedTorpedoes), Input => airlockDoorsLocked),
      Pre => loadedTorpedoes > 0 and 
-     loadedTorpedoes <= maximumLoadedTorpedoes and 
+     loadedTorpedoes <= TorpedoesLoaded'Last and 
      airlockDoorsLocked = True,
      Post => loadedTorpedoes = loadedTorpedoes'Old - 1 and 
-     loadedTorpedoes < maximumLoadedTorpedoes and 
+     loadedTorpedoes < TorpedoesLoaded'Last and 
      airlockDoorsLocked = True;
      
    

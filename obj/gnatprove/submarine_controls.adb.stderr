@@ -1,1 +1,1 @@
-submarine_controls.adb:68:28: "maximumOxygen" is undefined (more references follow)
+submarine_controls.adb:115:39: medium: range check might fail (e.g. when currentDepth = 0)[#0]

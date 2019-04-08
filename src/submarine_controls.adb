@@ -45,12 +45,14 @@ package body Submarine_Controls with SPARK_Mode is
 --           displayOxygenWarning;
 --        end if;
       
-      if oxygenLevel >= 100 and airlockDoorsLocked = True then
-         oxygenLevel := oxygenLevel - 100;             
+      if oxygenLevel > Oxygen'First and airlockDoorsLocked = True 
+      then
+         oxygenLevel := oxygenLevel - 1;             
       end if;    
       
       --if oxygen runs low warning must be shown
-      if oxygenLevel <=  500 then 
+      if oxygenLevel <=  50 
+      then 
          pragma Warnings (Off, "Put_Line");
         Put_Line("WARNING! Oxygen level is low!");
       end if;
@@ -62,19 +64,24 @@ package body Submarine_Controls with SPARK_Mode is
    --therefore depth goes back to initial level
    procedure checkOxygenStatus is begin      
       --if oxygenLevel = 0 and currentDepth <= maximumDepth and currentDepth >= 0 then
-      if oxygenLevel = 0 and airlockDoorsLocked = True then
+      if oxygenLevel = 0 and airlockDoorsLocked = True 
+      then
          --if oxygen runs out submarine has to resurface
-            currentDepth := 0; --submarine resurfaced
-            oxygenLevel := Oxygen'Last; --oxygen is refilled
-         end if;   
+         currentDepth := DepthLevel'First; --submarine resurfaced
+         oxygenLevel := Oxygen'Last; --oxygen is refilled
+      else
+         oxygenLevel := oxygenLevel;
+         currentDepth := currentDepth;
+      end if;   
    end checkOxygenStatus;
      
    --==== Description ===--
    --if reactor is overheating submarine has to resurface
    procedure checkReactorStatus is begin
-      if isReactorOverheated = True then
+      if isReactorOverheated = True 
+      then
          currentDepth := 0; --submarine resurfaced
-         oxygenLevel := maximumOxygen; --oxygen is refilled
+         oxygenLevel := Oxygen'Last; --oxygen is refilled
       end if;      
    end checkReactorStatus;   
    
@@ -95,8 +102,8 @@ package body Submarine_Controls with SPARK_Mode is
    --therefore current depth must be always at least 100 point less than the maximum
    procedure increaseDepth is begin
       
-      if currentDepth <= maximumDepth - 100 and oxygenLevel >= 100 and airlockDoorsLocked = True then
-         currentDepth := currentDepth + 100;
+      if currentDepth <= DepthLevel'Last - 1 and oxygenLevel >= 1 and airlockDoorsLocked = True then
+         currentDepth := currentDepth + 1;
          --decreaseOxygen; --calling decrease oxygen
       end if;
       --checking oxygen and reactor status after each operation       
@@ -104,8 +111,8 @@ package body Submarine_Controls with SPARK_Mode is
    
     procedure decreaseDepth is begin
       
-      if currentDepth <= maximumDepth - 100 and oxygenLevel >= 100 and airlockDoorsLocked = True then
-         currentDepth := currentDepth - 100;
+      if currentDepth < DepthLevel'Last  and oxygenLevel > 0 and airlockDoorsLocked = True then
+         currentDepth := currentDepth - 1;
          --decreaseOxygen; --calling decrease oxygen
       end if;
       --checking oxygen and reactor status after each operation       
@@ -115,14 +122,14 @@ package body Submarine_Controls with SPARK_Mode is
    --======== Torpedoes ======
    --torpedoes can be stored while on surface
    procedure storeTorpedo is begin
-      if storedTorpedoes < maximumTorpedoes then
+      if storedTorpedoes < Torpedoes'Last then
          storedTorpedoes := storedTorpedoes + 1;
       end if;
    end storeTorpedo;   
    
    --cannot load torpedo if submarine doors are unlocked
    procedure loadTorpedo is begin
-      if loadedTorpedoes < maximumLoadedTorpedoes 
+      if loadedTorpedoes < TorpedoesLoaded'Last 
         and storedTorpedoes >= 1 
         and airlockDoorsLocked = True then
          loadedTorpedoes := loadedTorpedoes +1;
@@ -132,7 +139,7 @@ package body Submarine_Controls with SPARK_Mode is
    
    --cannot fire torpedo if submarine doors are unlocked
    procedure fireTorpedo is begin
-      if loadedTorpedoes <= maximumLoadedTorpedoes
+      if loadedTorpedoes <= TorpedoesLoaded'Last
         and loadedTorpedoes > 0 
         and airlockDoorsLocked = True then
          loadedTorpedoes := loadedTorpedoes - 1;
