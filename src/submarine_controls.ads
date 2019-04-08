@@ -13,7 +13,8 @@ package Submarine_Controls with SPARK_Mode is
    currentDepth : DepthLevel; 
    
    --reactorOverheatThreshold : constant Integer := 12000;
-   isReactorOverheated : Boolean := False;
+   type ReactorHeatLevel is range 0..1000;
+   reactorHeating : ReactorHeatLevel;
    
    --how many torpedoes can be stored on the boat
    type Torpedoes is range 0..20;
@@ -90,10 +91,10 @@ package Submarine_Controls with SPARK_Mode is
    --diving or surfacing reduces oxygen
    procedure increaseDepth with
      Global =>(Input => (airlockDoorsLocked, oxygenLevel), 
-               In_Out => currentDepth),
+               In_Out => (currentDepth, reactorHeating)),
      Pre => airlockDoorsLocked = True and then 
             oxygenLevel > Oxygen'First and then
-            currentDepth < DepthLevel'Last,
+            currentDepth < DepthLevel'Last and then,
      Post => 
        airlockDoorsLocked = True and 
        (currentDepth = currentDepth'Old + 1 or  

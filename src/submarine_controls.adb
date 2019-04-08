@@ -75,10 +75,11 @@ package body Submarine_Controls with SPARK_Mode is
    --==== Description ===--
    --if reactor is overheating submarine has to resurface
    procedure checkReactorStatus is begin
-      if isReactorOverheated = True 
+      if reactorHeating = ReactorHeatLevel'Last 
       then
          currentDepth := 0; --submarine resurfaced
          oxygenLevel := Oxygen'Last; --oxygen is refilled
+         reactorHeating := ReactorHeatLevel'First;
       else
          oxygenLevel := oxygenLevel;
          currentDepth := currentDepth;
@@ -129,6 +130,7 @@ package body Submarine_Controls with SPARK_Mode is
         and airlockDoorsLocked = True 
       then
          currentDepth := currentDepth + 1;
+         reactorHeating := reactorHeating + 1;
       else
          currentDepth := currentDepth;
       end if;
@@ -141,7 +143,7 @@ package body Submarine_Controls with SPARK_Mode is
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
       then
-         currentDepth := currentDepth - 1;                  
+         currentDepth := currentDepth - 1;    
       else
          currentDepth := currentDepth;
       end if;
@@ -173,10 +175,16 @@ package body Submarine_Controls with SPARK_Mode is
         and airlockDoorsLocked = True 
       then
          loadedTorpedoes := loadedTorpedoes - 1;
+         reactorHeating := reactorHeating + 1;
       end if;
    end fireTorpedo;
    
 
+   --==== EXTENSIONS =====--
+   --focusing on reactor overloading
+   --increasing speed impacts reactor heating
+   --firing torpedoes consumes reactor heating points
+   -- cloacking impacts heating
 
 
 end Submarine_Controls;

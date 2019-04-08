@@ -1,0 +1,4 @@
+submarine_controls.adb:133:10: high: "reactorHeating" must be listed in the Global aspect of "increaseDepth" (SPARK RM 6.1.4(13))[#0]
+submarine_controls.adb:133:43: medium: range check might fail (e.g. when reactorHeating = -2)[#3]
+submarine_controls.adb:178:10: high: "reactorHeating" must be listed in the Global aspect of "fireTorpedo" (SPARK RM 6.1.4(13))[#1]
+submarine_controls.adb:178:43: medium: range check might fail (e.g. when reactorHeating = -2)[#2]
