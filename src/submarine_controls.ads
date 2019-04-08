@@ -102,7 +102,7 @@ package Submarine_Controls with SPARK_Mode is
      Global =>(Input => (airlockDoorsLocked,oxygenLevel), 
                In_Out => ( currentDepth )),
      Pre => airlockDoorsLocked = True and 
-            currentDepth < DepthLevel'Last and 
+            currentDepth > DepthLevel'First and 
             oxygenLevel > Oxygen'First,
      Post => 
        airlockDoorsLocked = True and  
@@ -131,7 +131,7 @@ package Submarine_Controls with SPARK_Mode is
      Pre => airlockDoorsLocked = True and then
             loadedTorpedoes > TorpedoesLoaded'First,
      Post => airlockDoorsLocked = True and then 
-             loadedTorpedoes = loadedTorpedoes'Old;
+             loadedTorpedoes = loadedTorpedoes'Old - 1;
      
    
    

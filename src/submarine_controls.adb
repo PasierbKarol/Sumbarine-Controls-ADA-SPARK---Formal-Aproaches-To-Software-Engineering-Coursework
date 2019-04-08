@@ -120,7 +120,7 @@ package body Submarine_Controls with SPARK_Mode is
    
     procedure decreaseDepth is begin
       
-      if currentDepth < DepthLevel'Last  
+      if currentDepth > DepthLevel'First  
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
       then
