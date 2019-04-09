@@ -5,57 +5,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 1
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.closeInnerAirlock",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 34
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.openInnerAirlock",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 39
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.closeOuterAirlock",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 46
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.openOuterAirlock",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 51
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.lockAirlockDoors",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 58
+          "line": 3
         }
       ],
       "spark": "all"
@@ -65,7 +15,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 70
+          "line": 26
         }
       ],
       "spark": "all"
@@ -75,7 +25,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 78
+          "line": 34
         }
       ],
       "spark": "all"
@@ -85,7 +35,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 85
+          "line": 41
         }
       ],
       "spark": "all"
@@ -95,7 +45,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 87
+          "line": 43
         }
       ],
       "spark": "all"
@@ -105,7 +55,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 89
+          "line": 45
         }
       ],
       "spark": "all"
@@ -115,7 +65,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 94
+          "line": 50
         }
       ],
       "spark": "all"
@@ -125,37 +75,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 108
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.storeTorpedo",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 122
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.loadTorpedo",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 130
-        }
-      ],
-      "spark": "all"
-    },
-    {
-      "name": "Submarine_Controls.fireTorpedo",
-      "sloc": [
-        {
-          "file": "submarine_controls.ads",
-          "line": 139
+          "line": 64
         }
       ],
       "spark": "all"
@@ -165,7 +85,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 148
+          "line": 78
         }
       ],
       "spark": "all"
@@ -175,7 +95,7 @@
       "sloc": [
         {
           "file": "submarine_controls.ads",
-          "line": 157
+          "line": 87
         }
       ],
       "spark": "all"
@@ -186,96 +106,16 @@
   "proof": [
     {
       "file": "submarine_controls.adb",
-      "line": 175,
-      "col": 45,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.loadTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 130
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 175,
-      "check_col": 45,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 185,
-      "col": 45,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.fireTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 139
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 185,
-      "check_col": 45,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 202,
+      "line": 149,
       "col": 39,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Submarine_Controls.increaseSpeed",
+        "name": "Submarine_Controls.decreaseSpeed",
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 148
+            "line": 87
           }
         ]
       },
@@ -293,48 +133,8 @@
         }
       ],
       "check_file": "submarine_controls.adb",
-      "check_line": 202,
+      "check_line": 149,
       "check_col": 39,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 82,
-      "col": 15,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.checkOxygenStatus",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 78
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 12,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 82,
-      "check_col": 15,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -347,15 +147,15 @@
     {
       "file": "submarine_controls.adb",
       "line": 150,
-      "col": 39,
+      "col": 43,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Submarine_Controls.decreaseDepth",
+        "name": "Submarine_Controls.decreaseSpeed",
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 108
+            "line": 87
           }
         ]
       },
@@ -374,65 +174,6 @@
       ],
       "check_file": "submarine_controls.adb",
       "check_line": 150,
-      "check_col": 39,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 151,
-      "col": 43,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.decreaseDepth",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 108
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                  "CVC4_CE": {
-                    "result": "Unknown (none)",
-                    "steps": 14,
-                    "time": 0
-                  }
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 151,
       "check_col": 43,
       "how_proved": "prover",
       "stats": {
@@ -445,160 +186,7 @@
     },
     {
       "file": "submarine_controls.adb",
-      "line": 213,
-      "col": 43,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.decreaseSpeed",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 157
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 213,
-      "check_col": 43,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 96,
-      "col": 10,
-      "rule": "VC_PRECONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.diveDeeper",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 87
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 96,
-      "check_col": 10,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 4,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 174,
-      "col": 45,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.loadTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 130
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 174,
-      "check_col": 45,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 117,
+      "line": 83,
       "col": 7,
       "rule": "VC_PRECONDITION",
       "severity": "info",
@@ -607,7 +195,7 @@
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 89
+            "line": 45
           }
         ]
       },
@@ -625,7 +213,7 @@
         }
       ],
       "check_file": "submarine_controls.adb",
-      "check_line": 117,
+      "check_line": 83,
       "check_col": 7,
       "how_proved": "prover",
       "stats": {
@@ -638,112 +226,7 @@
     },
     {
       "file": "submarine_controls.adb",
-      "line": 165,
-      "col": 45,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.storeTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 122
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 165,
-      "check_col": 45,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 37,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.closeInnerAirlock",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 34
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 37,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 114,
+      "line": 80,
       "col": 13,
       "rule": "VC_PRECONDITION",
       "severity": "info",
@@ -752,7 +235,7 @@
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 89
+            "line": 45
           }
         ]
       },
@@ -781,7 +264,7 @@
         }
       ],
       "check_file": "submarine_controls.adb",
-      "check_line": 114,
+      "check_line": 80,
       "check_col": 13,
       "how_proved": "prover",
       "stats": {
@@ -793,545 +276,8 @@
       }
     },
     {
-      "file": "submarine_controls.adb",
-      "line": 97,
-      "col": 10,
-      "rule": "VC_PRECONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.diveDeeper",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 87
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                  "CVC4_CE": {
-                    "result": "Unknown (none)",
-                    "steps": 20,
-                    "time": 0
-                  }
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 97,
-      "check_col": 10,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 203,
-      "col": 43,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.increaseSpeed",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 148
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 203,
-      "check_col": 43,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 109,
-      "col": 10,
-      "rule": "VC_PRECONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.riseUp",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 89
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 109,
-      "check_col": 10,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 4,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
       "file": "submarine_controls.ads",
-      "line": 144,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.fireTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 139
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 33,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 27,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 144,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 99,
-      "col": 7,
-      "rule": "VC_PRECONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.diveDeeper",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 87
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 99,
-      "check_col": 7,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 74,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.decreaseOxygen",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 70
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 27,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 74,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 212,
-      "col": 39,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.decreaseSpeed",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 157
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 212,
-      "check_col": 39,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 126,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.storeTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 122
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 33,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 13,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 126,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 162,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.decreaseSpeed",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 157
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 162,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 102,
+      "line": 58,
       "col": 8,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
@@ -1340,7 +286,7 @@
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 94
+            "line": 50
           }
         ]
       },
@@ -1408,7 +354,7 @@
         }
       ],
       "check_file": "submarine_controls.ads",
-      "check_line": 102,
+      "check_line": 58,
       "check_col": 8,
       "how_proved": "prover",
       "stats": {
@@ -1420,79 +366,17 @@
       }
     },
     {
-      "file": "submarine_controls.ads",
-      "line": 135,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.loadTorpedo",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 130
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 27,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 33,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 135,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
       "file": "submarine_controls.adb",
-      "line": 186,
+      "line": 117,
       "col": 43,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Submarine_Controls.fireTorpedo",
+        "name": "Submarine_Controls.decreaseDepth",
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 139
+            "line": 64
           }
         ]
       },
@@ -1506,11 +390,30 @@
             }
           },
           "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (none)",
+                    "steps": 14,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              }
+            ]
           }
         }
       ],
       "check_file": "submarine_controls.adb",
-      "check_line": 186,
+      "check_line": 117,
       "check_col": 43,
       "how_proved": "prover",
       "stats": {
@@ -1522,339 +425,17 @@
       }
     },
     {
-      "file": "submarine_controls.ads",
-      "line": 56,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.openOuterAirlock",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 51
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 56,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 153,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.increaseSpeed",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 148
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 153,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 63,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.lockAirlockDoors",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 58
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 63,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
       "file": "submarine_controls.adb",
-      "line": 136,
-      "col": 43,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.increaseDepth",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 94
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "submarine_controls.adb",
-      "check_line": 136,
-      "check_col": 43,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.ads",
-      "line": 44,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
-      "severity": "info",
-      "entity": {
-        "name": "Submarine_Controls.openInnerAirlock",
-        "sloc": [
-          {
-            "file": "submarine_controls.ads",
-            "line": 39
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 0
-            }
-          },
-          "transformations": {
-            "split_disj": [
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              },
-              {
-                "proof_attempts": {
-                },
-                "transformations": {
-                }
-              }
-            ]
-          }
-        }
-      ],
-      "check_file": "submarine_controls.ads",
-      "check_line": 44,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 2,
-          "max_steps": 1,
-          "max_time": 0.00000000000000E+00
-        }
-      }
-    },
-    {
-      "file": "submarine_controls.adb",
-      "line": 135,
+      "line": 116,
       "col": 39,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Submarine_Controls.increaseDepth",
+        "name": "Submarine_Controls.decreaseDepth",
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 94
+            "line": 64
           }
         ]
       },
@@ -1872,7 +453,7 @@
         }
       ],
       "check_file": "submarine_controls.adb",
-      "check_line": 135,
+      "check_line": 116,
       "check_col": 39,
       "how_proved": "prover",
       "stats": {
@@ -1884,8 +465,161 @@
       }
     },
     {
+      "file": "submarine_controls.adb",
+      "line": 101,
+      "col": 39,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.increaseDepth",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 50
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 101,
+      "check_col": 39,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.adb",
+      "line": 18,
+      "col": 37,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.decreaseOxygen",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 26
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 18,
+      "check_col": 37,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.adb",
+      "line": 75,
+      "col": 10,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.riseUp",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 45
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 75,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
       "file": "submarine_controls.ads",
-      "line": 116,
+      "line": 72,
       "col": 8,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
@@ -1894,7 +628,7 @@
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 108
+            "line": 64
           }
         ]
       },
@@ -1923,7 +657,7 @@
         }
       ],
       "check_file": "submarine_controls.ads",
-      "check_line": 116,
+      "check_line": 72,
       "check_col": 8,
       "how_proved": "prover",
       "stats": {
@@ -1935,21 +669,369 @@
       }
     },
     {
-      "file": "submarine_controls.ads",
-      "line": 49,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
+      "file": "submarine_controls.adb",
+      "line": 102,
+      "col": 43,
+      "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Submarine_Controls.closeOuterAirlock",
+        "name": "Submarine_Controls.increaseDepth",
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 46
+            "line": 50
           }
         ]
       },
       "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 102,
+      "check_col": 43,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.adb",
+      "line": 62,
+      "col": 10,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.diveDeeper",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 43
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 62,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.adb",
+      "line": 139,
+      "col": 39,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.increaseSpeed",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 139,
+      "check_col": 39,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.adb",
+      "line": 63,
+      "col": 10,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.diveDeeper",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 43
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (none)",
+                    "steps": 20,
+                    "time": 0
+                  }
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 63,
+      "check_col": 10,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.adb",
+      "line": 65,
+      "col": 7,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.diveDeeper",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 43
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.adb",
+      "check_line": 65,
+      "check_col": 7,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.ads",
+      "line": 30,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.decreaseOxygen",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 26
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 27,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "submarine_controls.ads",
+      "check_line": 30,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.ads",
+      "line": 83,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.increaseSpeed",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 78
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
         {
           "proof_attempts": {
             "CVC4": {
@@ -1974,12 +1056,12 @@
         }
       ],
       "check_file": "submarine_controls.ads",
-      "check_line": 49,
+      "check_line": 83,
       "check_col": 14,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
-          "count": 2,
+          "count": 3,
           "max_steps": 1,
           "max_time": 0.00000000000000E+00
         }
@@ -1987,16 +1069,16 @@
     },
     {
       "file": "submarine_controls.adb",
-      "line": 52,
-      "col": 37,
+      "line": 140,
+      "col": 43,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Submarine_Controls.decreaseOxygen",
+        "name": "Submarine_Controls.increaseSpeed",
         "sloc": [
           {
             "file": "submarine_controls.ads",
-            "line": 70
+            "line": 78
           }
         ]
       },
@@ -2014,12 +1096,128 @@
         }
       ],
       "check_file": "submarine_controls.adb",
-      "check_line": 52,
-      "check_col": 37,
+      "check_line": 140,
+      "check_col": 43,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
           "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.ads",
+      "line": 38,
+      "col": 15,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.checkOxygenStatus",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 34
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 12,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.ads",
+      "check_line": 38,
+      "check_col": 15,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "submarine_controls.ads",
+      "line": 92,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Submarine_Controls.decreaseSpeed",
+        "sloc": [
+          {
+            "file": "submarine_controls.ads",
+            "line": 87
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "submarine_controls.ads",
+      "check_line": 92,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 3,
           "max_steps": 1,
           "max_time": 0.00000000000000E+00
         }
@@ -2029,782 +1227,6 @@
   "assumptions": [
     {
       "assumptions": [
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkReactorStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 85
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.decreaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 108
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        }
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.riseUp",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 89
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "predicate": "CLAIM_POST",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_POST",
-          "arg": {
-            "name": "Submarine_Controls.decreaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 108
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_POST",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkReactorStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 85
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.decreaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 108
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.checkReactorStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 85
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.decreaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 108
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        }
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.riseUp",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 89
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.openOuterAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 51
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.openOuterAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 51
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.openInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 39
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.openOuterAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 51
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.openInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 39
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.openInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 39
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.decreaseSpeed",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 157
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.decreaseSpeed",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 157
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.loadTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 130
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.decreaseSpeed",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 157
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.loadTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 130
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.loadTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 130
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.decreaseDepth",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 108
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkReactorStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 85
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.increaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 94
-              }
-            ]
-          }
-        }
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.diveDeeper",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 87
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "predicate": "CLAIM_POST",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_POST",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_POST",
-          "arg": {
-            "name": "Submarine_Controls.increaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 94
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.checkReactorStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 85
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Submarine_Controls.increaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 94
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.checkOxygenStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 78
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.checkReactorStatus",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 85
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.decreaseOxygen",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 70
-              }
-            ]
-          }
-        },
-        {
-          "predicate": "CLAIM_AORTE",
-          "arg": {
-            "name": "Submarine_Controls.increaseDepth",
-            "sloc": [
-              {
-                "file": "submarine_controls.ads",
-                "line": 94
-              }
-            ]
-          }
-        }
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.diveDeeper",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 87
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.decreaseDepth",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 108
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.decreaseDepth",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 108
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.storeTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 122
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.storeTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 122
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.storeTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 122
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.increaseSpeed",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 148
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.checkOxygenStatus",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 78
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.increaseSpeed",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 148
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.increaseSpeed",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 148
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
       ],
       "claim": {
         "predicate": "CLAIM_EFFECTS",
@@ -2813,7 +1235,7 @@
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 78
+              "line": 34
             }
           ]
         }
@@ -2829,23 +1251,7 @@
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 78
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.lockAirlockDoors",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 58
+              "line": 34
             }
           ]
         }
@@ -2857,11 +1263,11 @@
       "claim": {
         "predicate": "CLAIM_EFFECTS",
         "arg": {
-          "name": "Submarine_Controls.lockAirlockDoors",
+          "name": "Submarine_Controls.checkReactorStatus",
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 58
+              "line": 41
             }
           ]
         }
@@ -2873,11 +1279,11 @@
       "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
-          "name": "Submarine_Controls.closeOuterAirlock",
+          "name": "Submarine_Controls.increaseDepth",
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 46
+              "line": 50
             }
           ]
         }
@@ -2889,11 +1295,151 @@
       "claim": {
         "predicate": "CLAIM_AORTE",
         "arg": {
-          "name": "Submarine_Controls.lockAirlockDoors",
+          "name": "Submarine_Controls.checkReactorStatus",
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 58
+              "line": 41
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.increaseDepth",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine_Controls.increaseDepth",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Submarine_Controls.decreaseOxygen",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 26
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.decreaseOxygen",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 26
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine_Controls.decreaseOxygen",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 26
             }
           ]
         }
@@ -2909,215 +1455,7 @@
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 1
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.closeOuterAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 46
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.closeOuterAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 46
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.closeInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 34
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.closeInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 34
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.closeInnerAirlock",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 34
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.checkReactorStatus",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 85
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.increaseDepth",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 94
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.checkReactorStatus",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 85
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.increaseDepth",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 94
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.increaseDepth",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 94
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.fireTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 139
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.fireTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 139
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-      ],
-      "claim": {
-        "predicate": "CLAIM_AORTE",
-        "arg": {
-          "name": "Submarine_Controls.fireTorpedo",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 139
+              "line": 3
             }
           ]
         }
@@ -3128,11 +1466,147 @@
         {
           "predicate": "CLAIM_EFFECTS",
           "arg": {
-            "name": "Ada.Text_IO.Put_Line",
+            "name": "Submarine_Controls.checkOxygenStatus",
             "sloc": [
               {
-                "file": "a-textio.ads",
-                "line": 263
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkReactorStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 41
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.decreaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 64
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.riseUp",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Submarine_Controls.checkOxygenStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Submarine_Controls.decreaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 64
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkOxygenStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkReactorStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 41
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.decreaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 64
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
               }
             ]
           }
@@ -3140,67 +1614,11 @@
         {
           "predicate": "CLAIM_AORTE",
           "arg": {
-            "name": "Ada.Text_IO.Put_Line",
+            "name": "Submarine_Controls.checkOxygenStatus",
             "sloc": [
               {
-                "file": "a-textio.ads",
-                "line": 263
-              }
-            ]
-          }
-        }
-      ],
-      "claim": {
-        "predicate": "CLAIM_POST",
-        "arg": {
-          "name": "Submarine_Controls.decreaseOxygen",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 70
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Ada.Text_IO.Put_Line",
-            "sloc": [
-              {
-                "file": "a-textio.ads",
-                "line": 263
-              }
-            ]
-          }
-        }
-      ],
-      "claim": {
-        "predicate": "CLAIM_EFFECTS",
-        "arg": {
-          "name": "Submarine_Controls.decreaseOxygen",
-          "sloc": [
-            {
-              "file": "submarine_controls.ads",
-              "line": 70
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assumptions": [
-        {
-          "predicate": "CLAIM_EFFECTS",
-          "arg": {
-            "name": "Ada.Text_IO.Put_Line",
-            "sloc": [
-              {
-                "file": "a-textio.ads",
-                "line": 263
+                "file": "submarine_controls.ads",
+                "line": 34
               }
             ]
           }
@@ -3208,11 +1626,35 @@
         {
           "predicate": "CLAIM_AORTE",
           "arg": {
-            "name": "Ada.Text_IO.Put_Line",
+            "name": "Submarine_Controls.checkReactorStatus",
             "sloc": [
               {
-                "file": "a-textio.ads",
-                "line": 263
+                "file": "submarine_controls.ads",
+                "line": 41
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Submarine_Controls.decreaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 64
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
               }
             ]
           }
@@ -3221,11 +1663,383 @@
       "claim": {
         "predicate": "CLAIM_AORTE",
         "arg": {
-          "name": "Submarine_Controls.decreaseOxygen",
+          "name": "Submarine_Controls.riseUp",
           "sloc": [
             {
               "file": "submarine_controls.ads",
-              "line": 70
+              "line": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Submarine_Controls.decreaseSpeed",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 87
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.decreaseSpeed",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 87
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine_Controls.decreaseSpeed",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 87
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Submarine_Controls.decreaseDepth",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 64
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkOxygenStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkReactorStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 41
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.increaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 50
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.diveDeeper",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Submarine_Controls.checkOxygenStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Submarine_Controls.increaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 50
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkOxygenStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.checkReactorStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 41
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Submarine_Controls.increaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 50
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Submarine_Controls.checkOxygenStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Submarine_Controls.checkReactorStatus",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 41
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Submarine_Controls.decreaseOxygen",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 26
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Submarine_Controls.increaseDepth",
+            "sloc": [
+              {
+                "file": "submarine_controls.ads",
+                "line": 50
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine_Controls.diveDeeper",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.decreaseDepth",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 64
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine_Controls.decreaseDepth",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 64
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Submarine_Controls.increaseSpeed",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 78
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Submarine_Controls.increaseSpeed",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 78
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Submarine_Controls.increaseSpeed",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 78
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Submarine_Controls.checkOxygenStatus",
+          "sloc": [
+            {
+              "file": "submarine_controls.ads",
+              "line": 34
             }
           ]
         }
@@ -3233,14 +2047,14 @@
     }
   ],
   "timings": {
-    "marking": 1.40543200541288E-03,
-    "globals (basic)": 6.57066190615296E-03,
-    "globals/properties (advanced)": 1.52323078364134E-02,
-    "flow analysis": 1.80768575519323E-02,
-    "codepeer results": 4.17000001107226E-06,
-    "init_why_sections": 1.86385994311422E-04,
-    "translation of standard": 2.77269002981484E-03,
-    "translation of compilation unit": 4.27064113318920E-02,
-    "proof": 1.72769582271576E+00
+    "marking": 1.46028900053352E-03,
+    "globals (basic)": 7.75121198967099E-03,
+    "globals/properties (advanced)": 1.46830957382917E-02,
+    "flow analysis": 1.20785068720579E-02,
+    "codepeer results": 4.49099979960010E-06,
+    "init_why_sections": 2.15257998206653E-04,
+    "translation of standard": 3.24394693598151E-03,
+    "translation of compilation unit": 4.11733016371727E-02,
+    "proof": 1.40760719776154E+00
   }
 }

@@ -11,103 +11,6 @@
  </transf>
  </goal>
 </theory>
-<theory name="Submarine_controls__closeinnerairlock__subprogram_def" proved="true">
- <goal name="WP_parameter def" expl="VC for def" proved="true">
- <transf name="split_goal_wp_conj" proved="true" >
-  <goal name="WP_parameter def.0" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="invalid" steps="15"/></proof>
-  </goal>
-  <goal name="WP_parameter def.1" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="invalid" steps="15"/></proof>
-  <transf name="split_disj" >
-   <goal name="WP_parameter def.1.0" expl="postcondition">
-   </goal>
-   <goal name="WP_parameter def.1.1" expl="postcondition">
-   <proof prover="1" obsolete="true"><result status="invalid" steps="15"/></proof>
-   </goal>
-  </transf>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Submarine_controls__openinnerairlock__subprogram_def" proved="true">
- <goal name="WP_parameter def" expl="VC for def" proved="true">
- <transf name="split_goal_wp_conj" proved="true" >
-  <goal name="WP_parameter def.0" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="invalid" steps="14"/></proof>
-  <transf name="split_disj" >
-   <goal name="WP_parameter def.0.0" expl="postcondition">
-   </goal>
-   <goal name="WP_parameter def.0.1" expl="postcondition">
-   <proof prover="1" obsolete="true"><result status="invalid" steps="13"/></proof>
-   </goal>
-  </transf>
-  </goal>
-  <goal name="WP_parameter def.1" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Submarine_controls__closeouterairlock__subprogram_def" proved="true">
- <goal name="WP_parameter def" expl="VC for def" proved="true">
- <transf name="split_goal_wp_conj" proved="true" >
-  <goal name="WP_parameter def.0" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="invalid" steps="15"/></proof>
-  </goal>
-  <goal name="WP_parameter def.1" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Submarine_controls__openouterairlock__subprogram_def" proved="true">
- <goal name="WP_parameter def" expl="VC for def" proved="true">
- <transf name="split_goal_wp_conj" proved="true" >
-  <goal name="WP_parameter def.0" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  </goal>
-  <goal name="WP_parameter def.1" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="invalid" steps="14"/></proof>
-  <transf name="split_disj" >
-   <goal name="WP_parameter def.1.0" expl="postcondition">
-   <proof prover="1" obsolete="true"><result status="invalid" steps="13"/></proof>
-   </goal>
-   <goal name="WP_parameter def.1.1" expl="postcondition">
-   </goal>
-  </transf>
-  </goal>
- </transf>
- </goal>
-</theory>
-<theory name="Submarine_controls__lockairlockdoors__subprogram_def" proved="true">
- <goal name="WP_parameter def" expl="VC for def" proved="true">
- <transf name="split_goal_wp_conj" proved="true" >
-  <goal name="WP_parameter def.0" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="invalid" steps="14"/></proof>
-  <transf name="split_disj" >
-   <goal name="WP_parameter def.0.0" expl="postcondition">
-   <proof prover="1" obsolete="true"><result status="invalid" steps="14"/></proof>
-   </goal>
-   <goal name="WP_parameter def.0.1" expl="postcondition">
-   </goal>
-  </transf>
-  </goal>
-  <goal name="WP_parameter def.1" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  </goal>
-  <goal name="WP_parameter def.2" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="5"/></proof>
-  </goal>
- </transf>
- </goal>
-</theory>
 <theory name="Submarine_controls__decreaseoxygen__subprogram_def" proved="true">
  <goal name="WP_parameter def" expl="VC for def" proved="true">
  <transf name="split_goal_wp_conj" proved="true" >
@@ -425,17 +328,17 @@
   </goal>
   <goal name="WP_parameter def.3" expl="postcondition" proved="true">
   <proof prover="0"><result status="valid" steps="5"/></proof>
-  <proof prover="1" obsolete="true"><result status="unknown" steps="37"/></proof>
-  <transf name="split_disj" >
-   <goal name="WP_parameter def.3.0" expl="postcondition">
-   </goal>
-   <goal name="WP_parameter def.3.1" expl="postcondition">
-   <proof prover="1" obsolete="true"><result status="unknown" steps="14"/></proof>
-   </goal>
-  </transf>
   </goal>
   <goal name="WP_parameter def.4" expl="postcondition" proved="true">
   <proof prover="0"><result status="valid" steps="5"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="37"/></proof>
+  <transf name="split_disj" >
+   <goal name="WP_parameter def.4.0" expl="postcondition">
+   </goal>
+   <goal name="WP_parameter def.4.1" expl="postcondition">
+   <proof prover="1" obsolete="true"><result status="unknown" steps="14"/></proof>
+   </goal>
+  </transf>
   </goal>
  </transf>
  </goal>
