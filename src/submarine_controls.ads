@@ -15,6 +15,8 @@ package Submarine_Controls with SPARK_Mode is
    --reactorOverheatThreshold : constant Integer := 12000;
    type ReactorHeatLevel is range 0..1000;
    reactorHeating : ReactorHeatLevel;
+   type Speed is range 0..100;
+   currentSpeed : Speed;
    
    --how many torpedoes can be stored on the boat
    type Torpedoes is range 0..20;
@@ -118,9 +120,11 @@ package Submarine_Controls with SPARK_Mode is
    --to store a torpedo there has to be a place for it
    --after the fact a maximum number can be reached or not, allowing to add more
    procedure storeTorpedo with
-     Global => (In_Out => storedTorpedoes ),
-     Pre => storedTorpedoes < Torpedoes'Last,
-     Post => storedTorpedoes <= Torpedoes'Last and 
+     Global => (In_Out => storedTorpedoes, Input => airlockDoorsLocked ),
+     Pre => storedTorpedoes < Torpedoes'Last and then
+            airlockDoorsLocked = True,
+     Post => airlockDoorsLocked = True and  
+             storedTorpedoes <= Torpedoes'Last and 
              storedTorpedoes = storedTorpedoes'Old + 1;
    
    procedure loadTorpedo with
@@ -141,7 +145,22 @@ package Submarine_Controls with SPARK_Mode is
              loadedTorpedoes = loadedTorpedoes'Old - 1 and
              reactorHeating = reactorHeating'Old + 1;
      
+   procedure increaseSpeed with
+     Global => (In_Out => (reactorHeating, currentSpeed), Input => airlockDoorsLocked),
+     Pre => airlockDoorsLocked = True and 
+            reactorHeating <= ReactorHeatLevel'Last - 10 and
+            currentSpeed < Speed'Last,
+     Post => airlockDoorsLocked = True and
+             reactorHeating = reactorHeating'Old + 10 and
+             currentSpeed = currentSpeed'Old + 1;
    
-   
-   
+   procedure decreaseSpeed with
+     Global => (In_Out => (reactorHeating, currentSpeed), Input => airlockDoorsLocked),
+     Pre => airlockDoorsLocked = True and
+            reactorHeating < ReactorHeatLevel'Last and 
+            currentSpeed > Speed'First,
+     Post => airlockDoorsLocked = True and
+            currentSpeed = currentSpeed'Old - 1 and 
+            reactorHeating = reactorHeating'Old + 1;
+     
 end Submarine_Controls;

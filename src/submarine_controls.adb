@@ -159,7 +159,9 @@ package body Submarine_Controls with SPARK_Mode is
    --======== Torpedoes ======
    --torpedoes can be stored while on surface
    procedure storeTorpedo is begin
-      if storedTorpedoes < Torpedoes'Last then
+      if storedTorpedoes < Torpedoes'Last
+        and airlockDoorsLocked = True 
+      then
          storedTorpedoes := storedTorpedoes + 1;
       end if;
    end storeTorpedo;   
@@ -192,5 +194,24 @@ package body Submarine_Controls with SPARK_Mode is
    --firing torpedoes consumes reactor heating points
    -- cloacking impacts heating
 
-
+   procedure increaseSpeed is begin
+      if airlockDoorsLocked 
+        and reactorHeating <= ReactorHeatLevel'Last -  10
+        and currentSpeed < Speed'Last          
+      then
+         currentSpeed := currentSpeed + 1;
+         reactorHeating := reactorHeating + 10;
+      end if;
+   end increaseSpeed;
+   
+   procedure decreaseSpeed is begin
+      if airlockDoorsLocked 
+        and reactorHeating < ReactorHeatLevel'Last
+        and currentSpeed > Speed'First          
+      then
+         currentSpeed := currentSpeed - 1;
+         reactorHeating := reactorHeating + 1;
+      end if;
+   end decreaseSpeed;
+   
 end Submarine_Controls;

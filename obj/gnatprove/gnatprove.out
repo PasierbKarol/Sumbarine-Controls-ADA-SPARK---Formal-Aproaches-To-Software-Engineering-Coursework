@@ -8,31 +8,33 @@ Data Dependencies                 .         .          .          .            .
 Flow Dependencies                 .         .          .          .            .           .          .
 Initialization                    .         .          .          .            .           .          .
 Non-Aliasing                      .         .          .          .            .           .          .
-Run-time Checks                  10         .          .          .    10 (CVC4)           .          .
+Run-time Checks                  14         .          .          .    14 (CVC4)           .          .
 Assertions                        .         .          .          .            .           .          .
-Functional Contracts             18         .          .          .    18 (CVC4)           .          .
+Functional Contracts             20         .          .          .    20 (CVC4)           .          .
 LSP Verification                  .         .          .          .            .           .          .
 -------------------------------------------------------------------------------------------------------
-Total                            28         .          .          .    28 (100%)           .          .
+Total                            34         .          .          .    34 (100%)           .          .
 
 
 Analyzed 2 units
 in unit main, 0 subprograms and packages out of 1 analyzed
   Main at main.adb:1 skipped
-in unit submarine_controls, 16 subprograms and packages out of 16 analyzed
+in unit submarine_controls, 18 subprograms and packages out of 18 analyzed
   Submarine_Controls at submarine_controls.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine_Controls.checkOxygenStatus at submarine_controls.ads:76 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.checkReactorStatus at submarine_controls.ads:83 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:32 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:44 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.decreaseDepth at submarine_controls.ads:106 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.decreaseOxygen at submarine_controls.ads:68 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
-  Submarine_Controls.diveDeeper at submarine_controls.ads:85 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.fireTorpedo at submarine_controls.ads:135 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.increaseDepth at submarine_controls.ads:92 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.loadTorpedo at submarine_controls.ads:126 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:56 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.openInnerAirlock at submarine_controls.ads:37 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.openOuterAirlock at submarine_controls.ads:49 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.riseUp at submarine_controls.ads:87 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.storeTorpedo at submarine_controls.ads:120 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Submarine_Controls.checkOxygenStatus at submarine_controls.ads:78 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.checkReactorStatus at submarine_controls.ads:85 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Submarine_Controls.closeInnerAirlock at submarine_controls.ads:34 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.closeOuterAirlock at submarine_controls.ads:46 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.decreaseDepth at submarine_controls.ads:108 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.decreaseOxygen at submarine_controls.ads:70 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Submarine_Controls.decreaseSpeed at submarine_controls.ads:157 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.diveDeeper at submarine_controls.ads:87 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.fireTorpedo at submarine_controls.ads:139 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.increaseDepth at submarine_controls.ads:94 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.increaseSpeed at submarine_controls.ads:148 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.loadTorpedo at submarine_controls.ads:130 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.lockAirlockDoors at submarine_controls.ads:58 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.openInnerAirlock at submarine_controls.ads:39 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.openOuterAirlock at submarine_controls.ads:51 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Submarine_Controls.riseUp at submarine_controls.ads:89 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.storeTorpedo at submarine_controls.ads:122 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
