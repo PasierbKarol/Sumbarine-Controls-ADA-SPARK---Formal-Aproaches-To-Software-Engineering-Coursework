@@ -4,30 +4,32 @@ package body Torpedoes with SPARK_Mode is
    --======== Torpedoes ======
    --torpedoes can be stored while on surface
    procedure storeTorpedo is begin
-      if storedTorpedoes < Torpedoes'Last
+      if totalTorpedoes < StoredTorpedoes'Last
         and airlockDoorsLocked = True 
       then
-         storedTorpedoes := storedTorpedoes + 1;
+         totalTorpedoes := totalTorpedoes + 1;
       end if;
    end storeTorpedo;   
    
    --cannot load torpedo if submarine doors are unlocked
-   procedure loadTorpedo is begin
-      if loadedTorpedoes < TorpedoesLoaded'Last 
-        and storedTorpedoes > Torpedoes'First
+   procedure loadTorpedo (torpedoBay : in out TorpedoFiringBay; bayNumber : in TorpedoesBayNumber) is begin
+      if totalTorpedoes > StoredTorpedoes'First
         and airlockDoorsLocked = True then
-         loadedTorpedoes := loadedTorpedoes + 1;
-         storedTorpedoes := storedTorpedoes - 1;
+         torpedoBay(bayNumber) := Loaded;
+         totalTorpedoes := totalTorpedoes - 1;
       end if;
    end loadTorpedo;
    
    --cannot fire torpedo if submarine doors are unlocked
-   procedure fireTorpedo (reactorHeating : in out ReactorHeatLevel) is begin
-      if loadedTorpedoes > TorpedoesLoaded'First
-        and airlockDoorsLocked = True 
+   procedure fireTorpedo (reactorHeating : in out ReactorHeatLevel;
+                          torpedoBay : in out TorpedoFiringBay; 
+                          bayNumber : in TorpedoesBayNumber) is begin
+      if torpedoBay(bayNumber) /= Empty and 
+          airlockDoorsLocked = True 
         and reactorHeating < ReactorHeatLevel'Last          
       then
-         loadedTorpedoes := loadedTorpedoes - 1;
+         -- loadedTorpedoes := loadedTorpedoes - 1;
+         torpedoBay(bayNumber) := Empty; 
          reactorHeating := reactorHeating + 1;
       end if;
    end fireTorpedo;

@@ -1638,12 +1638,12 @@ module Standard__universal_integer__rep
 
 end
 
-(* Module for axiomatizing type "TtorpedoesB" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__TtorpedoesB
+(* Module for axiomatizing type "TstoredtorpedoesB" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__TstoredtorpedoesB
  use import "_gnatprove_standard".Main
  use import "int".Int
 
- type ttorpedoesB =
+ type tstoredtorpedoesB =
   < range -128 127 >
  
  function first 
@@ -1659,40 +1659,40 @@ module Torpedoes__TtorpedoesB
   ( (first <= x) /\ (x <= last) )
  
  clone export "ada__model".Static_Discrete with
- type t = ttorpedoesB, 
+ type t = tstoredtorpedoesB, 
  function first = first, 
  function last = last, 
  predicate in_range = in_range
  
- type ttorpedoesB__ref =
-  { mutable ttorpedoesB__content "model_trace:" "name:" : ttorpedoesB }
+ type tstoredtorpedoesB__ref =
+  { mutable tstoredtorpedoesB__content "model_trace:" "name:" : tstoredtorpedoesB }
  
- function ttorpedoesB__ref___projection 
-   (a : ttorpedoesB__ref) : ttorpedoesB =
-  a.ttorpedoesB__content
+ function tstoredtorpedoesB__ref___projection 
+   (a : tstoredtorpedoesB__ref) : tstoredtorpedoesB =
+  a.tstoredtorpedoesB__content
  
- meta "model_projection" function ttorpedoesB__ref___projection
+ meta "model_projection" function tstoredtorpedoesB__ref___projection
  
- meta "inline : no" function ttorpedoesB__ref___projection
+ meta "inline : no" function tstoredtorpedoesB__ref___projection
  
- val ttorpedoesB__havoc 
-   (x : ttorpedoesB__ref) : unit
+ val tstoredtorpedoesB__havoc 
+   (x : tstoredtorpedoesB__ref) : unit
   writes {x}
 
 end
 
-(* Module defining to_rep/of_rep for type "TtorpedoesB" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__TtorpedoesB__rep
- use        Torpedoes__TtorpedoesB
+(* Module defining to_rep/of_rep for type "TstoredtorpedoesB" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__TstoredtorpedoesB__rep
+ use        Torpedoes__TstoredtorpedoesB
  use import "_gnatprove_standard".Main
 
  function to_rep 
-   (x : Torpedoes__TtorpedoesB.ttorpedoesB) : int =
-  (Torpedoes__TtorpedoesB.ttorpedoesB'int x)
+   (x : Torpedoes__TstoredtorpedoesB.tstoredtorpedoesB) : int =
+  (Torpedoes__TstoredtorpedoesB.tstoredtorpedoesB'int x)
  
  clone export "ada__model".Rep_Proj_Int with
- type t = Torpedoes__TtorpedoesB.ttorpedoesB, 
- predicate in_range = Torpedoes__TtorpedoesB.in_range, 
+ type t = Torpedoes__TstoredtorpedoesB.tstoredtorpedoesB, 
+ predicate in_range = Torpedoes__TstoredtorpedoesB.in_range, 
  function to_rep = to_rep
  
  meta "model_projection" function to_rep
@@ -1701,12 +1701,12 @@ module Torpedoes__TtorpedoesB__rep
 
 end
 
-(* Module for axiomatizing type "torpedoes" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__torpedoes
+(* Module for axiomatizing type "storedtorpedoes" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__storedtorpedoes
  use import "_gnatprove_standard".Main
  use import "int".Int
 
- type torpedoes =
+ type storedtorpedoes =
   < range 0 20 >
  
  function first 
@@ -1722,40 +1722,40 @@ module Torpedoes__torpedoes
   ( (first <= x) /\ (x <= last) )
  
  clone export "ada__model".Static_Discrete with
- type t = torpedoes, 
+ type t = storedtorpedoes, 
  function first = first, 
  function last = last, 
  predicate in_range = in_range
  
- type torpedoes__ref =
-  { mutable torpedoes__content "model_trace:" "name:" : torpedoes }
+ type storedtorpedoes__ref =
+  { mutable storedtorpedoes__content "model_trace:" "name:" : storedtorpedoes }
  
- function torpedoes__ref___projection 
-   (a : torpedoes__ref) : torpedoes =
-  a.torpedoes__content
+ function storedtorpedoes__ref___projection 
+   (a : storedtorpedoes__ref) : storedtorpedoes =
+  a.storedtorpedoes__content
  
- meta "model_projection" function torpedoes__ref___projection
+ meta "model_projection" function storedtorpedoes__ref___projection
  
- meta "inline : no" function torpedoes__ref___projection
+ meta "inline : no" function storedtorpedoes__ref___projection
  
- val torpedoes__havoc 
-   (x : torpedoes__ref) : unit
+ val storedtorpedoes__havoc 
+   (x : storedtorpedoes__ref) : unit
   writes {x}
 
 end
 
-(* Module defining to_rep/of_rep for type "torpedoes" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__torpedoes__rep
- use        Torpedoes__torpedoes
+(* Module defining to_rep/of_rep for type "storedtorpedoes" defined at torpedoes.ads:5, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__storedtorpedoes__rep
+ use        Torpedoes__storedtorpedoes
  use import "_gnatprove_standard".Main
 
  function to_rep 
-   (x : Torpedoes__torpedoes.torpedoes) : int =
-  (Torpedoes__torpedoes.torpedoes'int x)
+   (x : Torpedoes__storedtorpedoes.storedtorpedoes) : int =
+  (Torpedoes__storedtorpedoes.storedtorpedoes'int x)
  
  clone export "ada__model".Rep_Proj_Int with
- type t = Torpedoes__torpedoes.torpedoes, 
- predicate in_range = Torpedoes__torpedoes.in_range, 
+ type t = Torpedoes__storedtorpedoes.storedtorpedoes, 
+ predicate in_range = Torpedoes__storedtorpedoes.in_range, 
  function to_rep = to_rep
  
  meta "model_projection" function to_rep
@@ -1764,12 +1764,69 @@ module Torpedoes__torpedoes__rep
 
 end
 
-(* Module for axiomatizing type "TtorpedoesloadedB" defined at torpedoes.ads:9, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__TtorpedoesloadedB
+(* Module for axiomatizing type "baystate" defined at torpedoes.ads:8, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__baystate
  use import "_gnatprove_standard".Main
  use import "int".Int
 
- type ttorpedoesloadedB =
+ type baystate 
+ 
+ function first 
+   : int =
+  0
+ 
+ function last 
+   : int =
+  1
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = baystate, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type baystate__ref =
+  { mutable baystate__content "model_trace:" "name:" : baystate }
+ 
+ function baystate__ref___projection 
+   (a : baystate__ref) : baystate =
+  a.baystate__content
+ 
+ meta "model_projection" function baystate__ref___projection
+ 
+ meta "inline : no" function baystate__ref___projection
+ 
+ val baystate__havoc 
+   (x : baystate__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "baystate" defined at torpedoes.ads:8, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__baystate__rep
+ use        Torpedoes__baystate
+ use import "_gnatprove_standard".Main
+
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Torpedoes__baystate.baystate, 
+ predicate in_range = Torpedoes__baystate.in_range
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
+
+(* Module for axiomatizing type "TtorpedoesbaynumberB" defined at torpedoes.ads:11, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__TtorpedoesbaynumberB
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type ttorpedoesbaynumberB =
   < range -128 127 >
  
  function first 
@@ -1785,40 +1842,40 @@ module Torpedoes__TtorpedoesloadedB
   ( (first <= x) /\ (x <= last) )
  
  clone export "ada__model".Static_Discrete with
- type t = ttorpedoesloadedB, 
+ type t = ttorpedoesbaynumberB, 
  function first = first, 
  function last = last, 
  predicate in_range = in_range
  
- type ttorpedoesloadedB__ref =
-  { mutable ttorpedoesloadedB__content "model_trace:" "name:" : ttorpedoesloadedB }
+ type ttorpedoesbaynumberB__ref =
+  { mutable ttorpedoesbaynumberB__content "model_trace:" "name:" : ttorpedoesbaynumberB }
  
- function ttorpedoesloadedB__ref___projection 
-   (a : ttorpedoesloadedB__ref) : ttorpedoesloadedB =
-  a.ttorpedoesloadedB__content
+ function ttorpedoesbaynumberB__ref___projection 
+   (a : ttorpedoesbaynumberB__ref) : ttorpedoesbaynumberB =
+  a.ttorpedoesbaynumberB__content
  
- meta "model_projection" function ttorpedoesloadedB__ref___projection
+ meta "model_projection" function ttorpedoesbaynumberB__ref___projection
  
- meta "inline : no" function ttorpedoesloadedB__ref___projection
+ meta "inline : no" function ttorpedoesbaynumberB__ref___projection
  
- val ttorpedoesloadedB__havoc 
-   (x : ttorpedoesloadedB__ref) : unit
+ val ttorpedoesbaynumberB__havoc 
+   (x : ttorpedoesbaynumberB__ref) : unit
   writes {x}
 
 end
 
-(* Module defining to_rep/of_rep for type "TtorpedoesloadedB" defined at torpedoes.ads:9, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__TtorpedoesloadedB__rep
- use        Torpedoes__TtorpedoesloadedB
+(* Module defining to_rep/of_rep for type "TtorpedoesbaynumberB" defined at torpedoes.ads:11, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__TtorpedoesbaynumberB__rep
+ use        Torpedoes__TtorpedoesbaynumberB
  use import "_gnatprove_standard".Main
 
  function to_rep 
-   (x : Torpedoes__TtorpedoesloadedB.ttorpedoesloadedB) : int =
-  (Torpedoes__TtorpedoesloadedB.ttorpedoesloadedB'int x)
+   (x : Torpedoes__TtorpedoesbaynumberB.ttorpedoesbaynumberB) : int =
+  (Torpedoes__TtorpedoesbaynumberB.ttorpedoesbaynumberB'int x)
  
  clone export "ada__model".Rep_Proj_Int with
- type t = Torpedoes__TtorpedoesloadedB.ttorpedoesloadedB, 
- predicate in_range = Torpedoes__TtorpedoesloadedB.in_range, 
+ type t = Torpedoes__TtorpedoesbaynumberB.ttorpedoesbaynumberB, 
+ predicate in_range = Torpedoes__TtorpedoesbaynumberB.in_range, 
  function to_rep = to_rep
  
  meta "model_projection" function to_rep
@@ -1827,61 +1884,61 @@ module Torpedoes__TtorpedoesloadedB__rep
 
 end
 
-(* Module for axiomatizing type "torpedoesloaded" defined at torpedoes.ads:9, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__torpedoesloaded
+(* Module for axiomatizing type "torpedoesbaynumber" defined at torpedoes.ads:11, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__torpedoesbaynumber
  use import "_gnatprove_standard".Main
  use import "int".Int
 
- type torpedoesloaded =
-  < range 0 6 >
+ type torpedoesbaynumber =
+  < range 1 4 >
  
  function first 
    : int =
-  0
+  1
  
  function last 
    : int =
-  6
+  4
  
  predicate in_range 
    (x : int)  =
   ( (first <= x) /\ (x <= last) )
  
  clone export "ada__model".Static_Discrete with
- type t = torpedoesloaded, 
+ type t = torpedoesbaynumber, 
  function first = first, 
  function last = last, 
  predicate in_range = in_range
  
- type torpedoesloaded__ref =
-  { mutable torpedoesloaded__content "model_trace:" "name:" : torpedoesloaded }
+ type torpedoesbaynumber__ref =
+  { mutable torpedoesbaynumber__content "model_trace:" "name:" : torpedoesbaynumber }
  
- function torpedoesloaded__ref___projection 
-   (a : torpedoesloaded__ref) : torpedoesloaded =
-  a.torpedoesloaded__content
+ function torpedoesbaynumber__ref___projection 
+   (a : torpedoesbaynumber__ref) : torpedoesbaynumber =
+  a.torpedoesbaynumber__content
  
- meta "model_projection" function torpedoesloaded__ref___projection
+ meta "model_projection" function torpedoesbaynumber__ref___projection
  
- meta "inline : no" function torpedoesloaded__ref___projection
+ meta "inline : no" function torpedoesbaynumber__ref___projection
  
- val torpedoesloaded__havoc 
-   (x : torpedoesloaded__ref) : unit
+ val torpedoesbaynumber__havoc 
+   (x : torpedoesbaynumber__ref) : unit
   writes {x}
 
 end
 
-(* Module defining to_rep/of_rep for type "torpedoesloaded" defined at torpedoes.ads:9, created in Gnat2Why.Types.Translate_Type *)
-module Torpedoes__torpedoesloaded__rep
- use        Torpedoes__torpedoesloaded
+(* Module defining to_rep/of_rep for type "torpedoesbaynumber" defined at torpedoes.ads:11, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__torpedoesbaynumber__rep
+ use        Torpedoes__torpedoesbaynumber
  use import "_gnatprove_standard".Main
 
  function to_rep 
-   (x : Torpedoes__torpedoesloaded.torpedoesloaded) : int =
-  (Torpedoes__torpedoesloaded.torpedoesloaded'int x)
+   (x : Torpedoes__torpedoesbaynumber.torpedoesbaynumber) : int =
+  (Torpedoes__torpedoesbaynumber.torpedoesbaynumber'int x)
  
  clone export "ada__model".Rep_Proj_Int with
- type t = Torpedoes__torpedoesloaded.torpedoesloaded, 
- predicate in_range = Torpedoes__torpedoesloaded.in_range, 
+ type t = Torpedoes__torpedoesbaynumber.torpedoesbaynumber, 
+ predicate in_range = Torpedoes__torpedoesbaynumber.in_range, 
  function to_rep = to_rep
  
  meta "model_projection" function to_rep
@@ -1890,7 +1947,188 @@ module Torpedoes__torpedoesloaded__rep
 
 end
 
-(* Module for axiomatizing type "TreactorheatlevelB" defined at torpedoes.ads:12, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing the array theory associated to type "TtorpedofiringbayB" defined at torpedoes.ads:12, created in Why.Gen.Arrays.Create_Rep_Array_Theory *)
+module Array__Int__Torpedoes__baystate
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Torpedoes__baystate
+ use        Torpedoes__baystate__rep
+
+ function index_I1_one 
+   : int =
+  1
+ 
+ type component_type =
+  Torpedoes__baystate.baystate
+ 
+ clone export "_gnatprove_standard".Array__1 with
+ type I1.t = int, 
+ predicate I1.le = Int.(<=), 
+ predicate I1.lt = Int.(<), 
+ predicate I1.gt = Int.(>), 
+ function I1.add = Int.(+), 
+ function I1.sub = Int.(-), 
+ function I1.one = index_I1_one, 
+ type component_type = component_type
+ 
+ function bool_eq 
+   (a : map) (a__first : int) (a__last : int) (b : map) (b__first : int) (b__last : int) : bool =
+  ( (if ((a__first <= a__last)) then (
+   ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+   (b__first > b__last))) /\ (forall temp___idx_154   : int.
+   (if (( (a__first <= temp___idx_154) /\ (temp___idx_154 <= a__last) )) then (
+    ((Torpedoes__baystate__rep.to_rep (get a temp___idx_154)) = (Torpedoes__baystate__rep.to_rep (get b ((b__first - a__first) + temp___idx_154))))) else true)) )
+ 
+ axiom bool_eq_rev :
+  (forall a   b   : map.
+  (forall a__first   a__last   b__first   b__last   : int.
+   ( ((bool_eq b b__first b__last a a__first a__last) = True) -> ( (if ((a__first <= a__last)) then (
+    ( (b__first <= b__last) /\ ((a__last - a__first) = (b__last - b__first)) )) else (
+    (b__first > b__last))) /\ (forall temp___idx_154   : int.
+    (if (( (a__first <= temp___idx_154) /\ (temp___idx_154 <= a__last) )) then (
+     ((Torpedoes__baystate__rep.to_rep (get a temp___idx_154)) = (Torpedoes__baystate__rep.to_rep (get b ((b__first - a__first) + temp___idx_154))))) else true)) ) )))
+
+end
+
+(* Module for axiomatizing concatenation for the array theory associated to type "TtorpedofiringbayB" defined at torpedoes.ads:12, created in Why.Gen.Arrays.Declare_Concatenation_Symbols *)
+module Array__Int__Torpedoes__baystate__Concat
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Array__Int__Torpedoes__baystate
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "_gnatprove_standard".Array__1__Concat with
+ type component_type = Array__Int__Torpedoes__baystate.component_type, 
+ type map = Array__Int__Torpedoes__baystate.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Torpedoes__baystate.get
+
+end
+
+(* Module for axiomatizing comparison for the array theory associated to type "TtorpedofiringbayB" defined at torpedoes.ads:12, created in Why.Gen.Arrays.Declare_Comparison_Symbols *)
+module Array__Int__Torpedoes__baystate_Comp
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Torpedoes__baystate__rep
+ use        Array__Int__Torpedoes__baystate
+
+ function index_Index_one 
+   : int =
+  1
+ 
+ clone export "ada__model".Array_Int_Rep_Comparison_Axiom with
+ type component_type = Array__Int__Torpedoes__baystate.component_type, 
+ function to_rep = Torpedoes__baystate__rep.to_rep, 
+ type map = Array__Int__Torpedoes__baystate.map, 
+ type Index.t = int, 
+ predicate Index.le = Int.(<=), 
+ predicate Index.lt = Int.(<), 
+ predicate Index.gt = Int.(>), 
+ function Index.add = Int.(+), 
+ function Index.sub = Int.(-), 
+ function Index.one = index_Index_one, 
+ function get = Array__Int__Torpedoes__baystate.get, 
+ function bool_eq = Array__Int__Torpedoes__baystate.bool_eq
+
+end
+
+(* Module for axiomatizing type "TtorpedofiringbayB" defined at torpedoes.ads:12, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__TtorpedofiringbayB
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Torpedoes__baystate
+ use        Torpedoes__TtorpedoesbaynumberB
+ use        Torpedoes__TtorpedoesbaynumberB__rep
+ use        Torpedoes__torpedoesbaynumber
+ use        Array__Int__Torpedoes__baystate
+
+ type component_type =
+  Torpedoes__baystate.baystate
+ 
+ function index_1_id 
+   (x : int) : int =
+  x
+ 
+ clone export "ada__model".Unconstr_Array with
+ type map = Array__Int__Torpedoes__baystate.map, 
+ function array_bool_eq = Array__Int__Torpedoes__baystate.bool_eq, 
+ type index_base_type = Torpedoes__TtorpedoesbaynumberB.ttorpedoesbaynumberB, 
+ type index_rep_type = int, 
+ function to_rep = Torpedoes__TtorpedoesbaynumberB__rep.to_rep, 
+ function rep_to_int = index_1_id, 
+ predicate in_range_base = Torpedoes__TtorpedoesbaynumberB.in_range, 
+ predicate index_dynamic_property = Torpedoes__torpedoesbaynumber.dynamic_property, 
+ predicate index_rep_le = Int.(<=)
+ 
+ type ttorpedofiringbayB =
+  __t
+ 
+ meta "model_projection" function to_array
+ 
+ meta "inline : no" function to_array
+ 
+ meta "model_projection" function first
+ 
+ meta "inline : no" function first
+ 
+ meta "model_projection" function last
+ 
+ meta "inline : no" function last
+ 
+ type ttorpedofiringbayB__ref =
+  { mutable ttorpedofiringbayB__content "model_trace:" "name:" : ttorpedofiringbayB }
+ 
+ function ttorpedofiringbayB__ref___projection 
+   (a : ttorpedofiringbayB__ref) : ttorpedofiringbayB =
+  a.ttorpedofiringbayB__content
+ 
+ meta "model_projection" function ttorpedofiringbayB__ref___projection
+ 
+ meta "inline : no" function ttorpedofiringbayB__ref___projection
+ 
+ val ttorpedofiringbayB__havoc 
+   (x : ttorpedofiringbayB__ref) : unit
+  writes {x}
+
+end
+
+(* Module for axiomatizing type "torpedofiringbay" defined at torpedoes.ads:12, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__torpedofiringbay
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Torpedoes__baystate
+ use        Array__Int__Torpedoes__baystate
+
+ type component_type =
+  Torpedoes__baystate.baystate
+ 
+ function first 
+   : int =
+  1
+ 
+ function last 
+   : int =
+  4
+ 
+ clone export "ada__model".Constr_Array with
+ type map = Array__Int__Torpedoes__baystate.map, 
+ function array_bool_eq = Array__Int__Torpedoes__baystate.bool_eq, 
+ function first = first, 
+ function last = last, 
+ type index_rep_type = int
+
+end
+
+(* Module for axiomatizing type "TreactorheatlevelB" defined at torpedoes.ads:14, created in Gnat2Why.Types.Translate_Type *)
 module Torpedoes__TreactorheatlevelB
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -1933,7 +2171,7 @@ module Torpedoes__TreactorheatlevelB
 
 end
 
-(* Module defining to_rep/of_rep for type "TreactorheatlevelB" defined at torpedoes.ads:12, created in Gnat2Why.Types.Translate_Type *)
+(* Module defining to_rep/of_rep for type "TreactorheatlevelB" defined at torpedoes.ads:14, created in Gnat2Why.Types.Translate_Type *)
 module Torpedoes__TreactorheatlevelB__rep
  use        Torpedoes__TreactorheatlevelB
  use import "_gnatprove_standard".Main
@@ -1953,7 +2191,7 @@ module Torpedoes__TreactorheatlevelB__rep
 
 end
 
-(* Module for axiomatizing type "reactorheatlevel" defined at torpedoes.ads:12, created in Gnat2Why.Types.Translate_Type *)
+(* Module for axiomatizing type "reactorheatlevel" defined at torpedoes.ads:14, created in Gnat2Why.Types.Translate_Type *)
 module Torpedoes__reactorheatlevel
  use import "_gnatprove_standard".Main
  use import "int".Int
@@ -1996,7 +2234,7 @@ module Torpedoes__reactorheatlevel
 
 end
 
-(* Module defining to_rep/of_rep for type "reactorheatlevel" defined at torpedoes.ads:12, created in Gnat2Why.Types.Translate_Type *)
+(* Module defining to_rep/of_rep for type "reactorheatlevel" defined at torpedoes.ads:14, created in Gnat2Why.Types.Translate_Type *)
 module Torpedoes__reactorheatlevel__rep
  use        Torpedoes__reactorheatlevel
  use import "_gnatprove_standard".Main
@@ -2015,11 +2253,112 @@ module Torpedoes__reactorheatlevel__rep
  meta "inline : no" function to_rep
 
 end
+
+(* Module for defining the constant "baynumber" defined at torpedoes.ads:28, created in Gnat2Why.Decls.Translate_Constant *)
+module Torpedoes__loadtorpedo__baynumber
+ use import "_gnatprove_standard".Main
+
+ function baynumber #"torpedoes.ads" 28 0 0#"model" "model_trace:2628" "name:bayNumber" 
+   : int
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "baynumber" defined at torpedoes.ads:28, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Torpedoes__loadtorpedo__baynumber___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining the constant "baynumber" defined at torpedoes.ads:37, created in Gnat2Why.Decls.Translate_Constant *)
+module Torpedoes__firetorpedo__baynumber
+ use import "_gnatprove_standard".Main
+
+ function baynumber #"torpedoes.ads" 37 0 0#"model" "name:bayNumber" "model_trace:2700" 
+   : int
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "baynumber" defined at torpedoes.ads:37, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Torpedoes__firetorpedo__baynumber___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for axiomatizing type "T13s" defined at torpedoes.ads:44, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__firetorpedo__L12s__T13s
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+
+ type t13s =
+  < range 1 4 >
+ 
+ function first 
+   : int =
+  1
+ 
+ function last 
+   : int =
+  4
+ 
+ predicate in_range 
+   (x : int)  =
+  ( (first <= x) /\ (x <= last) )
+ 
+ clone export "ada__model".Static_Discrete with
+ type t = t13s, 
+ function first = first, 
+ function last = last, 
+ predicate in_range = in_range
+ 
+ type t13s__ref =
+  { mutable t13s__content "model_trace:" "name:" : t13s }
+ 
+ function t13s__ref___projection 
+   (a : t13s__ref) : t13s =
+  a.t13s__content
+ 
+ meta "model_projection" function t13s__ref___projection
+ 
+ meta "inline : no" function t13s__ref___projection
+ 
+ val t13s__havoc 
+   (x : t13s__ref) : unit
+  writes {x}
+
+end
+
+(* Module defining to_rep/of_rep for type "T13s" defined at torpedoes.ads:44, created in Gnat2Why.Types.Translate_Type *)
+module Torpedoes__firetorpedo__L12s__T13s__rep
+ use        Torpedoes__firetorpedo__L12s__T13s
+ use import "_gnatprove_standard".Main
+
+ function to_rep 
+   (x : Torpedoes__firetorpedo__L12s__T13s.t13s) : int =
+  (Torpedoes__firetorpedo__L12s__T13s.t13s'int x)
+ 
+ clone export "ada__model".Rep_Proj_Int with
+ type t = Torpedoes__firetorpedo__L12s__T13s.t13s, 
+ predicate in_range = Torpedoes__firetorpedo__L12s__T13s.in_range, 
+ function to_rep = to_rep
+ 
+ meta "model_projection" function to_rep
+ 
+ meta "inline : no" function to_rep
+
+end
 (* Module for defining a ref holding the value of variable "innerairlockstate" defined at airlock.ads:4, created in Gnat2Why.Decls.Translate_Variable *)
 module Airlock__innerairlockstate
  use import "_gnatprove_standard".Main
 
- val innerairlockstate #"airlock.ads" 4 0 0#"model_projected" "model_trace:2704" "name:innerAirlockState"  : bool__ref 
+ val innerairlockstate #"airlock.ads" 4 0 0#"model_projected" "model_trace:2801" "name:innerAirlockState"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2037,7 +2376,7 @@ end
 module Airlock__outerairlockstate
  use import "_gnatprove_standard".Main
 
- val outerairlockstate #"airlock.ads" 5 0 0#"model_projected" "model_trace:2713" "name:outerAirlockState"  : bool__ref 
+ val outerairlockstate #"airlock.ads" 5 0 0#"model_projected" "model_trace:2810" "name:outerAirlockState"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2055,7 +2394,7 @@ end
 module Airlock__airlockdoorslocked
  use import "_gnatprove_standard".Main
 
- val airlockdoorslocked #"airlock.ads" 6 0 0#"model_projected" "model_trace:2722" "name:airlockDoorsLocked"  : bool__ref 
+ val airlockdoorslocked #"airlock.ads" 6 0 0#"model_projected" "model_trace:2819" "name:airlockDoorsLocked"  : bool__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2069,55 +2408,56 @@ module Airlock__airlockdoorslocked___axiom
 
 end
 
-(* Module for defining a ref holding the value of variable "storedtorpedoes" defined at torpedoes.ads:6, created in Gnat2Why.Decls.Translate_Variable *)
-module Torpedoes__storedtorpedoes
+(* Module for defining a ref holding the value of variable "totaltorpedoes" defined at torpedoes.ads:6, created in Gnat2Why.Decls.Translate_Variable *)
+module Torpedoes__totaltorpedoes
  use import "_gnatprove_standard".Main
 
- val storedtorpedoes #"torpedoes.ads" 6 0 0#"model_projected" "model_trace:2455" "name:storedTorpedoes"  : int__ref 
+ val totaltorpedoes #"torpedoes.ads" 6 0 0#"model_projected" "model_trace:2485" "name:totalTorpedoes"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "storedtorpedoes" defined at torpedoes.ads:6, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
-module Torpedoes__storedtorpedoes___axiom
+(* Module giving an empty axiom for the entity "totaltorpedoes" defined at torpedoes.ads:6, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Torpedoes__totaltorpedoes___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for defining a ref holding the value of variable "loadedtorpedoes" defined at torpedoes.ads:10, created in Gnat2Why.Decls.Translate_Variable *)
-module Torpedoes__loadedtorpedoes
- use import "_gnatprove_standard".Main
-
- val loadedtorpedoes #"torpedoes.ads" 10 0 0#"model_projected" "model_trace:2475" "name:loadedTorpedoes"  : int__ref 
- 
- function attr__ATTRIBUTE_ADDRESS 
-   : int
-
-end
-
-(* Module giving an empty axiom for the entity "loadedtorpedoes" defined at torpedoes.ads:10, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
-module Torpedoes__loadedtorpedoes___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module for defining a ref holding the value of variable "reactorheating" defined at torpedoes.ads:13, created in Gnat2Why.Decls.Translate_Variable *)
+(* Module for defining a ref holding the value of variable "reactorheating" defined at torpedoes.ads:15, created in Gnat2Why.Decls.Translate_Variable *)
 module Torpedoes__reactorheating
  use import "_gnatprove_standard".Main
 
- val reactorheating #"torpedoes.ads" 13 0 0#"model_projected" "model_trace:2495" "name:reactorHeating"  : int__ref 
+ val reactorheating #"torpedoes.ads" 15 0 0#"model_projected" "model_trace:2552" "name:reactorHeating"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
 
 end
 
-(* Module giving an empty axiom for the entity "reactorheating" defined at torpedoes.ads:13, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+(* Module giving an empty axiom for the entity "reactorheating" defined at torpedoes.ads:15, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Torpedoes__reactorheating___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "torpedobay" defined at torpedoes.ads:28, created in Gnat2Why.Decls.Translate_Variable *)
+module Torpedoes__loadtorpedo__torpedobay
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Torpedoes__baystate
+
+ val torpedobay #"torpedoes.ads" 28 0 0#"model_projected" "model_trace:2619" "name:torpedoBay"  : Array__Int__Torpedoes__baystate.map__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "torpedobay" defined at torpedoes.ads:28, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Torpedoes__loadtorpedo__torpedobay___axiom
  use import "_gnatprove_standard".Main
 
 
@@ -2127,7 +2467,7 @@ end
 module Torpedoes__firetorpedo__reactorheating
  use import "_gnatprove_standard".Main
 
- val reactorheating #"torpedoes.ads" 35 0 0#"model_projected" "name:reactorHeating" "model_trace:2623"  : int__ref 
+ val reactorheating #"torpedoes.ads" 35 0 0#"model_projected" "name:reactorHeating" "model_trace:2682"  : int__ref 
  
  function attr__ATTRIBUTE_ADDRESS 
    : int
@@ -2136,6 +2476,25 @@ end
 
 (* Module giving an empty axiom for the entity "reactorheating" defined at torpedoes.ads:35, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
 module Torpedoes__firetorpedo__reactorheating___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module for defining a ref holding the value of variable "torpedobay" defined at torpedoes.ads:36, created in Gnat2Why.Decls.Translate_Variable *)
+module Torpedoes__firetorpedo__torpedobay
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Torpedoes__baystate
+
+ val torpedobay #"torpedoes.ads" 36 0 0#"model_projected" "name:torpedoBay" "model_trace:2691"  : Array__Int__Torpedoes__baystate.map__ref 
+ 
+ function attr__ATTRIBUTE_ADDRESS 
+   : int
+
+end
+
+(* Module giving an empty axiom for the entity "torpedobay" defined at torpedoes.ads:36, created in Gnat2Why.Driver.Translate_Entity.Generate_Empty_Axiom_Theory *)
+module Torpedoes__firetorpedo__torpedobay___axiom
  use import "_gnatprove_standard".Main
 
 
@@ -2538,14 +2897,14 @@ module Airlock__lockairlockdoors
 
 end
 
-(* Module for possibly declaring a logic function for "storetorpedo" defined at torpedoes.ads:18, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "storetorpedo" defined at torpedoes.ads:20, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Torpedoes__storetorpedo
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module for possibly declaring a logic function for "loadtorpedo" defined at torpedoes.ads:26, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
+(* Module for possibly declaring a logic function for "loadtorpedo" defined at torpedoes.ads:28, created in Gnat2Why.Subprograms.Translate_Subprogram_Spec *)
 module Torpedoes__loadtorpedo
  use import "_gnatprove_standard".Main
 
@@ -2559,81 +2918,128 @@ module Torpedoes__firetorpedo
 
 end
 
-(* Module giving axioms for type "TtorpedoesB" defined at torpedoes.ads:5, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Torpedoes__TtorpedoesB___axiom
+(* Module giving axioms for type "TstoredtorpedoesB" defined at torpedoes.ads:5, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__TstoredtorpedoesB___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "torpedoes" defined at torpedoes.ads:5, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Torpedoes__torpedoes___axiom
+(* Module giving axioms for type "storedtorpedoes" defined at torpedoes.ads:5, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__storedtorpedoes___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
- use        Torpedoes__torpedoes
+ use        Torpedoes__storedtorpedoes
 
  predicate dynamic_invariant "inline" 
-   (temp___expr_158 : int) (temp___is_init_154 : bool) (temp___skip_constant_155 : bool) (temp___do_toplevel_156 : bool) (temp___do_typ_inv_157 : bool)  =
-  (if (( temp___is_init_154 \/ (Torpedoes__torpedoes.first <= Torpedoes__torpedoes.last) )) then (
-   (Torpedoes__torpedoes.dynamic_property Torpedoes__torpedoes.first Torpedoes__torpedoes.last temp___expr_158)) else true)
+   (temp___expr_159 : int) (temp___is_init_155 : bool) (temp___skip_constant_156 : bool) (temp___do_toplevel_157 : bool) (temp___do_typ_inv_158 : bool)  =
+  (if (( temp___is_init_155 \/ (Torpedoes__storedtorpedoes.first <= Torpedoes__storedtorpedoes.last) )) then (
+   (Torpedoes__storedtorpedoes.dynamic_property Torpedoes__storedtorpedoes.first Torpedoes__storedtorpedoes.last temp___expr_159)) else true)
  
  predicate default_initial_assumption "inline" 
-   (temp___expr_159 : int) (temp___skip_top_level_160 : bool)  =
+   (temp___expr_160 : int) (temp___skip_top_level_161 : bool)  =
   true
 
 end
 
-(* Module giving axioms for type "TtorpedoesloadedB" defined at torpedoes.ads:9, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Torpedoes__TtorpedoesloadedB___axiom
- use import "_gnatprove_standard".Main
-
-
-end
-
-(* Module giving axioms for type "torpedoesloaded" defined at torpedoes.ads:9, created in Gnat2Why.Types.Generate_Type_Completion *)
-module Torpedoes__torpedoesloaded___axiom
+(* Module giving axioms for type "baystate" defined at torpedoes.ads:8, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__baystate___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
- use        Torpedoes__torpedoesloaded
+ use        Torpedoes__baystate
 
  predicate dynamic_invariant "inline" 
-   (temp___expr_165 : int) (temp___is_init_161 : bool) (temp___skip_constant_162 : bool) (temp___do_toplevel_163 : bool) (temp___do_typ_inv_164 : bool)  =
-  (if (( temp___is_init_161 \/ (Torpedoes__torpedoesloaded.first <= Torpedoes__torpedoesloaded.last) )) then (
-   (Torpedoes__torpedoesloaded.dynamic_property Torpedoes__torpedoesloaded.first Torpedoes__torpedoesloaded.last temp___expr_165)) else true)
+   (temp___expr_166 : int) (temp___is_init_162 : bool) (temp___skip_constant_163 : bool) (temp___do_toplevel_164 : bool) (temp___do_typ_inv_165 : bool)  =
+  (if (( temp___is_init_162 \/ (Torpedoes__baystate.first <= Torpedoes__baystate.last) )) then (
+   (Torpedoes__baystate.dynamic_property Torpedoes__baystate.first Torpedoes__baystate.last temp___expr_166)) else true)
  
  predicate default_initial_assumption "inline" 
-   (temp___expr_166 : int) (temp___skip_top_level_167 : bool)  =
+   (temp___expr_167 : int) (temp___skip_top_level_168 : bool)  =
   true
 
 end
 
-(* Module giving axioms for type "TreactorheatlevelB" defined at torpedoes.ads:12, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "TtorpedoesbaynumberB" defined at torpedoes.ads:11, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__TtorpedoesbaynumberB___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module giving axioms for type "torpedoesbaynumber" defined at torpedoes.ads:11, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__torpedoesbaynumber___axiom
+ use import "_gnatprove_standard".Main
+ use import "int".Int
+ use        Torpedoes__torpedoesbaynumber
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_173 : int) (temp___is_init_169 : bool) (temp___skip_constant_170 : bool) (temp___do_toplevel_171 : bool) (temp___do_typ_inv_172 : bool)  =
+  (if (( temp___is_init_169 \/ (Torpedoes__torpedoesbaynumber.first <= Torpedoes__torpedoesbaynumber.last) )) then (
+   (Torpedoes__torpedoesbaynumber.dynamic_property Torpedoes__torpedoesbaynumber.first Torpedoes__torpedoesbaynumber.last temp___expr_173)) else true)
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_174 : int) (temp___skip_top_level_175 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "TtorpedofiringbayB" defined at torpedoes.ads:12, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__TtorpedofiringbayB___axiom
+ use import "_gnatprove_standard".Main
+
+
+end
+
+(* Module giving axioms for type "torpedofiringbay" defined at torpedoes.ads:12, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__torpedofiringbay___axiom
+ use import "_gnatprove_standard".Main
+ use        Array__Int__Torpedoes__baystate
+ use        Array__Int__Torpedoes__baystate
+
+ predicate dynamic_invariant "inline" 
+   (temp___expr_180 : Array__Int__Torpedoes__baystate.map) (temp___is_init_176 : bool) (temp___skip_constant_177 : bool) (temp___do_toplevel_178 : bool) (temp___do_typ_inv_179 : bool)  =
+  true
+ 
+ predicate default_initial_assumption "inline" 
+   (temp___expr_182 : Array__Int__Torpedoes__baystate.map) (temp___skip_top_level_183 : bool)  =
+  true
+
+end
+
+(* Module giving axioms for type "TreactorheatlevelB" defined at torpedoes.ads:14, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Torpedoes__TreactorheatlevelB___axiom
  use import "_gnatprove_standard".Main
 
 
 end
 
-(* Module giving axioms for type "reactorheatlevel" defined at torpedoes.ads:12, created in Gnat2Why.Types.Generate_Type_Completion *)
+(* Module giving axioms for type "reactorheatlevel" defined at torpedoes.ads:14, created in Gnat2Why.Types.Generate_Type_Completion *)
 module Torpedoes__reactorheatlevel___axiom
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        Torpedoes__reactorheatlevel
 
  predicate dynamic_invariant "inline" 
-   (temp___expr_172 : int) (temp___is_init_168 : bool) (temp___skip_constant_169 : bool) (temp___do_toplevel_170 : bool) (temp___do_typ_inv_171 : bool)  =
-  (if (( temp___is_init_168 \/ (Torpedoes__reactorheatlevel.first <= Torpedoes__reactorheatlevel.last) )) then (
-   (Torpedoes__reactorheatlevel.dynamic_property Torpedoes__reactorheatlevel.first Torpedoes__reactorheatlevel.last temp___expr_172)) else true)
+   (temp___expr_190 : int) (temp___is_init_186 : bool) (temp___skip_constant_187 : bool) (temp___do_toplevel_188 : bool) (temp___do_typ_inv_189 : bool)  =
+  (if (( temp___is_init_186 \/ (Torpedoes__reactorheatlevel.first <= Torpedoes__reactorheatlevel.last) )) then (
+   (Torpedoes__reactorheatlevel.dynamic_property Torpedoes__reactorheatlevel.first Torpedoes__reactorheatlevel.last temp___expr_190)) else true)
  
  predicate default_initial_assumption "inline" 
-   (temp___expr_173 : int) (temp___skip_top_level_174 : bool)  =
+   (temp___expr_191 : int) (temp___skip_top_level_192 : bool)  =
   true
+
+end
+
+(* Module giving axioms for type "T13s" defined at torpedoes.ads:44, created in Gnat2Why.Types.Generate_Type_Completion *)
+module Torpedoes__firetorpedo__L12s__T13s___axiom
+ use import "_gnatprove_standard".Main
+
 
 end
 (* Module for declaring a program function (and possibly an axiom) for "closeinnerairlock" defined at airlock.ads:11, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Airlock__closeinnerairlock___axiom
- use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
+ use        Airlock__innerairlockstate
  use import "_gnatprove_standard".Main
  use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
@@ -2649,9 +3055,9 @@ end
 
 (* Module for declaring a program function (and possibly an axiom) for "openinnerairlock" defined at airlock.ads:16, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Airlock__openinnerairlock___axiom
- use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
  use        Airlock__airlockdoorslocked
+ use        Airlock__innerairlockstate
  use import "_gnatprove_standard".Main
  use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
@@ -2668,8 +3074,8 @@ end
 
 (* Module for declaring a program function (and possibly an axiom) for "closeouterairlock" defined at airlock.ads:23, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Airlock__closeouterairlock___axiom
- use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
+ use        Airlock__innerairlockstate
  use import "_gnatprove_standard".Main
  use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
@@ -2685,9 +3091,9 @@ end
 
 (* Module for declaring a program function (and possibly an axiom) for "openouterairlock" defined at airlock.ads:28, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Airlock__openouterairlock___axiom
- use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
  use        Airlock__airlockdoorslocked
+ use        Airlock__innerairlockstate
  use import "_gnatprove_standard".Main
  use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
@@ -2704,9 +3110,9 @@ end
 
 (* Module for declaring a program function (and possibly an axiom) for "lockairlockdoors" defined at airlock.ads:35, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Airlock__lockairlockdoors___axiom
- use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
  use        Airlock__airlockdoorslocked
+ use        Airlock__innerairlockstate
  use import "_gnatprove_standard".Main
  use        Airlock__innerairlockstate
  use        Airlock__outerairlockstate
@@ -2721,80 +3127,82 @@ module Airlock__lockairlockdoors___axiom
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "storetorpedo" defined at torpedoes.ads:18, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "storetorpedo" defined at torpedoes.ads:20, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Torpedoes__storetorpedo___axiom
- use        Torpedoes__storedtorpedoes
  use        Airlock__airlockdoorslocked
+ use        Torpedoes__totaltorpedoes
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        Airlock__airlockdoorslocked
- use        Torpedoes__torpedoes___axiom
- use        Torpedoes__storedtorpedoes
+ use        Torpedoes__storedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes
 
  val storetorpedo 
    (__void_param : unit) : unit
-  requires {  ( (Torpedoes__storedtorpedoes.storedtorpedoes.int__content < 20) /\ ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) }
-  ensures {  ( ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__storedtorpedoes.storedtorpedoes.int__content <= 20) ) /\ (Torpedoes__storedtorpedoes.storedtorpedoes.int__content = ((old Torpedoes__storedtorpedoes.storedtorpedoes.int__content ) + 1)) ) /\ (Torpedoes__torpedoes___axiom.dynamic_invariant Torpedoes__storedtorpedoes.storedtorpedoes.int__content True True True True) ) }
-  reads {Airlock__airlockdoorslocked.airlockdoorslocked, Torpedoes__storedtorpedoes.storedtorpedoes}
-  writes {Torpedoes__storedtorpedoes.storedtorpedoes}
+  requires {  ( (Torpedoes__totaltorpedoes.totaltorpedoes.int__content < 20) /\ ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) }
+  ensures {  ( ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__totaltorpedoes.totaltorpedoes.int__content <= 20) ) /\ (Torpedoes__totaltorpedoes.totaltorpedoes.int__content = ((old Torpedoes__totaltorpedoes.totaltorpedoes.int__content ) + 1)) ) /\ (Torpedoes__storedtorpedoes___axiom.dynamic_invariant Torpedoes__totaltorpedoes.totaltorpedoes.int__content True True True True) ) }
+  reads {Airlock__airlockdoorslocked.airlockdoorslocked, Torpedoes__totaltorpedoes.totaltorpedoes}
+  writes {Torpedoes__totaltorpedoes.totaltorpedoes}
 
 end
 
-(* Module for declaring a program function (and possibly an axiom) for "loadtorpedo" defined at torpedoes.ads:26, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
+(* Module for declaring a program function (and possibly an axiom) for "loadtorpedo" defined at torpedoes.ads:28, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Torpedoes__loadtorpedo___axiom
- use        Torpedoes__storedtorpedoes
  use        Airlock__airlockdoorslocked
- use        Torpedoes__loadedtorpedoes
+ use        Torpedoes__totaltorpedoes
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        Airlock__airlockdoorslocked
- use        Torpedoes__torpedoes___axiom
- use        Torpedoes__storedtorpedoes
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes
+ use        Torpedoes__storedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes
+ use        Torpedoes__torpedofiringbay___axiom
+ use        Array__Int__Torpedoes__baystate
 
  val loadtorpedo 
-   (__void_param : unit) : unit
-  requires {  ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__storedtorpedoes.storedtorpedoes.int__content > 0) ) /\ (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content < 6) ) }
-  ensures {  ( ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content = ((old Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content ) + 1)) ) /\ (Torpedoes__storedtorpedoes.storedtorpedoes.int__content = ((old Torpedoes__storedtorpedoes.storedtorpedoes.int__content ) - 1)) ) /\ ( (Torpedoes__torpedoes___axiom.dynamic_invariant Torpedoes__storedtorpedoes.storedtorpedoes.int__content True True True True) /\ (Torpedoes__torpedoesloaded___axiom.dynamic_invariant Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content True True True True) ) ) }
-  reads {Airlock__airlockdoorslocked.airlockdoorslocked, Torpedoes__storedtorpedoes.storedtorpedoes, Torpedoes__loadedtorpedoes.loadedtorpedoes}
-  writes {Torpedoes__storedtorpedoes.storedtorpedoes, Torpedoes__loadedtorpedoes.loadedtorpedoes}
+   (torpedobay : Array__Int__Torpedoes__baystate.map__ref) (baynumber : int) : unit
+  requires {  ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__totaltorpedoes.totaltorpedoes.int__content > 0) ) }
+  ensures {  ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__totaltorpedoes.totaltorpedoes.int__content = ((old Torpedoes__totaltorpedoes.totaltorpedoes.int__content ) - 1)) ) /\ ( (Torpedoes__torpedofiringbay___axiom.dynamic_invariant torpedobay.Array__Int__Torpedoes__baystate.map__content True True True True) /\ (Torpedoes__storedtorpedoes___axiom.dynamic_invariant Torpedoes__totaltorpedoes.totaltorpedoes.int__content True True True True) ) ) }
+  reads {Airlock__airlockdoorslocked.airlockdoorslocked, Torpedoes__totaltorpedoes.totaltorpedoes}
+  writes {Torpedoes__totaltorpedoes.totaltorpedoes, torpedobay}
 
 end
 
 (* Module for declaring a program function (and possibly an axiom) for "firetorpedo" defined at torpedoes.ads:35, created in Gnat2Why.Subprograms.Generate_Subprogram_Completion *)
 module Torpedoes__firetorpedo___axiom
  use        Airlock__airlockdoorslocked
- use        Torpedoes__loadedtorpedoes
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        Airlock__airlockdoorslocked
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes
+ use        Torpedoes__baystate
+ use        Torpedoes__baystate__rep
+ use        Array__Int__Torpedoes__baystate
+ use        Torpedoes__torpedofiringbay___axiom
  use        Torpedoes__reactorheatlevel___axiom
+ use        Array__Int__Torpedoes__baystate
 
  val firetorpedo 
-   (reactorheating : int__ref) : unit
-  requires {  ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content > 0) /\ (reactorheating.int__content < 1000) ) ) }
-  ensures {  ( ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content = ((old Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content ) - 1)) ) /\ (reactorheating.int__content = ((old reactorheating.int__content ) + 1)) ) /\ ( (Torpedoes__reactorheatlevel___axiom.dynamic_invariant reactorheating.int__content True True True True) /\ (Torpedoes__torpedoesloaded___axiom.dynamic_invariant Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content True True True True) ) ) }
-  reads {Airlock__airlockdoorslocked.airlockdoorslocked, Torpedoes__loadedtorpedoes.loadedtorpedoes}
-  writes {Torpedoes__loadedtorpedoes.loadedtorpedoes, reactorheating}
+   (reactorheating : int__ref) (torpedobay : Array__Int__Torpedoes__baystate.map__ref) (baynumber : int) : unit
+  requires {  ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get torpedobay.Array__Int__Torpedoes__baystate.map__content baynumber)) <> 0) /\ (reactorheating.int__content < 1000) ) ) }
+  ensures {  ( ( ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get torpedobay.Array__Int__Torpedoes__baystate.map__content baynumber)) = 0) ) /\ (forall i   "model" "model_trace:2750" "name:I"  : int.
+   ( ( (1 <= i) /\ (i <= 4) ) -> (if ((i <> baynumber)) then (
+    ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get torpedobay.Array__Int__Torpedoes__baystate.map__content i)) = (Torpedoes__baystate__rep.to_rep (let temp___195 = (old torpedobay.Array__Int__Torpedoes__baystate.map__content ) in (
+     (Array__Int__Torpedoes__baystate.get temp___195 i)))
+    ))) else (
+    true)) )) ) /\ (reactorheating.int__content = ((old reactorheating.int__content ) + 1)) ) /\ ( (Torpedoes__reactorheatlevel___axiom.dynamic_invariant reactorheating.int__content True True True True) /\ (Torpedoes__torpedofiringbay___axiom.dynamic_invariant torpedobay.Array__Int__Torpedoes__baystate.map__content True True True True) ) ) }
+  reads {Airlock__airlockdoorslocked.airlockdoorslocked}
+  writes {reactorheating, torpedobay}
 
 end
 
 (* Module for checking absence of run-time errors and package initial condition on package elaboration of "torpedoes" defined at torpedoes.ads:2, created in Gnat2Why.Subprograms.Generate_VCs_For_Package_Elaboration *)
 module Torpedoes__package_def
  use import "_gnatprove_standard".Main
- use        Torpedoes__torpedoes___axiom
- use        Torpedoes__storedtorpedoes
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes
+ use        Torpedoes__storedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes
  use        Torpedoes__reactorheatlevel___axiom
  use        Torpedoes__reactorheating
- use        Torpedoes__torpedoes___axiom
  use        Torpedoes__storedtorpedoes___axiom
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes___axiom
  use        Torpedoes__reactorheatlevel___axiom
  use        Torpedoes__reactorheating___axiom
 
@@ -2810,177 +3218,177 @@ module Torpedoes__package_def
   (#"torpedoes.ads" 6 0 0# ( #"torpedoes.ads" 6 0 0# abstract ensures {true}(let _ = () in (
    ()))
    end ;
-  #"torpedoes.ads" 6 0 0# assume { #"torpedoes.ads" 6 0 0# (Torpedoes__torpedoes___axiom.default_initial_assumption Torpedoes__storedtorpedoes.storedtorpedoes.int__content False) };
-  #"torpedoes.ads" 6 0 0# assume { #"torpedoes.ads" 6 0 0# (Torpedoes__torpedoes___axiom.dynamic_invariant Torpedoes__storedtorpedoes.storedtorpedoes.int__content False False True True) } ));
-  (#"torpedoes.ads" 9 0 0# ());
-  (#"torpedoes.ads" 10 0 0# ());
-  (#"torpedoes.ads" 10 0 0# ());
-  (#"torpedoes.ads" 10 0 0# ( #"torpedoes.ads" 10 0 0# abstract ensures {true}(let _ = () in (
-   ()))
-   end ;
-  #"torpedoes.ads" 10 0 0# assume { #"torpedoes.ads" 10 0 0# (Torpedoes__torpedoesloaded___axiom.default_initial_assumption Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content False) };
-  #"torpedoes.ads" 10 0 0# assume { #"torpedoes.ads" 10 0 0# (Torpedoes__torpedoesloaded___axiom.dynamic_invariant Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content False False True True) } ));
+  #"torpedoes.ads" 6 0 0# assume { #"torpedoes.ads" 6 0 0# (Torpedoes__storedtorpedoes___axiom.default_initial_assumption Torpedoes__totaltorpedoes.totaltorpedoes.int__content False) };
+  #"torpedoes.ads" 6 0 0# assume { #"torpedoes.ads" 6 0 0# (Torpedoes__storedtorpedoes___axiom.dynamic_invariant Torpedoes__totaltorpedoes.totaltorpedoes.int__content False False True True) } ));
+  (#"torpedoes.ads" 8 0 0# ());
+  (#"torpedoes.ads" 11 0 0# ());
   (#"torpedoes.ads" 12 0 0# ());
-  (#"torpedoes.ads" 13 0 0# ());
-  (#"torpedoes.ads" 13 0 0# ());
-  (#"torpedoes.ads" 13 0 0# ( #"torpedoes.ads" 13 0 0# abstract ensures {true}(let _ = () in (
+  (#"torpedoes.ads" 14 0 0# ());
+  (#"torpedoes.ads" 15 0 0# ());
+  (#"torpedoes.ads" 15 0 0# ());
+  (#"torpedoes.ads" 15 0 0# ( #"torpedoes.ads" 15 0 0# abstract ensures {true}(let _ = () in (
    ()))
    end ;
-  #"torpedoes.ads" 13 0 0# assume { #"torpedoes.ads" 13 0 0# (Torpedoes__reactorheatlevel___axiom.default_initial_assumption Torpedoes__reactorheating.reactorheating.int__content False) };
-  #"torpedoes.ads" 13 0 0# assume { #"torpedoes.ads" 13 0 0# (Torpedoes__reactorheatlevel___axiom.dynamic_invariant Torpedoes__reactorheating.reactorheating.int__content False False True True) } ));
-  (#"torpedoes.ads" 18 0 0# ());
+  #"torpedoes.ads" 15 0 0# assume { #"torpedoes.ads" 15 0 0# (Torpedoes__reactorheatlevel___axiom.default_initial_assumption Torpedoes__reactorheating.reactorheating.int__content False) };
+  #"torpedoes.ads" 15 0 0# assume { #"torpedoes.ads" 15 0 0# (Torpedoes__reactorheatlevel___axiom.dynamic_invariant Torpedoes__reactorheating.reactorheating.int__content False False True True) } ));
+  (#"torpedoes.ads" 20 0 0# ());
+  (#"torpedoes.ads" 24 0 0# ());
   (#"torpedoes.ads" 22 0 0# ());
-  (#"torpedoes.ads" 20 0 0# ());
-  (#"torpedoes.ads" 20 0 0# ());
-  (#"torpedoes.ads" 19 0 0# ());
-  (#"torpedoes.ads" 26 0 0# ());
-  (#"torpedoes.ads" 31 0 0# ());
+  (#"torpedoes.ads" 22 0 0# ());
+  (#"torpedoes.ads" 21 0 0# ());
   (#"torpedoes.ads" 28 0 0# ());
-  (#"torpedoes.ads" 27 0 0# ());
+  (#"torpedoes.ads" 32 0 0# ());
+  (#"torpedoes.ads" 30 0 0# ());
+  (#"torpedoes.ads" 29 0 0# ());
   (#"torpedoes.ads" 35 0 0# ());
-  (#"torpedoes.ads" 40 0 0# ());
-  (#"torpedoes.ads" 37 0 0# ());
-  (#"torpedoes.ads" 37 0 0# ());
-  (#"torpedoes.ads" 37 0 0# ());
-  (#"torpedoes.ads" 36 0 0# ());
+  (#"torpedoes.ads" 42 0 0# ());
+  (#"torpedoes.ads" 39 0 0# ());
+  (#"torpedoes.ads" 39 0 0# ());
+  (#"torpedoes.ads" 39 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
+  (#"torpedoes.ads" 38 0 0# ());
   (#"torpedoes.adb" 2 0 0# ());
   (#"torpedoes.adb" 6 0 0# ());
   (#"torpedoes.adb" 15 0 0# ());
-  (#"torpedoes.adb" 25 0 0# ());
-  ( "GP_Sloc:torpedoes.adb:35:1" (#"torpedoes.adb" 35 0 0# ()) ) )
+  (#"torpedoes.adb" 24 0 0# ());
+  ( "GP_Sloc:torpedoes.adb:37:1" (#"torpedoes.adb" 37 0 0# ()) ) )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "storetorpedo" defined at torpedoes.ads:18, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "storetorpedo" defined at torpedoes.ads:20, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Torpedoes__storetorpedo__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        "_gnatprove_standard".Boolean
  use        Airlock__airlockdoorslocked
- use        Torpedoes__torpedoes
- use        Torpedoes__torpedoes___axiom
  use        Torpedoes__storedtorpedoes
- use        Torpedoes__torpedoes___axiom
  use        Torpedoes__storedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes
+ use        Torpedoes__storedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes___axiom
  use        Airlock__airlockdoorslocked___axiom
 
- let def #"torpedoes.ads" 18 0 0#"W:diverges:N" "GP_Subp:torpedoes.ads:18" 
+ let def #"torpedoes.ads" 20 0 0#"W:diverges:N" "GP_Subp:torpedoes.ads:20" 
    (__void_param : unit)
-  requires { #"torpedoes.ads" 18 0 0# true }
-  ensures { #"torpedoes.ads" 18 0 0# (#"torpedoes.ads" 22 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:torpedoes.ads:22:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:1" "comment:     Post => airlockDoorsLocked = True and  
-             ^ torpedoes.ads:22:14:VC_POSTCONDITION" "GP_Shape:pragargs__and" ( ( ( "GP_Pretty_Ada:2540" "GP_Sloc:torpedoes.ads:22:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2544" "GP_Sloc:torpedoes.ads:23:14" (Torpedoes__storedtorpedoes.storedtorpedoes.int__content <= 20) ) ) /\ ( "GP_Pretty_Ada:2550" "GP_Sloc:torpedoes.ads:24:14" (Torpedoes__storedtorpedoes.storedtorpedoes.int__content = ((old Torpedoes__storedtorpedoes.storedtorpedoes.int__content ) + 1)) ) ) )) }
+  requires { #"torpedoes.ads" 20 0 0# true }
+  ensures { #"torpedoes.ads" 20 0 0# (#"torpedoes.ads" 24 0 0# ( "model_vc_post" "keep_on_simp" "GP_Sloc:torpedoes.ads:24:14" "GP_Reason:VC_POSTCONDITION" "GP_Id:1" "comment:     Post => airlockDoorsLocked = True and  
+             ^ torpedoes.ads:24:14:VC_POSTCONDITION" "GP_Shape:pragargs__and" ( ( ( "GP_Pretty_Ada:2597" "GP_Sloc:torpedoes.ads:24:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2601" "GP_Sloc:torpedoes.ads:25:14" (Torpedoes__totaltorpedoes.totaltorpedoes.int__content <= 20) ) ) /\ ( "GP_Pretty_Ada:2607" "GP_Sloc:torpedoes.ads:26:14" (Torpedoes__totaltorpedoes.totaltorpedoes.int__content = ((old Torpedoes__totaltorpedoes.totaltorpedoes.int__content ) + 1)) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram torpedoes.ads:18 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram torpedoes.ads:20 *)
   ;
-   assume {  (Torpedoes__torpedoes___axiom.dynamic_invariant Torpedoes__storedtorpedoes.storedtorpedoes.int__content True False True True) };
+   assume {  (Torpedoes__storedtorpedoes___axiom.dynamic_invariant Torpedoes__totaltorpedoes.totaltorpedoes.int__content True False True True) };
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram torpedoes.ads:18 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram torpedoes.ads:20 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram torpedoes.ads:18 *)
+  () (* Check for RTE in the Pre of the subprogram torpedoes.ads:20 *)
   ;
-   abstract ensures {true}(let _ = ( (Torpedoes__storedtorpedoes.storedtorpedoes.int__content < 20) && ((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) in (
+   abstract ensures {true}(let _ = ( (Torpedoes__totaltorpedoes.totaltorpedoes.int__content < 20) && ((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) ) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram torpedoes.ads:18 *)
+  () (* Assume Pre of the subprogram torpedoes.ads:20 *)
   ;
-   assume {  ( (Torpedoes__storedtorpedoes.storedtorpedoes.int__content < 20) /\ ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) };
-   abstract ensures {true}(let _ = Torpedoes__storedtorpedoes.storedtorpedoes.int__content in (
+   assume {  ( (Torpedoes__totaltorpedoes.totaltorpedoes.int__content < 20) /\ ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) };
+   abstract ensures {true}(let _ = Torpedoes__totaltorpedoes.totaltorpedoes.int__content in (
    ()))
    end ;
-  (let temp___old_175 =  (any int
-  ensures { (result = Torpedoes__storedtorpedoes.storedtorpedoes.int__content)} 
+  (let temp___old_198 =  (any int
+  ensures { (result = Torpedoes__totaltorpedoes.totaltorpedoes.int__content)} 
   ) in (
    (  try
     ( ( "GP_Sloc:torpedoes.adb:7:10" (#"torpedoes.adb" 7 0 0# ()) );
     ( "GP_Sloc:torpedoes.adb:8:13" (#"torpedoes.adb" 8 0 0# ()) );
-    ( "GP_Sloc:torpedoes.adb:7:7" (#"torpedoes.adb" 7 0 0# (if ((Boolean.andb((Torpedoes__storedtorpedoes.storedtorpedoes.int__content < 20)) (((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
+    ( "GP_Sloc:torpedoes.adb:7:7" (#"torpedoes.adb" 7 0 0# (if ((Boolean.andb((Torpedoes__totaltorpedoes.totaltorpedoes.int__content < 20)) (((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
      ( ( "GP_Sloc:torpedoes.adb:10:10" (#"torpedoes.adb" 10 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:10:29" (#"torpedoes.adb" 10 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:10:26" (#"torpedoes.adb" 10 0 0# #"torpedoes.adb" 10 0 0# Torpedoes__storedtorpedoes.storedtorpedoes.int__content <- ( (#"torpedoes.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:torpedoes.adb:10:45" "GP_Reason:VC_RANGE_CHECK" "GP_Id:0" "comment:         storedTorpedoes := storedTorpedoes + 1;
-                                            ^ torpedoes.adb:10:45:VC_RANGE_CHECK" "GP_Shape:if__storedtorpedoes_assign__add" (Torpedoes__torpedoes.range_check_((Torpedoes__storedtorpedoes.storedtorpedoes.int__content + 1))) )) )) ) )) else (
+     ( "GP_Sloc:torpedoes.adb:10:28" (#"torpedoes.adb" 10 0 0# ()) );
+     ( "GP_Sloc:torpedoes.adb:10:25" (#"torpedoes.adb" 10 0 0# #"torpedoes.adb" 10 0 0# Torpedoes__totaltorpedoes.totaltorpedoes.int__content <- ( (#"torpedoes.adb" 10 0 0# ( "model_vc" "keep_on_simp" "GP_Sloc:torpedoes.adb:10:43" "GP_Reason:VC_RANGE_CHECK" "GP_Id:0" "comment:         totalTorpedoes := totalTorpedoes + 1;
+                                          ^ torpedoes.adb:10:43:VC_RANGE_CHECK" "GP_Shape:if__totaltorpedoes_assign__add" (Torpedoes__storedtorpedoes.range_check_((Torpedoes__totaltorpedoes.totaltorpedoes.int__content + 1))) )) )) ) )) else (
      ()))) );
      raise Return__exc )
    with
     Return__exc -> ()
    end;
-    abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__storedtorpedoes.storedtorpedoes.int__content <= 20)))) ((Torpedoes__storedtorpedoes.storedtorpedoes.int__content = (temp___old_175 + 1)))) in (
+    abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__totaltorpedoes.totaltorpedoes.int__content <= 20)))) ((Torpedoes__totaltorpedoes.totaltorpedoes.int__content = (temp___old_198 + 1)))) in (
     ()))
     end  )))
    )
 end
 
-(* Module for checking contracts and absence of run-time errors in subprogram "loadtorpedo" defined at torpedoes.ads:26, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
+(* Module for checking contracts and absence of run-time errors in subprogram "loadtorpedo" defined at torpedoes.ads:28, created in Gnat2Why.Subprograms.Generate_VCs_For_Subprogram *)
 module Torpedoes__loadtorpedo__subprogram_def
  use import "_gnatprove_standard".Main
  use import "int".Int
  use        "_gnatprove_standard".Boolean
  use        Airlock__airlockdoorslocked
- use        Torpedoes__torpedoes
- use        Torpedoes__torpedoes___axiom
  use        Torpedoes__storedtorpedoes
- use        Torpedoes__torpedoesloaded
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes
- use        Torpedoes__torpedoes___axiom
  use        Torpedoes__storedtorpedoes___axiom
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes
+ use        Torpedoes__baystate
+ use        Torpedoes__baystate__rep
+ use        Torpedoes__torpedoesbaynumber___axiom
+ use        Array__Int__Torpedoes__baystate
+ use        Torpedoes__torpedofiringbay___axiom
+ use        Array__Int__Torpedoes__baystate
+ use        Torpedoes__loadtorpedo__torpedobay
+ use        Torpedoes__loadtorpedo__baynumber
+ use        Torpedoes__storedtorpedoes___axiom
+ use        Torpedoes__totaltorpedoes___axiom
+ use        Torpedoes__baystate___axiom
+ use        Torpedoes__torpedoesbaynumber___axiom
+ use        Torpedoes__torpedofiringbay___axiom
+ use        Torpedoes__loadtorpedo__torpedobay___axiom
+ use        Torpedoes__loadtorpedo__baynumber___axiom
  use        Airlock__airlockdoorslocked___axiom
 
- let def #"torpedoes.ads" 26 0 0#"W:diverges:N" "GP_Subp:torpedoes.ads:26" 
+ let def #"torpedoes.ads" 28 0 0#"W:diverges:N" "GP_Subp:torpedoes.ads:28" 
    (__void_param : unit)
-  requires { #"torpedoes.ads" 26 0 0# true }
-  ensures { #"torpedoes.ads" 26 0 0# (#"torpedoes.ads" 31 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__and" "GP_Sloc:torpedoes.ads:31:14" "GP_Id:4" "comment:     Post => airlockDoorsLocked = True and 
-             ^ torpedoes.ads:31:14:VC_POSTCONDITION" ( ( ( "GP_Pretty_Ada:2599" "GP_Sloc:torpedoes.ads:31:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2603" "GP_Sloc:torpedoes.ads:32:14" (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content = ((old Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content ) + 1)) ) ) /\ ( "GP_Pretty_Ada:2611" "GP_Sloc:torpedoes.ads:33:14" (Torpedoes__storedtorpedoes.storedtorpedoes.int__content = ((old Torpedoes__storedtorpedoes.storedtorpedoes.int__content ) - 1)) ) ) )) }
+  requires { #"torpedoes.ads" 28 0 0# true }
+  ensures { #"torpedoes.ads" 28 0 0# (#"torpedoes.ads" 32 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__and" "GP_Sloc:torpedoes.ads:32:14" "GP_Id:3" "comment:     Post => airlockDoorsLocked = True and              
+             ^ torpedoes.ads:32:14:VC_POSTCONDITION" ( ( "GP_Pretty_Ada:2666" "GP_Sloc:torpedoes.ads:32:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2670" "GP_Sloc:torpedoes.ads:33:14" (Torpedoes__totaltorpedoes.totaltorpedoes.int__content = ((old Torpedoes__totaltorpedoes.totaltorpedoes.int__content ) - 1)) ) ) )) }
    =
-  ( () (* Assume dynamic invariants of inputs of the subprogram torpedoes.ads:26 *)
+  ( () (* Assume dynamic invariants of inputs of the subprogram torpedoes.ads:28 *)
   ;
-   assume {  (Torpedoes__torpedoes___axiom.dynamic_invariant Torpedoes__storedtorpedoes.storedtorpedoes.int__content True False True True) };
-   assume {  (Torpedoes__torpedoesloaded___axiom.dynamic_invariant Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content True False True True) };
+   assume {  (Torpedoes__storedtorpedoes___axiom.dynamic_invariant Torpedoes__totaltorpedoes.totaltorpedoes.int__content True False True True) };
+   assume {  (Torpedoes__torpedofiringbay___axiom.dynamic_invariant Torpedoes__loadtorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content True False True True) };
+   assume {  (Torpedoes__torpedoesbaynumber___axiom.dynamic_invariant Torpedoes__loadtorpedo__baynumber.baynumber True False True True) };
    assume {  true };
-  () (* Declarations introduced by the compiler at the beginning of the subprogram torpedoes.ads:26 *)
+  () (* Declarations introduced by the compiler at the beginning of the subprogram torpedoes.ads:28 *)
   ;
-  () (* Check for RTE in the Pre of the subprogram torpedoes.ads:26 *)
+  () (* Check for RTE in the Pre of the subprogram torpedoes.ads:28 *)
   ;
-   abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__storedtorpedoes.storedtorpedoes.int__content > 0)))) ((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content < 6))) in (
+   abstract ensures {true}(let _ = (Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__totaltorpedoes.totaltorpedoes.int__content > 0))) in (
    ()))
    end ;
-  () (* Assume Pre of the subprogram torpedoes.ads:26 *)
+  () (* Assume Pre of the subprogram torpedoes.ads:28 *)
   ;
-   assume {  ( ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__storedtorpedoes.storedtorpedoes.int__content > 0) ) /\ (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content < 6) ) };
-   abstract ensures {true}(let _ = Torpedoes__storedtorpedoes.storedtorpedoes.int__content in (
+   assume {  ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ (Torpedoes__totaltorpedoes.totaltorpedoes.int__content > 0) ) };
+   abstract ensures {true}(let _ = Torpedoes__totaltorpedoes.totaltorpedoes.int__content in (
    ()))
    end ;
-  (let temp___old_177 =  (any int
-  ensures { (result = Torpedoes__storedtorpedoes.storedtorpedoes.int__content)} 
+  (let temp___old_200 =  (any int
+  ensures { (result = Torpedoes__totaltorpedoes.totaltorpedoes.int__content)} 
   ) in (
-   (  abstract ensures {true}(let _ = Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content in (
+   (  try
+    ( ( "GP_Sloc:torpedoes.adb:16:10" (#"torpedoes.adb" 16 0 0# ()) );
+    ( "GP_Sloc:torpedoes.adb:17:13" (#"torpedoes.adb" 17 0 0# ()) );
+    ( "GP_Sloc:torpedoes.adb:16:7" (#"torpedoes.adb" 16 0 0# (if ((Boolean.andb((Torpedoes__totaltorpedoes.totaltorpedoes.int__content > 0)) (((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
+     ( ( "GP_Sloc:torpedoes.adb:18:32" (#"torpedoes.adb" 18 0 0# #"torpedoes.adb" 18 0 0# Torpedoes__loadtorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content <- ( (Array__Int__Torpedoes__baystate.set(Torpedoes__loadtorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content) (Torpedoes__loadtorpedo__baynumber.baynumber) ((Torpedoes__baystate__rep.of_rep(1)))) )) );
+     ( "GP_Sloc:torpedoes.adb:19:10" (#"torpedoes.adb" 19 0 0# ()) );
+     ( "GP_Sloc:torpedoes.adb:19:28" (#"torpedoes.adb" 19 0 0# ()) );
+     ( "GP_Sloc:torpedoes.adb:19:25" (#"torpedoes.adb" 19 0 0# #"torpedoes.adb" 19 0 0# Torpedoes__totaltorpedoes.totaltorpedoes.int__content <- ( (#"torpedoes.adb" 19 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:torpedoes.adb:19:43" "GP_Id:2" "comment:         totalTorpedoes := totalTorpedoes - 1;
+                                          ^ torpedoes.adb:19:43:VC_RANGE_CHECK" "GP_Shape:if__totaltorpedoes_assign__sub" (Torpedoes__storedtorpedoes.range_check_((Torpedoes__totaltorpedoes.totaltorpedoes.int__content - 1))) )) )) ) )) else (
+     ()))) );
+     raise Return__exc )
+   with
+    Return__exc -> ()
+   end;
+    abstract ensures {true}(let _ = (Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__totaltorpedoes.totaltorpedoes.int__content = (temp___old_200 - 1)))) in (
     ()))
-    end ;
-   (let temp___old_176 =  (any int
-   ensures { (result = Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content)} 
-   ) in (
-    (  try
-     ( ( "GP_Sloc:torpedoes.adb:16:10" (#"torpedoes.adb" 16 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:17:13" (#"torpedoes.adb" 17 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:18:13" (#"torpedoes.adb" 18 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:16:7" (#"torpedoes.adb" 16 0 0# (if ((Boolean.andb((Boolean.andb((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content < 6)) ((Torpedoes__storedtorpedoes.storedtorpedoes.int__content > 0)))) (((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) then (
-      ( ( "GP_Sloc:torpedoes.adb:19:10" (#"torpedoes.adb" 19 0 0# ()) );
-      ( "GP_Sloc:torpedoes.adb:19:29" (#"torpedoes.adb" 19 0 0# ()) );
-      ( "GP_Sloc:torpedoes.adb:19:26" (#"torpedoes.adb" 19 0 0# #"torpedoes.adb" 19 0 0# Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content <- ( (#"torpedoes.adb" 19 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:torpedoes.adb:19:45" "GP_Id:2" "comment:         loadedTorpedoes := loadedTorpedoes + 1;
-                                            ^ torpedoes.adb:19:45:VC_RANGE_CHECK" "GP_Shape:if__loadedtorpedoes_assign__add" (Torpedoes__torpedoesloaded.range_check_((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content + 1))) )) )) );
-      ( "GP_Sloc:torpedoes.adb:20:10" (#"torpedoes.adb" 20 0 0# ()) );
-      ( "GP_Sloc:torpedoes.adb:20:29" (#"torpedoes.adb" 20 0 0# ()) );
-      ( "GP_Sloc:torpedoes.adb:20:26" (#"torpedoes.adb" 20 0 0# #"torpedoes.adb" 20 0 0# Torpedoes__storedtorpedoes.storedtorpedoes.int__content <- ( (#"torpedoes.adb" 20 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:torpedoes.adb:20:45" "GP_Id:3" "comment:         storedTorpedoes := storedTorpedoes - 1;
-                                            ^ torpedoes.adb:20:45:VC_RANGE_CHECK" "GP_Shape:if__storedtorpedoes_assign__sub" (Torpedoes__torpedoes.range_check_((Torpedoes__storedtorpedoes.storedtorpedoes.int__content - 1))) )) )) ) )) else (
-      ()))) );
-      raise Return__exc )
-    with
-     Return__exc -> ()
-    end;
-     abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content = (temp___old_176 + 1))))) ((Torpedoes__storedtorpedoes.storedtorpedoes.int__content = (temp___old_177 - 1)))) in (
-     ()))
-     end  )))
-    )))
+    end  )))
    )
 end
 
@@ -2990,67 +3398,92 @@ module Torpedoes__firetorpedo__subprogram_def
  use import "int".Int
  use        "_gnatprove_standard".Boolean
  use        Airlock__airlockdoorslocked
- use        Torpedoes__torpedoesloaded
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes
+ use        Torpedoes__baystate
+ use        Torpedoes__baystate__rep
+ use        Torpedoes__torpedoesbaynumber___axiom
+ use        Array__Int__Torpedoes__baystate
+ use        Torpedoes__torpedofiringbay___axiom
  use        Torpedoes__reactorheatlevel
  use        Torpedoes__reactorheatlevel___axiom
  use        Torpedoes__firetorpedo__reactorheating
- use        Torpedoes__torpedoesloaded___axiom
- use        Torpedoes__loadedtorpedoes___axiom
+ use        Array__Int__Torpedoes__baystate
+ use        Torpedoes__firetorpedo__torpedobay
+ use        Torpedoes__firetorpedo__baynumber
+ use        Torpedoes__baystate___axiom
+ use        Torpedoes__torpedoesbaynumber___axiom
+ use        Torpedoes__torpedofiringbay___axiom
  use        Torpedoes__reactorheatlevel___axiom
  use        Torpedoes__firetorpedo__reactorheating___axiom
+ use        Torpedoes__firetorpedo__torpedobay___axiom
+ use        Torpedoes__firetorpedo__baynumber___axiom
  use        Airlock__airlockdoorslocked___axiom
 
  let def #"torpedoes.ads" 35 0 0#"W:diverges:N" "GP_Subp:torpedoes.ads:35" 
    (__void_param : unit)
   requires { #"torpedoes.ads" 35 0 0# true }
-  ensures { #"torpedoes.ads" 35 0 0# (#"torpedoes.ads" 40 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__and" "GP_Sloc:torpedoes.ads:40:14" "GP_Id:7" "comment:     Post => airlockDoorsLocked = True and  
-             ^ torpedoes.ads:40:14:VC_POSTCONDITION" ( ( ( "GP_Pretty_Ada:2667" "GP_Sloc:torpedoes.ads:40:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2671" "GP_Sloc:torpedoes.ads:41:14" (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content = ((old Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content ) - 1)) ) ) /\ ( "GP_Pretty_Ada:2679" "GP_Sloc:torpedoes.ads:42:14" (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content = ((old Torpedoes__firetorpedo__reactorheating.reactorheating.int__content ) + 1)) ) ) )) }
+  ensures { #"torpedoes.ads" 35 0 0# (#"torpedoes.ads" 42 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__and" "GP_Sloc:torpedoes.ads:42:14" "GP_Id:5" "comment:     Post => airlockDoorsLocked = True and  
+             ^ torpedoes.ads:42:14:VC_POSTCONDITION" ( ( ( ( "GP_Pretty_Ada:2741" "GP_Sloc:torpedoes.ads:42:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2747" "GP_Sloc:torpedoes.ads:43:6" ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content Torpedoes__firetorpedo__baynumber.baynumber)) = 0) ) ) /\ (forall i #"torpedoes.ads" 42 0 0#  "model" "model_trace:2750" "name:I"  : int.
+   ( ( (1 <= i) /\ (i <= 4) ) -> (if ((i <> Torpedoes__firetorpedo__baynumber.baynumber)) then (
+    ( "GP_Pretty_Ada:2767" "GP_Sloc:torpedoes.ads:45:33" ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content i)) = (Torpedoes__baystate__rep.to_rep (let temp___206 = (old Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content ) in (
+     (Array__Int__Torpedoes__baystate.get temp___206 i)))
+    )) )) else (
+    ( "GP_Pretty_Ada:3757" "GP_Sloc:torpedoes.ads:45:10" true ))) )) ) /\ ( "GP_Pretty_Ada:2776" "GP_Sloc:torpedoes.ads:46:14" (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content = ((old Torpedoes__firetorpedo__reactorheating.reactorheating.int__content ) + 1)) ) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram torpedoes.ads:35 *)
   ;
-   assume {  (Torpedoes__torpedoesloaded___axiom.dynamic_invariant Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content True False True True) };
    assume {  (Torpedoes__reactorheatlevel___axiom.dynamic_invariant Torpedoes__firetorpedo__reactorheating.reactorheating.int__content True False True True) };
+   assume {  (Torpedoes__torpedofiringbay___axiom.dynamic_invariant Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content True False True True) };
+   assume {  (Torpedoes__torpedoesbaynumber___axiom.dynamic_invariant Torpedoes__firetorpedo__baynumber.baynumber True False True True) };
    assume {  true };
   () (* Declarations introduced by the compiler at the beginning of the subprogram torpedoes.ads:35 *)
   ;
   () (* Check for RTE in the Pre of the subprogram torpedoes.ads:35 *)
   ;
-   abstract ensures {true}(let _ = ( ((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ( (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content > 0) && (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content < 1000) ) ) in (
+   abstract ensures {true}(let _ = ( ((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1))))) && ( ((Torpedoes__baystate__rep.to_rep((Array__Int__Torpedoes__baystate.get(Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content) (Torpedoes__firetorpedo__baynumber.baynumber)))) <> 0) && (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content < 1000) ) ) in (
    ()))
    end ;
   () (* Assume Pre of the subprogram torpedoes.ads:35 *)
   ;
-   assume {  ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( (Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content > 0) /\ (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content < 1000) ) ) };
+   assume {  ( ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) /\ ( ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content Torpedoes__firetorpedo__baynumber.baynumber)) <> 0) /\ (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content < 1000) ) ) };
    abstract ensures {true}(let _ = Torpedoes__firetorpedo__reactorheating.reactorheating.int__content in (
    ()))
    end ;
-  (let temp___old_179 =  (any int
+  (let temp___old_204 =  (any int
   ensures { (result = Torpedoes__firetorpedo__reactorheating.reactorheating.int__content)} 
   ) in (
-   (  abstract ensures {true}(let _ = Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content in (
+   (  abstract ensures {true}(let _ = Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content in (
     ()))
     end ;
-   (let temp___old_178 =  (any int
-   ensures { (result = Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content)} 
+   (let temp___old_203 =  (any Array__Int__Torpedoes__baystate.map
+   ensures { (result = Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content)} 
    ) in (
     (  try
-     ( ( "GP_Sloc:torpedoes.adb:26:10" (#"torpedoes.adb" 26 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:27:13" (#"torpedoes.adb" 27 0 0# ()) );
-     ( "GP_Sloc:torpedoes.adb:26:7" (#"torpedoes.adb" 26 0 0# (if ((Boolean.andb((Boolean.andb((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content > 0)) (((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) ((Torpedoes__firetorpedo__reactorheating.reactorheating.int__content < 1000)))) then (
-      ( ( "GP_Sloc:torpedoes.adb:30:10" (#"torpedoes.adb" 30 0 0# ()) );
-      ( "GP_Sloc:torpedoes.adb:30:29" (#"torpedoes.adb" 30 0 0# ()) );
-      ( "GP_Sloc:torpedoes.adb:30:26" (#"torpedoes.adb" 30 0 0# #"torpedoes.adb" 30 0 0# Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content <- ( (#"torpedoes.adb" 30 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:torpedoes.adb:30:45" "GP_Id:5" "comment:         loadedTorpedoes := loadedTorpedoes - 1;
-                                            ^ torpedoes.adb:30:45:VC_RANGE_CHECK" "GP_Shape:if__loadedtorpedoes_assign__sub" (Torpedoes__torpedoesloaded.range_check_((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content - 1))) )) )) );
-      ( "GP_Sloc:torpedoes.adb:31:25" (#"torpedoes.adb" 31 0 0# #"torpedoes.adb" 31 0 0# Torpedoes__firetorpedo__reactorheating.reactorheating.int__content <- ( (#"torpedoes.adb" 31 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:torpedoes.adb:31:43" "GP_Id:6" "comment:         reactorHeating := reactorHeating + 1;
-                                          ^ torpedoes.adb:31:43:VC_RANGE_CHECK" "GP_Shape:if__reactorheating_assign__add" (Torpedoes__reactorheatlevel.range_check_((Torpedoes__firetorpedo__reactorheating.reactorheating.int__content + 1))) )) )) ) )) else (
+     ( ( "GP_Sloc:torpedoes.adb:28:11" (#"torpedoes.adb" 28 0 0# ()) );
+     ( "GP_Sloc:torpedoes.adb:27:7" (#"torpedoes.adb" 27 0 0# (if ((Boolean.andb((Boolean.andb(((Torpedoes__baystate__rep.to_rep((Array__Int__Torpedoes__baystate.get(Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content) (Torpedoes__firetorpedo__baynumber.baynumber)))) <> 0)) (((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))))) ((Torpedoes__firetorpedo__reactorheating.reactorheating.int__content < 1000)))) then (
+      ( ( "GP_Sloc:torpedoes.adb:32:32" (#"torpedoes.adb" 32 0 0# #"torpedoes.adb" 32 0 0# Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content <- ( (Array__Int__Torpedoes__baystate.set(Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content) (Torpedoes__firetorpedo__baynumber.baynumber) ((Torpedoes__baystate__rep.of_rep(0)))) )) );
+      ( "GP_Sloc:torpedoes.adb:33:25" (#"torpedoes.adb" 33 0 0# #"torpedoes.adb" 33 0 0# Torpedoes__firetorpedo__reactorheating.reactorheating.int__content <- ( (#"torpedoes.adb" 33 0 0# ( "model_vc" "keep_on_simp" "GP_Reason:VC_RANGE_CHECK" "GP_Sloc:torpedoes.adb:33:43" "GP_Id:4" "comment:         reactorHeating := reactorHeating + 1;
+                                          ^ torpedoes.adb:33:43:VC_RANGE_CHECK" "GP_Shape:if__reactorheating_assign__add" (Torpedoes__reactorheatlevel.range_check_((Torpedoes__firetorpedo__reactorheating.reactorheating.int__content + 1))) )) )) ) )) else (
       ()))) );
       raise Return__exc )
     with
      Return__exc -> ()
     end;
-     abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) ((Torpedoes__loadedtorpedoes.loadedtorpedoes.int__content = (temp___old_178 - 1))))) ((Torpedoes__firetorpedo__reactorheating.reactorheating.int__content = (temp___old_179 + 1)))) in (
+     abstract ensures {true}(let _ = (Boolean.andb((Boolean.andb((Boolean.andb(((Boolean.to_int(Airlock__airlockdoorslocked.airlockdoorslocked.bool__content)) = (Boolean.to_int((Boolean.of_int(1)))))) (((Torpedoes__baystate__rep.to_rep((Array__Int__Torpedoes__baystate.get(Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content) (Torpedoes__firetorpedo__baynumber.baynumber)))) = 0)))) (( (let i =  (any int
+    ) in (
+     (if ((Boolean.andb((1 <= i)) ((i <= 4)))) then (
+       abstract ensures {true}(let _ = (if ((i <> Torpedoes__firetorpedo__baynumber.baynumber)) then (
+       ((Torpedoes__baystate__rep.to_rep((Array__Int__Torpedoes__baystate.get(Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content) (i)))) = (Torpedoes__baystate__rep.to_rep((Array__Int__Torpedoes__baystate.get(temp___old_203) (i)))))) else (
+       (Boolean.of_int(1)))) in (
+       ()))
+       end ))))
+    ;
+     (any bool
+    requires { true} 
+    ensures { ( (result = True) <-> (forall i   "model" "model_trace:2750" "name:I"  : int.
+     ( ( (1 <= i) /\ (i <= 4) ) -> (if ((i <> Torpedoes__firetorpedo__baynumber.baynumber)) then (
+      ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content i)) = (Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get temp___old_203 i)))) else (
+      true)) )) )} 
+    ) )))) ((Torpedoes__firetorpedo__reactorheating.reactorheating.int__content = (temp___old_204 + 1)))) in (
      ()))
      end  )))
     )))

@@ -8,12 +8,12 @@ Data Dependencies                 .         .          .          .            .
 Flow Dependencies                 .         .          .          .            .           .          .
 Initialization                    .         .          .          .            .           .          .
 Non-Aliasing                      .         .          .          .            .           .          .
-Run-time Checks                  17         .          .          .    17 (CVC4)           .          .
+Run-time Checks                  15         .          .          .    15 (CVC4)           .          .
 Assertions                        .         .          .          .            .           .          .
 Functional Contracts             23         .          .          .    23 (CVC4)           .          .
 LSP Verification                  .         .          .          .            .           .          .
 -------------------------------------------------------------------------------------------------------
-Total                            40         .          .          .    40 (100%)           .          .
+Total                            38         .          .          .    38 (100%)           .          .
 
 
 Analyzed 4 units
@@ -40,6 +40,6 @@ in unit submarine_controls, 11 subprograms and packages out of 11 analyzed
   Submarine_Controls.riseUp at submarine_controls.ads:54 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (4 checks)
 in unit torpedoes, 4 subprograms and packages out of 4 analyzed
   Torpedoes at torpedoes.ads:2 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
-  Torpedoes.fireTorpedo at torpedoes.ads:35 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Torpedoes.loadTorpedo at torpedoes.ads:26 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Torpedoes.storeTorpedo at torpedoes.ads:18 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Torpedoes.fireTorpedo at torpedoes.ads:35 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Torpedoes.loadTorpedo at torpedoes.ads:28 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Torpedoes.storeTorpedo at torpedoes.ads:20 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)

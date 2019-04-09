@@ -457,7 +457,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 5,
-              "time": 2.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -497,7 +497,7 @@
         "CVC4": {
           "count": 2,
           "max_steps": 1,
-          "max_time": 1.99999995529652E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     },
@@ -573,7 +573,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 5,
-              "time": 2.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -599,7 +599,7 @@
         "CVC4": {
           "count": 2,
           "max_steps": 1,
-          "max_time": 1.99999995529652E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     },
@@ -2520,14 +2520,14 @@
     }
   ],
   "timings": {
-    "marking": 1.26876996364444E-03,
-    "globals (basic)": 7.02876690775156E-03,
-    "globals/properties (advanced)": 1.34380636736751E-02,
-    "flow analysis": 1.19527531787753E-02,
-    "codepeer results": 4.81200004287530E-06,
-    "init_why_sections": 1.89914004295133E-04,
-    "translation of standard": 3.06654395535588E-03,
-    "translation of compilation unit": 3.80425974726677E-02,
-    "proof": 2.04474663734436E+00
+    "marking": 1.45194900687784E-03,
+    "globals (basic)": 8.02581757307053E-03,
+    "globals/properties (advanced)": 1.55585641041398E-02,
+    "flow analysis": 1.36773819103837E-02,
+    "codepeer results": 4.17100000049686E-06,
+    "init_why_sections": 2.31939004152082E-04,
+    "translation of standard": 3.20930103771389E-03,
+    "translation of compilation unit": 4.90371137857437E-02,
+    "proof": 1.44014322757721E+00
   }
 }

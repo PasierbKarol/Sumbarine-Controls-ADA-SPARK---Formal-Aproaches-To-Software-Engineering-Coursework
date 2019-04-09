@@ -15,7 +15,7 @@
       "sloc": [
         {
           "file": "torpedoes.ads",
-          "line": 18
+          "line": 20
         }
       ],
       "spark": "all"
@@ -25,7 +25,7 @@
       "sloc": [
         {
           "file": "torpedoes.ads",
-          "line": 26
+          "line": 28
         }
       ],
       "spark": "all"
@@ -45,43 +45,21 @@
   ],
   "proof": [
     {
-      "file": "torpedoes.ads",
-      "line": 40,
-      "col": 14,
-      "rule": "VC_POSTCONDITION",
+      "file": "torpedoes.adb",
+      "line": 19,
+      "col": 43,
+      "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
-        "name": "Torpedoes.fireTorpedo",
+        "name": "Torpedoes.loadTorpedo",
         "sloc": [
           {
             "file": "torpedoes.ads",
-            "line": 35
+            "line": 28
           }
         ]
       },
       "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 33,
-              "time": 2.00000000000000E-02
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 27,
-              "time": 3.00000000000000E-02
-            }
-          },
-          "transformations": {
-          }
-        },
         {
           "proof_attempts": {
             "CVC4": {
@@ -94,62 +72,22 @@
           }
         }
       ],
-      "check_file": "torpedoes.ads",
-      "check_line": 40,
-      "check_col": 14,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 3,
-          "max_steps": 1,
-          "max_time": 2.99999993294477E-02
-        }
-      }
-    },
-    {
-      "file": "torpedoes.adb",
-      "line": 19,
-      "col": 45,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Torpedoes.loadTorpedo",
-        "sloc": [
-          {
-            "file": "torpedoes.ads",
-            "line": 26
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 2.00000000000000E-02
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
       "check_file": "torpedoes.adb",
       "check_line": 19,
-      "check_col": 45,
+      "check_col": 43,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
           "count": 1,
           "max_steps": 1,
-          "max_time": 1.99999995529652E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     },
     {
       "file": "torpedoes.adb",
       "line": 10,
-      "col": 45,
+      "col": 43,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
@@ -157,7 +95,7 @@
         "sloc": [
           {
             "file": "torpedoes.ads",
-            "line": 18
+            "line": 20
           }
         ]
       },
@@ -176,7 +114,7 @@
       ],
       "check_file": "torpedoes.adb",
       "check_line": 10,
-      "check_col": 45,
+      "check_col": 43,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
@@ -188,7 +126,7 @@
     },
     {
       "file": "torpedoes.ads",
-      "line": 31,
+      "line": 32,
       "col": 14,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
@@ -197,7 +135,7 @@
         "sloc": [
           {
             "file": "torpedoes.ads",
-            "line": 26
+            "line": 28
           }
         ]
       },
@@ -206,7 +144,7 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Valid",
-              "steps": 27,
+              "steps": 29,
               "time": 0
             }
           },
@@ -217,19 +155,8 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Valid",
-              "steps": 33,
-              "time": 2.00000000000000E-02
-            }
-          },
-          "transformations": {
-          }
-        },
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
               "steps": 5,
-              "time": 3.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -237,22 +164,22 @@
         }
       ],
       "check_file": "torpedoes.ads",
-      "check_line": 31,
+      "check_line": 32,
       "check_col": 14,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
-          "count": 3,
+          "count": 2,
           "max_steps": 1,
-          "max_time": 2.99999993294477E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     },
     {
-      "file": "torpedoes.adb",
-      "line": 31,
-      "col": 43,
-      "rule": "VC_RANGE_CHECK",
+      "file": "torpedoes.ads",
+      "line": 42,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
       "severity": "info",
       "entity": {
         "name": "Torpedoes.fireTorpedo",
@@ -268,29 +195,62 @@
           "proof_attempts": {
             "CVC4": {
               "result": "Valid",
+              "steps": 44,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 44,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 23,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
               "steps": 5,
-              "time": 2.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
           }
         }
       ],
-      "check_file": "torpedoes.adb",
-      "check_line": 31,
-      "check_col": 43,
+      "check_file": "torpedoes.ads",
+      "check_line": 42,
+      "check_col": 14,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
-          "count": 1,
+          "count": 4,
           "max_steps": 1,
-          "max_time": 1.99999995529652E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     },
     {
       "file": "torpedoes.ads",
-      "line": 22,
+      "line": 24,
       "col": 14,
       "rule": "VC_POSTCONDITION",
       "severity": "info",
@@ -299,7 +259,7 @@
         "sloc": [
           {
             "file": "torpedoes.ads",
-            "line": 18
+            "line": 20
           }
         ]
       },
@@ -309,7 +269,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 33,
-              "time": 2.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -331,7 +291,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 5,
-              "time": 2.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -339,61 +299,21 @@
         }
       ],
       "check_file": "torpedoes.ads",
-      "check_line": 22,
+      "check_line": 24,
       "check_col": 14,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
           "count": 3,
           "max_steps": 1,
-          "max_time": 1.99999995529652E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     },
     {
       "file": "torpedoes.adb",
-      "line": 20,
-      "col": 45,
-      "rule": "VC_RANGE_CHECK",
-      "severity": "info",
-      "entity": {
-        "name": "Torpedoes.loadTorpedo",
-        "sloc": [
-          {
-            "file": "torpedoes.ads",
-            "line": 26
-          }
-        ]
-      },
-      "check_tree": [
-        {
-          "proof_attempts": {
-            "CVC4": {
-              "result": "Valid",
-              "steps": 5,
-              "time": 2.00000000000000E-02
-            }
-          },
-          "transformations": {
-          }
-        }
-      ],
-      "check_file": "torpedoes.adb",
-      "check_line": 20,
-      "check_col": 45,
-      "how_proved": "prover",
-      "stats": {
-        "CVC4": {
-          "count": 1,
-          "max_steps": 1,
-          "max_time": 1.99999995529652E-02
-        }
-      }
-    },
-    {
-      "file": "torpedoes.adb",
-      "line": 30,
-      "col": 45,
+      "line": 33,
+      "col": 43,
       "rule": "VC_RANGE_CHECK",
       "severity": "info",
       "entity": {
@@ -411,7 +331,7 @@
             "CVC4": {
               "result": "Valid",
               "steps": 5,
-              "time": 2.00000000000000E-02
+              "time": 0
             }
           },
           "transformations": {
@@ -419,14 +339,14 @@
         }
       ],
       "check_file": "torpedoes.adb",
-      "check_line": 30,
-      "check_col": 45,
+      "check_line": 33,
+      "check_col": 43,
       "how_proved": "prover",
       "stats": {
         "CVC4": {
           "count": 1,
           "max_steps": 1,
-          "max_time": 1.99999995529652E-02
+          "max_time": 0.00000000000000E+00
         }
       }
     }
@@ -438,11 +358,11 @@
       "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
-          "name": "Torpedoes.storeTorpedo",
+          "name": "Torpedoes.loadTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 18
+              "line": 28
             }
           ]
         }
@@ -454,11 +374,11 @@
       "claim": {
         "predicate": "CLAIM_EFFECTS",
         "arg": {
-          "name": "Torpedoes.storeTorpedo",
+          "name": "Torpedoes.loadTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 18
+              "line": 28
             }
           ]
         }
@@ -470,11 +390,11 @@
       "claim": {
         "predicate": "CLAIM_AORTE",
         "arg": {
-          "name": "Torpedoes.storeTorpedo",
+          "name": "Torpedoes.loadTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 18
+              "line": 28
             }
           ]
         }
@@ -486,11 +406,11 @@
       "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
-          "name": "Torpedoes.fireTorpedo",
+          "name": "Torpedoes.storeTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 35
+              "line": 20
             }
           ]
         }
@@ -502,11 +422,11 @@
       "claim": {
         "predicate": "CLAIM_EFFECTS",
         "arg": {
-          "name": "Torpedoes.fireTorpedo",
+          "name": "Torpedoes.storeTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 35
+              "line": 20
             }
           ]
         }
@@ -518,11 +438,11 @@
       "claim": {
         "predicate": "CLAIM_AORTE",
         "arg": {
-          "name": "Torpedoes.fireTorpedo",
+          "name": "Torpedoes.storeTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 35
+              "line": 20
             }
           ]
         }
@@ -550,11 +470,11 @@
       "claim": {
         "predicate": "CLAIM_POST",
         "arg": {
-          "name": "Torpedoes.loadTorpedo",
+          "name": "Torpedoes.fireTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 26
+              "line": 35
             }
           ]
         }
@@ -566,11 +486,11 @@
       "claim": {
         "predicate": "CLAIM_EFFECTS",
         "arg": {
-          "name": "Torpedoes.loadTorpedo",
+          "name": "Torpedoes.fireTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 26
+              "line": 35
             }
           ]
         }
@@ -582,11 +502,11 @@
       "claim": {
         "predicate": "CLAIM_AORTE",
         "arg": {
-          "name": "Torpedoes.loadTorpedo",
+          "name": "Torpedoes.fireTorpedo",
           "sloc": [
             {
               "file": "torpedoes.ads",
-              "line": 26
+              "line": 35
             }
           ]
         }
@@ -594,14 +514,14 @@
     }
   ],
   "timings": {
-    "marking": 2.47338990448043E-04,
-    "globals (basic)": 4.48801001766697E-04,
-    "globals/properties (advanced)": 1.18055101484060E-03,
-    "flow analysis": 4.05750004574656E-03,
-    "codepeer results": 5.45400007467833E-06,
-    "init_why_sections": 1.81252995389514E-04,
-    "translation of standard": 2.93597695417702E-03,
-    "translation of compilation unit": 3.83422290906310E-03,
-    "proof": 8.50178182125092E-01
+    "marking": 2.31618992984295E-04,
+    "globals (basic)": 1.62645999807864E-04,
+    "globals/properties (advanced)": 7.29824008885771E-04,
+    "flow analysis": 3.13647906295955E-03,
+    "codepeer results": 4.17000001107226E-06,
+    "init_why_sections": 1.87348006875254E-04,
+    "translation of standard": 2.75280000641942E-03,
+    "translation of compilation unit": 4.37605706974864E-03,
+    "proof": 9.53431427478790E-01
   }
 }
