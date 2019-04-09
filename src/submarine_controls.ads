@@ -12,12 +12,13 @@ package Submarine_Controls with SPARK_Mode is
    
    type ReactorHeatLevel is range 0..1000;
    reactorHeating : ReactorHeatLevel;
+
    type Speed is range 0..100;
    currentSpeed : Speed;
    
-
-   
-   
+   type Pressure is range 0..1000;
+   currentPressure : Pressure;
+      
    --Contracts =======================================================
 
    --oxygen is decreased 1 point while the submarine is submerged
@@ -40,6 +41,14 @@ package Submarine_Controls with SPARK_Mode is
     
    procedure checkReactorStatus;
    
+   
+   procedure checkPressure with
+     Global => (Input => (currentDepth, airlockDoorsLocked), In_Out => currentPressure),
+     Pre => airlockDoorsLocked = True and
+            currentPressure < Pressure'Last - 300,
+     Post => airlockDoorsLocked = True and 
+             currentPressure /= currentPressure'Old;
+   
    procedure diveDeeper;
    
    procedure riseUp;
@@ -52,8 +61,8 @@ package Submarine_Controls with SPARK_Mode is
                In_Out => (currentDepth, reactorHeating)),
      Pre => airlockDoorsLocked = True and then 
             oxygenLevel > Oxygen'First and then
-     currentDepth < DepthLevel'Last and then
-     reactorHeating < ReactorHeatLevel'Last,
+            currentDepth < DepthLevel'Last and then
+            reactorHeating < ReactorHeatLevel'Last,
      Post => 
        airlockDoorsLocked = True and 
        (currentDepth = currentDepth'Old + 1 or  
@@ -92,5 +101,7 @@ package Submarine_Controls with SPARK_Mode is
      Post => airlockDoorsLocked = True and
             currentSpeed = currentSpeed'Old - 1 and 
             reactorHeating = reactorHeating'Old + 1;
+   
+   
      
 end Submarine_Controls;
