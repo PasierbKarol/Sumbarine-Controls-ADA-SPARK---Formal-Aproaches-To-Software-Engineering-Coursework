@@ -94,19 +94,22 @@ package Submarine_Controls with SPARK_Mode is
                In_Out => (currentDepth, reactorHeating)),
      Pre => airlockDoorsLocked = True and then 
             oxygenLevel > Oxygen'First and then
-            currentDepth < DepthLevel'Last and then,
+     currentDepth < DepthLevel'Last and then
+     reactorHeating < ReactorHeatLevel'Last,
      Post => 
        airlockDoorsLocked = True and 
        (currentDepth = currentDepth'Old + 1 or  
-       currentDepth = currentDepth'Old);
+       currentDepth = currentDepth'Old) and 
+       reactorHeating = reactorHeating'Old + 1;
    
    --the same purpose as above, just opposite
    procedure decreaseDepth with
      Global =>(Input => (airlockDoorsLocked, oxygenLevel), 
-               In_Out => currentDepth),
+               In_Out => (currentDepth, reactorHeating)),
      Pre => airlockDoorsLocked = True and 
             currentDepth > DepthLevel'First and 
-            oxygenLevel > Oxygen'First,
+            oxygenLevel > Oxygen'First and
+            reactorHeating < ReactorHeatLevel'Last,
      Post => 
        airlockDoorsLocked = True and  
        (currentDepth = currentDepth'Old - 1 or  
@@ -130,11 +133,13 @@ package Submarine_Controls with SPARK_Mode is
              storedTorpedoes = storedTorpedoes'Old - 1;
    
    procedure fireTorpedo with
-     Global => (In_Out => (loadedTorpedoes), Input => airlockDoorsLocked),
+     Global => (In_Out => (loadedTorpedoes, reactorHeating), Input => airlockDoorsLocked),
      Pre => airlockDoorsLocked = True and then
-            loadedTorpedoes > TorpedoesLoaded'First,
-     Post => airlockDoorsLocked = True and then 
-             loadedTorpedoes = loadedTorpedoes'Old - 1;
+     loadedTorpedoes > TorpedoesLoaded'First and then
+     reactorHeating < ReactorHeatLevel'Last,
+     Post => airlockDoorsLocked = True and  
+             loadedTorpedoes = loadedTorpedoes'Old - 1 and
+             reactorHeating = reactorHeating'Old + 1;
      
    
    

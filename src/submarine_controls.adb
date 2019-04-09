@@ -91,6 +91,7 @@ package body Submarine_Controls with SPARK_Mode is
       if currentDepth < DepthLevel'Last
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
+        and reactorHeating < ReactorHeatLevel'Last          
       then
          increaseDepth; 
          decreaseOxygen;--whether submarine can go deeper or not it will consume oxygen
@@ -103,6 +104,7 @@ package body Submarine_Controls with SPARK_Mode is
       if currentDepth > DepthLevel'First  
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
+        and reactorHeating < ReactorHeatLevel'Last          
       then
          decreaseDepth;
          if currentDepth = DepthLevel'First --if rising up was to the surface oxygen is refilled
@@ -128,6 +130,7 @@ package body Submarine_Controls with SPARK_Mode is
       if currentDepth < DepthLevel'Last
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
+        and reactorHeating < ReactorHeatLevel'Last          
       then
          currentDepth := currentDepth + 1;
          reactorHeating := reactorHeating + 1;
@@ -142,8 +145,10 @@ package body Submarine_Controls with SPARK_Mode is
       if currentDepth > DepthLevel'First  
         and oxygenLevel > Oxygen'First 
         and airlockDoorsLocked = True 
+        and reactorHeating < ReactorHeatLevel'Last          
       then
-         currentDepth := currentDepth - 1;    
+         currentDepth := currentDepth - 1;  
+         reactorHeating := reactorHeating + 1;
       else
          currentDepth := currentDepth;
       end if;
@@ -173,6 +178,7 @@ package body Submarine_Controls with SPARK_Mode is
    procedure fireTorpedo is begin
       if loadedTorpedoes > TorpedoesLoaded'First
         and airlockDoorsLocked = True 
+        and reactorHeating < ReactorHeatLevel'Last          
       then
          loadedTorpedoes := loadedTorpedoes - 1;
          reactorHeating := reactorHeating + 1;

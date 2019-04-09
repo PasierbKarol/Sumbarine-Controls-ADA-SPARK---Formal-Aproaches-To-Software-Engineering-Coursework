@@ -8,12 +8,12 @@ Data Dependencies                 .         .          .          .            .
 Flow Dependencies                 .         .          .          .            .           .          .
 Initialization                    .         .          .          .            .           .          .
 Non-Aliasing                      .         .          .          .            .           .          .
-Run-time Checks                   9         .          .          .     7 (CVC4)           .          2
+Run-time Checks                  10         .          .          .    10 (CVC4)           .          .
 Assertions                        .         .          .          .            .           .          .
 Functional Contracts             18         .          .          .    18 (CVC4)           .          .
 LSP Verification                  .         .          .          .            .           .          .
 -------------------------------------------------------------------------------------------------------
-Total                            27         .          .          .     25 (93%)           .     2 (7%)
+Total                            28         .          .          .    28 (100%)           .          .
 
 
 Analyzed 2 units
@@ -25,14 +25,14 @@ in unit submarine_controls, 16 subprograms and packages out of 16 analyzed
   Submarine_Controls.checkReactorStatus at submarine_controls.ads:83 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
   Submarine_Controls.closeInnerAirlock at submarine_controls.ads:32 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
   Submarine_Controls.closeOuterAirlock at submarine_controls.ads:44 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
-  Submarine_Controls.decreaseDepth at submarine_controls.ads:104 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Submarine_Controls.decreaseDepth at submarine_controls.ads:106 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
   Submarine_Controls.decreaseOxygen at submarine_controls.ads:68 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
   Submarine_Controls.diveDeeper at submarine_controls.ads:85 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.fireTorpedo at submarine_controls.ads:132 flow analyzed (0 errors, 1 checks and 0 warnings) and not proved, 2 checks out of 3 proved
-  Submarine_Controls.increaseDepth at submarine_controls.ads:92 flow analyzed (0 errors, 1 checks and 0 warnings) and not proved, 2 checks out of 3 proved
-  Submarine_Controls.loadTorpedo at submarine_controls.ads:123 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.fireTorpedo at submarine_controls.ads:135 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.increaseDepth at submarine_controls.ads:92 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Submarine_Controls.loadTorpedo at submarine_controls.ads:126 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
   Submarine_Controls.lockAirlockDoors at submarine_controls.ads:56 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
   Submarine_Controls.openInnerAirlock at submarine_controls.ads:37 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
   Submarine_Controls.openOuterAirlock at submarine_controls.ads:49 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
   Submarine_Controls.riseUp at submarine_controls.ads:87 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
-  Submarine_Controls.storeTorpedo at submarine_controls.ads:117 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Submarine_Controls.storeTorpedo at submarine_controls.ads:120 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
