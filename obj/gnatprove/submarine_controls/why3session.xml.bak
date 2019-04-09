@@ -67,19 +67,27 @@
   <proof prover="0"><result status="valid" steps="5"/></proof>
   </goal>
   <goal name="WP_parameter def.4" expl="postcondition" proved="true">
-  <proof prover="0"><result status="valid" steps="25"/></proof>
-  <proof prover="1" obsolete="true"><result status="unknown" steps="46"/></proof>
+  <proof prover="0"><result status="valid" steps="34"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="26"/></proof>
   <transf name="split_disj" >
    <goal name="WP_parameter def.4.0" expl="postcondition">
    </goal>
    <goal name="WP_parameter def.4.1" expl="postcondition">
    </goal>
    <goal name="WP_parameter def.4.2" expl="postcondition">
-   </goal>
-   <goal name="WP_parameter def.4.3" expl="postcondition">
    <proof prover="1" obsolete="true"><result status="unknown" steps="14"/></proof>
    </goal>
+   <goal name="WP_parameter def.4.3" expl="postcondition">
+   </goal>
    <goal name="WP_parameter def.4.4" expl="postcondition">
+   </goal>
+   <goal name="WP_parameter def.4.5" expl="postcondition">
+   </goal>
+   <goal name="WP_parameter def.4.6" expl="postcondition">
+   </goal>
+   <goal name="WP_parameter def.4.7" expl="postcondition">
+   </goal>
+   <goal name="WP_parameter def.4.8" expl="postcondition">
    </goal>
   </transf>
   </goal>
@@ -170,7 +178,7 @@
   </transf>
   </goal>
   <goal name="WP_parameter def.8" expl="precondition" proved="true">
-  <proof prover="0"><result status="valid" steps="22"/></proof>
+  <proof prover="0"><result status="valid" steps="5"/></proof>
   </goal>
  </transf>
  </goal>

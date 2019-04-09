@@ -3,6 +3,7 @@
 "http://why3.lri.fr/why3session.dtd">
 <why3session shape_version="4">
 <prover id="0" name="CVC4" version="1.6-gnatprove" timelimit="0" steplimit="18500" memlimit="0"/>
+<prover id="1" name="CVC4_CE" version="1.6-gnatprove" timelimit="10" steplimit="18500" memlimit="0"/>
 <file name="..\torpedoes.mlw" proved="true">
 <theory name="Torpedoes__package_def" proved="true">
  <goal name="WP_parameter def" expl="VC for def" proved="true">
@@ -60,6 +61,14 @@
   </goal>
   <goal name="WP_parameter def.2" expl="postcondition" proved="true">
   <proof prover="0"><result status="valid" steps="23"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="179"/></proof>
+  <transf name="split_disj" >
+   <goal name="WP_parameter def.2.0" expl="postcondition">
+   </goal>
+   <goal name="WP_parameter def.2.1" expl="postcondition">
+   <proof prover="1" obsolete="true"><result status="unknown" steps="179"/></proof>
+   </goal>
+  </transf>
   </goal>
   <goal name="WP_parameter def.3" expl="postcondition" proved="true">
   <proof prover="0"><result status="valid" steps="44"/></proof>

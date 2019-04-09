@@ -59,15 +59,23 @@ package body Submarine_Controls with SPARK_Mode is
           currentPressure < Pressure'Last - 300
       then
          case currentDepth is
-            when 0 .. 50 =>
+            when 1 .. 50 =>
                currentPressure := currentPressure + 10;
             when 51..300 =>
                currentPressure := currentPressure + 100;
             when 301..500 =>
                  currentPressure := currentPressure + 300;
-            when others =>
+            when 0 => --submarine surfaced
                  currentPressure := Pressure'First;
-         end case;                          
+         end case;  
+         
+         --now check the current pressure and act if its too high
+         if currentPressure >= 900 --instant resurface
+         then
+            currentDepth := DepthLevel'First;
+            oxygenLevel := Oxygen'Last;
+            currentPressure := Pressure'First;
+         end if;
       end if;
    end checkPressure;
    

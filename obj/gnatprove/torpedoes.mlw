@@ -3422,12 +3422,12 @@ module Torpedoes__firetorpedo__subprogram_def
    (__void_param : unit)
   requires { #"torpedoes.ads" 35 0 0# true }
   ensures { #"torpedoes.ads" 35 0 0# (#"torpedoes.ads" 42 0 0# ( "model_vc_post" "keep_on_simp" "GP_Reason:VC_POSTCONDITION" "GP_Shape:pragargs__and" "GP_Sloc:torpedoes.ads:42:14" "GP_Id:5" "comment:     Post => airlockDoorsLocked = True and  
-             ^ torpedoes.ads:42:14:VC_POSTCONDITION" ( ( ( ( "GP_Pretty_Ada:2741" "GP_Sloc:torpedoes.ads:42:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2747" "GP_Sloc:torpedoes.ads:43:6" ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content Torpedoes__firetorpedo__baynumber.baynumber)) = 0) ) ) /\ (forall i #"torpedoes.ads" 42 0 0#  "model" "model_trace:2750" "name:I"  : int.
+             ^ torpedoes.ads:42:14:VC_POSTCONDITION" ( ( ( ( "GP_Pretty_Ada:2741" "GP_Sloc:torpedoes.ads:42:14" ( (Airlock__airlockdoorslocked.airlockdoorslocked.bool__content = True) <-> true ) ) /\ ( "GP_Pretty_Ada:2747" "GP_Sloc:torpedoes.ads:43:14" ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content Torpedoes__firetorpedo__baynumber.baynumber)) = 0) ) ) /\ (forall i #"torpedoes.ads" 42 0 0#  "model" "model_trace:2750" "name:I"  : int.
    ( ( (1 <= i) /\ (i <= 4) ) -> (if ((i <> Torpedoes__firetorpedo__baynumber.baynumber)) then (
-    ( "GP_Pretty_Ada:2767" "GP_Sloc:torpedoes.ads:45:33" ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content i)) = (Torpedoes__baystate__rep.to_rep (let temp___206 = (old Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content ) in (
+    ( "GP_Pretty_Ada:2767" "GP_Sloc:torpedoes.ads:45:42" ((Torpedoes__baystate__rep.to_rep (Array__Int__Torpedoes__baystate.get Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content i)) = (Torpedoes__baystate__rep.to_rep (let temp___206 = (old Torpedoes__firetorpedo__torpedobay.torpedobay.Array__Int__Torpedoes__baystate.map__content ) in (
      (Array__Int__Torpedoes__baystate.get temp___206 i)))
     )) )) else (
-    ( "GP_Pretty_Ada:3757" "GP_Sloc:torpedoes.ads:45:10" true ))) )) ) /\ ( "GP_Pretty_Ada:2776" "GP_Sloc:torpedoes.ads:46:14" (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content = ((old Torpedoes__firetorpedo__reactorheating.reactorheating.int__content ) + 1)) ) ) )) }
+    ( "GP_Pretty_Ada:3757" "GP_Sloc:torpedoes.ads:45:19" true ))) )) ) /\ ( "GP_Pretty_Ada:2776" "GP_Sloc:torpedoes.ads:46:14" (Torpedoes__firetorpedo__reactorheating.reactorheating.int__content = ((old Torpedoes__firetorpedo__reactorheating.reactorheating.int__content ) + 1)) ) ) )) }
    =
   ( () (* Assume dynamic invariants of inputs of the subprogram torpedoes.ads:35 *)
   ;

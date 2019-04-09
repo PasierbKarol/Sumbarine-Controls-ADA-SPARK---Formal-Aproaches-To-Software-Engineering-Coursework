@@ -43,11 +43,12 @@ package Submarine_Controls with SPARK_Mode is
    
    
    procedure checkPressure with
-     Global => (Input => (currentDepth, airlockDoorsLocked), In_Out => currentPressure),
+     Global => (Input => (airlockDoorsLocked), In_Out => (currentPressure, currentDepth, oxygenLevel)),
      Pre => airlockDoorsLocked = True and
             currentPressure < Pressure'Last - 300,
      Post => airlockDoorsLocked = True and 
-             currentPressure /= currentPressure'Old;
+             (currentPressure /= currentPressure'Old or
+             currentPressure = Pressure'First);
    
    procedure diveDeeper;
    
